@@ -1,0 +1,30 @@
+= What is HTML? =
+*HTML*, short for _HyperText Markup Language_, is the universal _markup_ language of the Web. Its
+_Markup Language_ part refers to that which purpose is definining the empirical structure of
+text.
+
+= Process of loading a website =
+The browser inquires for the website's information to the _web server_, which then sends
+back to it the corresponding data for the browser to process and render; the data can be
+HTML files, images, videos, etc.
+
+A *web server* is essentially a computer that's constantly waiting for requests from other
+computers about information (html files, images, videos, etc).
+
+The *browser* is the engine that processes and renders websites according to the information
+provided by their container web server.
+
+= Foundational concepts of HTML =
+A *tag* is the _markup_ that dictates the structure of a website. These determine the intention
+of the enclosed text; if its a header, paragraph, title, etc.
+
+An *element* is the conjunction of an opening tag, text, and a closing tag.
+
+The *attribute* of an element is an additional piece of information about such.
+
+Both an opening tag and its closing tag are considered *matching tags*.
+
+= <html> & <head> tags =
+The *<html>* tag merely asserts that a file is an HTML file.
+
+The *<head>* tag is used to define metadata about the website; such as its title, style, etc.

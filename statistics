@@ -1,0 +1,18 @@
+[[math]]
+*Statistics* is the knowledge field focusing on the recollection, organization, and interpretation of data.
+
+Statistics underscoring the context, a *population* is a set of items which are of interest.
+
+*Frequency distribution* is a way of distributing the items from a population over *groups*, or *classes*, that correspond
+with their respective frequencies.
+
+*Groups* or *classes* are commonly ranges in frequency distributions.
+
+To sketch a frequency distribution table, compute the range, divide the range over arbitrary number of classes, the result
+is going to be *class amplitude*.
+
+The start value of all classes, except the first, the first is lowest value, is the end value of previous class plus 1.
+
+The end value is going to be start value plus class amplitude.
+
+Next to each class, write the frequency.

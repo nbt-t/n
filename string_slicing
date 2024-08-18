@@ -1,0 +1,15 @@
+[[cs]]
+
+String slice operations are expressions of index ranges. Any string slice from lower-end x to higher-end y is
+analogous to: _from x, an including itself, traverse until y or touching the object's constraint_.
+{{{python
+def slice(iterable : str, x_1, x_2):
+    traversal = ''
+
+    for x in range(x_2-x_1):
+        if isinstance(traversal, str):
+            traversal += iterable[x_1+x]
+        else:
+            traversal.append(iterable[x_1+x])
+    return traversal
+}}}

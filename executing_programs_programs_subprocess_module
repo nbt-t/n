@@ -1,0 +1,24 @@
+= subprocess module, Popen class =
+One may jostle the need of executing a program from another program, and for this, the *subprocess*
+module is of service. Its *Popen* class will execute a program as a _separate process_ (unlike
+threads, processes cannot directly modify variables from other processes).
+{{{python
+import subprocess as subp
+
+
+p = subp.Popen('/usr/bin/firefox') # -> Execute firefox.
+}}}
+A list argument can also be passed to *Popen*, where the first value is the program to execute and
+the subsequent are its arguments.
+{{{python
+import subprocess as subp
+
+
+p = subp.Popen(['/usr/bin/firefox', 'youtube.com']) # -> Execute firefox and open Youtube.
+}}}
+== Methods ==
+* *wait()*: It'll halt the program until the process terminates, and onwards, return the
+program's exit code.
+
+* *poll()*: It'll return _None_ if the program hasn't terminated, otherwise, returns the
+program's exit code.

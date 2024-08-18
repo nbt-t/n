@@ -1,0 +1,31 @@
+[[philosohpy]] [[set_theory]]
+*Reality* is an independent [[state]] from the [[mind]], that is, Reality is an unhinged state upon awareness of Reality.
+
+The [[unit]] of reality and existence is *object*; whatever lies inside reality is *object*, and whatever [[experience]] has
+clutched is an *object*.
+
+Existence is characterized by the set of objects one has sensed.
+
+Reality is [[objective]] and existence is [[subjective]].
+
+Any real object might not exit, and not all objects that exist are real, which implies physical manifestation
+for [[true]] reality.
+
+Reality is defined by a [[recursive]] function which base case is [[God]], thereupon, hereby such 
+function: until God, *someobject is because a preliminary object is*, expressed as a procedure:
+{{{python
+def Reality(object):
+	if object == 0:
+		return 'God'
+	else:
+		return Reality(object-1)
+}}}
+There was no time before the univserse.
+
+In such sense, it can be deduced Reality is handiwork of God.
+
+We make the fundamental assumption that what is of experience is real.
+
+FIXME: Did the universe always exist?
+FIXME: Link(s). superset.
+FIXME: Reality has to do with God? Define reality.

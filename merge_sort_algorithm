@@ -1,0 +1,26 @@
+[[cs]] [[programming]]
+{{{python
+def merge_sort(lt1, lt2):
+	i1 = i2 = 0
+	merged_lt = []
+    while i1 < len(lt1) and i2 < len(lt2):
+        if lt1[i1] < lt2[i2]:
+            merged_lt.append(lt1[i1])
+            i1 += 1
+        else:
+            merged_lt.append(lt2[i2])
+            i2 += 1
+	while i1 < len(lt1):
+		merged_lt.append(lt1[i1])
+	i1 += 1
+	while i2 < len(lt2):
+		merged_lt.append(lt2[i2])
+		i2 += 1
+    return merged_lt
+}}}
+= Working =
+Moves in array until finds greater than the corresponding item in the other array; move in array whose item is least.
+Before appending a number, it further checks in the other array for a smaller number, that's smart.  
+
+Finally, if either indices do not beat last item, which indicates that all items from the unfinished array are greater than
+the last item in the merged list, such remaining items are appended accordingly with no comparsion.

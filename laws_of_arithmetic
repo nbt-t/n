@@ -1,0 +1,36 @@
+= ADDITION =
+In considering a quantity with respect to the number of individuals it
+encompasses, one may characterize such group through singular individuals, which all are alike, 1s,
+until reaching the quantity of the original group. Thus, for clear convenience, any quantity is an
+abstraction over a corresponding cluster of ones:
+
+*1 = 1, 2 = 1+1, 3 = 1+1+1, 4 = 1+1+1+1, 5 = 1+1+1+1+1...*
+
+Addition is fundamentally the succesive counting of ones.
+
+5+5 = (1+1+1+1+1)+(1+1+1+1+1) = 1+1+1+1+1+1+1+1+1+1 = 10
+x+y = (1x)+(1y) = 1+1... = z
+
+= ASSOCIATIVE LAW =
+*a+b+c = a+(b+c)*
+*7+(5+2) = 7+7*
+
+This law predicates that the position of parentheses in an expression does not have influence
+on the quantity denoted.
+
+Any group of individuals can be deemed whole through the use of parenthesis. All groups of
+individuals have a logical association with their consequent wholes.
+
+In any expression with parenthesis, their procedural deletion is an assertion of this law.
+
+= COMMUTATIVE LAW =
+*x+y+z = z+y+x*
+
+This law asserts that the organization of the operands pertaining to an expression have zero bearing
+on the final result.
+
+= DISTRIBUTIVE LAW =
+*x(y+z) = xy + xz*
+
+This law states that if a number is multiplying a group, each term of the group is multiplied and
+their subsequent products are added.

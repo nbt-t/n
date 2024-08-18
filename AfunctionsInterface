@@ -1,0 +1,13 @@
+[[cs]]
+
+The *interface* of a function is its account: what it does, its parameters, return value(s), etc.
+Therefore, good interfaces are simple on the caller's vision.
+
+More concisely, the interface of a function is the part of its header and documentation.
+
+The prior descriptions can be generalized to a program, given that: a function is program inside
+a program, a unit of instructions inside another unit of instructions. A program's interface is the
+set of details concerning input, output, and parameters.
+
+Interfaces are black boxes exhibiting input-output relations and possible parameters of any
+procedure.

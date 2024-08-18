@@ -1,0 +1,4 @@
+Single quotes disable all types of expansion, while double quotes will only disable:
+brace expansion, tilde expansion, and pathname expansion.
+
+It may be possible inside both single and doubles quotes to interpret escape sequences.

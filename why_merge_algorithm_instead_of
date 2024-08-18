@@ -1,0 +1,20 @@
+[[cs][[programming]]
+[[merge_sort_algorithm]]
+= Concatenation =
+Two sorted lists interleavingly may not form a sorted list; it is only guaranteed for them to be *individually* sorted,
+not that all the elements from the second list to follow incremental order according to the first list's last item,
+the greatest one.
+
+= [[tunnel_merge_sort|Tunnel Merge Sort]] =
+It presumes that the *next least item will always be greater than the previous greater item*, which cannot be (when both are
+equal, it is not off). For the next least item may come off a different array, of different sequential nature.
+{{{python
+lt_0 = [0, 2]
+lt_1 = [9, 10]
+
+[0, 9, 2, 10] # WRONG!
+
+lt_0 = [8, 10]
+lt_1 = [3, 6]
+
+[3, 8, 6, 10] # WRONG!

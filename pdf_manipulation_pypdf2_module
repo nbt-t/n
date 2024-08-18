@@ -1,0 +1,74 @@
+[[python]]
+= Reading PDFs =
+For reading PDFs there is the _PdfFileReader()_ class, which will accept a _File_ object as
+argument, in byte reading mode (rb), to originate a _PdfFileReader_ object it allowing for
+retrieving data through the following methods and attributes:
+
+* *numPages*: Returns the PDF's page quantity.
+
+* *getPage*(): Returns a _PageObject_ object with a *extractText*() method for reading a certain
+  page.
+
+= Writing PDFs =
+The converse of reading, for writing, there is the _PdfFileWriter()_ class, which will not accept
+arbitrary user input but merely accept input from other PDFs. To write, one must formerly bring
+about a _PdfFileWriter()_ object by calling the class and adding data in it by its *addPage*()
+method requiring a _Page_ object. Subsequently to writing the data, the *write*() method must be
+called with a passed _File_ object, in byte writing mode (wb), for finally creating the file.
+{{{python
+import PyPDF2 as pypdf
+pdf_src = pypdf.PdfFileReader(open('file.pdf', 'rb'))
+pdf_new = pypdf.PdfFileWriter() # -> PdfFileWriter object
+
+for pg in range(len(pdf_src.numPages)): # Copy each page from pdf_src (file.pdf) to pdf_new
+	pg = pdf_src.getPage(pg) # Stores PageObject object from getPage() to pg
+	pdf_new.addPage(pg_obj) # Appends pg (PageObject object) to the new pdf
+
+pdf_new.write(open('new_file.pdf', 'wb')) # -> Save the contents of pdf_new to an actual file
+}}}
+= Encrypting and Decrypting PDFs =
+PDF encryption can be performed by a _PdfFileWriter_ object's *encrypt()* method, passing as
+argument the desired password.
+
+A _PdfFileReader_ object's *decrypt()* method ministrates the need of decrypting a PDF file. It
+takes a _password_ argument and returns 1 if its the correct one, else it return 0.
+{{{python
+import PyPDF2 as pypdf
+pdf_src = pypdf.PdfFileReader(open('file.pdf', 'rb'))
+pdf_encrypted = pypdf.PdfFileWriter()
+
+pdf_encrypted.addPage(pdf_src.getPage(0))
+pdf_encrypted.encrypt('some_password') # -> Encrypts the file with the some_password password.
+pdf_encrypted.write(open('pdf_encrypted.pdf', 'wb'))
+
+pdf_encrypted_read = pypdf.PdfFileReader(open('pdf_encrypted.pdf', 'rb'))
+pdf_encrypted_read.decrypt('some_password') # -> 1, successfully decrypted.
+pdf_encrypted_read.getPage(0).extractText()
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut aliquet lectus.
+}}}
+= Rotating the pages of a PDF =
+If one wants to rotate a page from a PDF file, a rare task to be sure, this module serves the
+*rotateClockwise*() and *rotateCounterClockwise*() _PdfFileReader_ object methods, which argument is
+a degree value (90, 180, 360, etc).
+{{{python
+import PyPDF2 as pypdf
+pdf_src = pypdf.PdfFileReader(open('file.pdf', 'rb'))
+pdf_rotated = pypdf.PdfFileWriter()
+
+pdf_rotated.addPage(pdf_src.rotateClockwise(90)) # rotateClockwise() will generate a PageObject object of the rotated page.
+pdf_rotated.write(open('pdf_rotated.pdf', 'wb')) # -> Write to pdf_rotated the rotated page.
+}}}
+= Overlaying PDFs =
+To lay a PDF over another, there exists the *mergePage()* _Page_ object method, taking as argument
+the overlay PDF.
+{{{python
+import PyPDF2 as pypdf
+pdf_overlay = pypdf.PdfFileReader(open('lay.pdf', 'rb')).getPage(0)
+pdf_surface = pypdf.PdfFileReader(open('surface.pdf', 'rb')).getPage(0)
+pdf_overlaid = pypdf.PdfFileWriter()
+
+pdf_surface.mergePage(pdf_overlay)
+pdf_overlaid.addPage(pdf_surface)
+pdf_overlaid.write(open('overlaid.pdf', 'wb')) # -> Copy of the overlaid pdf_surface PDF.
+}}}

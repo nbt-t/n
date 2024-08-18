@@ -1,0 +1,6 @@
+[[programming]] [[cs]]
+The step of the recursive dance is done when a function's output is fed as input into itself, may it be repeatedly
+across the completion of range. But exception when the function manipulates the input, only until the first domain
+element's output that it'll be copied within range, or only in the second function call is when identity of input
+and output will match for either sets; that is, the difference betweeen domain and range, it be possible, is
+domain's first element.

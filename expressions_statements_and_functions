@@ -1,0 +1,12 @@
+[[cs]]
+An *expression* is a combination of values, variables, and operators. All of such, by
+themselves, are also considered expressions.
+
+A *statement* is a unit of code that has an effect; or does someobject.
+
+A *function* is a collective unit of instructions that can be called by a name. In such
+sense, functions hold similarity with variables, in that they are both abstraction
+mechanisms that link names with expressions.
+
+In a function definition, the first line is the *header*, and the collection of all
+its subsequent lines is called the *body*.

@@ -1,0 +1,8 @@
+[[math]] [[algebra]]
+
+*Special products* are products of binomials or real numbers that exhibit patterns. That is, cases that follow one of such
+algebraic [[generalization|generalizations]]:
+
+* Product of Sum and Difference: *(A+B)(A-B) = A²-B²* FIXME: Why, How?
+* Square of Sum or Difference: *(A±B)² = A² ±  2AB + B²* FIXME: Why, How?
+* Cube of Sum Or Difference: *(A±B)³ = A³ ± 3A²B + 3AB² ± B³* FIXME: Why, How?

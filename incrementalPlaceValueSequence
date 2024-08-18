@@ -1,0 +1,51 @@
+[[math]]
+*xᵃ* such that n ∈ Z*.
+
+b = 2
+...
+0.015625 2˄-6
+0.03125 2˄-5
+0.0625 2˄-4
+0.125 2˄-3
+0.25 2˄-2
+0.5 2˄-1
+----
+1 2⁰
+----
+2 2¹
+4 2²
+8 2³
+16 2⁴
+32 2⁵
+...
+
+bⁿ = 
+2^1 = 10
+2^2 = 100
+2^3 = 1000
+2^4 = 10000
+2^5 = 100000
+2^6 = 1000000
+...
+
+b = 10
+10^1 = 10
+10^2 = 100
+10^3 = 1000
+10^4 = 10000
+10^5 = 100000
+10^6 = 1000000
+...
+
+
+For all next powers of *b*, except the first one, in which *b* is multiplied with itself no times, *b^n* is the previous
+power times *b*. That means, the [[succesive powers of b can be expressed recursively]].
+
+This pattern of digit addition, which occurs in the shape of zeroes, owes its reason to the exhaustion of *x*
+when *x* can't hold more and it is resorted to the appending of zero, because *x* is always added with itself
+*b* times to get the next *x*.
+
+For each power of bⁿ, bⁿ/b increases. That is, by each succesive power, the number of groups with *b* [[units]]
+that fit inside *bⁿ* up.
+
+NEXT NEAREST PLACE VALUE. NAME IS UNCORRESPONDING

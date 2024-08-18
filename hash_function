@@ -1,0 +1,2 @@
+[[cs]]
+A *hash function* is one that maps an input of undefined length to a [[hash_value|fixed-size value]].

@@ -1,0 +1,14 @@
+= Symlink =
+A *symlink* (also called _symbolic link_ or _soft link_) is a file that represents a
+unidirectonial connection to another file. It's like an _alias_ for a file.
+
+= Hard Link =
+A *hard link* is, in essence, an identical copy of a file. Thereupon, one may safely venture
+to deem a hard link to be the same as a copy produced by the _cp_ command, but that's
+faulty: hard links have the same inode as their target file.
+
+Every file has at least one hard link bearing its name.
+
+= Symlink VS Hard Link =
+* Hard links cannot be directories.
+* Symlinks can span across different drives, while hard links cannot.

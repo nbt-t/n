@@ -1,0 +1,7 @@
+[[math]]
+[[radical]]
+* ⁿ√xy = ⁿ√xⁿ√y: *the root of a plural amount of factors is the product of all the factors' roots*
+* ⁿ√x/y = ⁿ√x/ⁿ√y: *the root of a fraction is the root of the numerator over the root of the denominator*
+* ᵐ√ⁿ√x = ᵐ ⃰ⁿ√x: *to multiple indices, in a sole root, when presented with nested roots*
+* ⁿ√xⁿ = x, when n mod 2 ≠ 0: *nth root of xⁿ is x; odd roots do permit negative x*.
+* ⁿ√xⁿ = |x|, when n mod 2 = 0: *nth root of xⁿ is |x|*; [[even_or_odd_radical_index|when n is even, x ≥ 0]]

@@ -1,0 +1,5 @@
+A *pre-condition* is that prior demand pertaining to the execution of a procedure. While its converse, a
+*post-condition*, being the requirement to satisfy after execution. For example, in a tic-tac-toe
+game, the pre-conditions for placing an X on a certain cell would be: the cursor to be in right
+position and the cell to be empty; post-conditions are: the X to be drawn on the corresponding cell
+and to end the game if circumstances suggest.

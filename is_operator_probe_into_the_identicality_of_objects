@@ -1,0 +1,14 @@
+[[python]] [[programming]]
+[[similarity_between_objects]] [[an_objects_value]]
+Through the *is* operator, it can be confirmed whether two variables [[reference_to_an_object|reference]] the same object.
+{{{python
+s_0 = 'test'
+s_1 = 'test'
+
+s_0 is s_1 # -> True, "identical" strings, both variables refer to the same object. Aliased object 'test'.
+
+lt_0 = [1, 2, 3]
+lt_1 = [1, 2, 3]
+
+lt_0 is lt_1 # -> False, "equal" lists.
+}}}

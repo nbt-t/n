@@ -1,0 +1,2998 @@
+Ideas are more concise in formal languages
+
+Morality is rooted on emotion, moraility without emotion
+
+Only-rational, insensible, society
+
+Time vs effort
+
+Reading for the amusement is, gaining solely familiriaty with the language's expression, waste of time?
+
+Empirical induction and my thinking, help thinking programming
+
+Eyes, shyness while looking at someone, attraction, girls, behavior, psychology
+
+Comparision, ability, person
+
+Subjective because of limited human perception, knowledge, etc
+
+We think in extremes, everytinhg defined by extremes
+
+Hunger can make a man mad
+
+Searh for superior learning speed, for life is finite
+
+Powers of 10 divisible by 10, powers of b divisible by b
+
+Each 10ⁿ, n ∈ N, lines of writing, do something
+
+All abstractions beyond number itself are methods for indicating quantity
+
+Quotient and product similar
+
+Mental models
+
+why scientific notation move dot to right or left, reason
+
+Algorithm for conversion between scientific notation and decimal
+
+Mathematical operations as conventient ways of denoting quantity
+
+Mini-men
+
+Asemantical cues for recalling
+
+If n is even if n-1 is odd, n is odd if n-1 is even
+
+Ideate my own compressed writing for expressing meaning with least amount of symbols. Map words to custom and
+custom to words
+
+Naming of varibles, choose most popular ones
+
+Law vs prop math
+
+Instant and Delayed Gratification. Seek excuse, break discipline, justification. Preferences biases towards
+sources of gratification. Why Instant Gratification neglect effort for reward, makes one cringe before more
+difficult tasks. primary sources of gratification: entertainment, food, sex, etc. peanut butter case
+
+[[note|if c ≤ b and b ≤  a, then b ≤ a ≥ c]]
+
+Pattern of division over 2, or even number, x//y|xmody=0 == x+1//y until x == 2y
+
+Bci typing for notes
+
+If instance is one, then generalization doesn't make sense. if one file, then why create categorical dir
+
+Negative numbers do not make sense physically
+
+Behaviors are the abstract, general rules, that manifest through objects
+
+Generalizations over sets of patterned input-output relations
+
+Recursion in understanding/learning
+
+Pointers?
+
+Common factors and distributive property, factoring vs expanding
+
+How many zeroes fit in a: a/0, none, less than unity
+
+Contrary/synonym? operations: vs /, + vs - , power vs root, etc. (a*b)/b = a, same for power and root
+
+Multiplication opposite of division in words too (division is how many fit). 
+
+Hypotheses per second = smartness xd?
+
+For a/b, a % b always <= b
+
+Recursive calls call stack
+
+Input-output tables for noticing math patterns or equalities between operations/equations
+
+Floor division is lazy and normal  division greedy
+
+To earn generalization is valuable because of all the possible tangential ideas that can emerge
+
+Division is just an exhaustion operation
+
+Systematically controlling what I am going to think throughout the day. problem to think about for the day
+
+Most important numbers are 0,1,2,3
+
+Cursor moves in curses after char insertion that's why (h-1, w-1)
+
+Math operations/behavior/process/state
+
+Circular reasoning
+
+Circular reasoning mathematically
+
+Circular dependecy
+
+Variable letter designation, operation option, change its behavior
+
+AI that'd infer functions/generalizations/pattern from input-output relations/tables. maybe it rules the
+world?
+
+Happinesss through pain, not pain through happiness
+
+Geometry in command line
+
+Existence vs reality
+
+Logic as a system for asserting reality?
+
+Qualities are abstractions?
+
+Addition is set union and subtraction?
+
+Output/effect other names?
+
+Subtraction how many above or below number
+
+Floor Division Implementations
+
+Attention or Concentration on Tasks depend on gratification,motivation,dopamine
+{{{python
+import random
+
+
+instance = True
+while instance:
+    a = random.randint(1, 100)
+    b = a+random.randint(0, 100)
+    c = b+random.randint(0, 100)
+    if c <= b and b <= a and b <= a >= c:
+        instance = True if (b <= a >= c) else False
+}}}
+Unit is equal assemblage of objects
+
+Units are arbitrary. 
+
+Units from units meter is 100 cm. Units are relative, maybe to physical objects
+
+Units are convenient abstraction for measuring objects, to the human mind
+
+Objective or Subjective
+
+Prefrences are [[biases]] towards [[sources of gratification]]
+
+A *function* is a [[rule]] that maps to element of [[set]] B per element of set A
+
+A *function* is a [[rule]] that equates all inputs to exactly one output
+
+A *function* is a [[generalization]] over a set of patterned input-output relations
+
+The execution of a function is a [[processes_evolution_of_states|process]]
+
+If the computation of a function f at x issues different outputs, with the same input x, such function has
+ensuingly suffered alteration
+
+If [[past]] and [[present]] output cannot be sensed distinct but able to be confused with one another, then
+unalike functions were wielded for their production. Thereby, all functions express perpetual procedure
+for yielding an output
+
+To express with set theory jargon such, any element of A uniquely bonds with one element B. By which, to
+mimic the previous' paragraph consequence, an input of A only maps to different outputs in B, jostled present
+against past, when the rule that modifies and produces output in B is different too. 
+
+Set A is called the *domain*, B the *range*. The range is defined as the set of all computations of f upon x
+such that x belongs to A: B = {f(x)|x∈A}
+
+Given element of A, input, is that B feeds on for output. There's dependence of B upon A: output relies on
+input
+
+This relation of dependence is perceived better transparently by the [[equation]]: y = f(x), wherein y is the
+symbol affiliated with the output which is computed by feeding an input x
+
+Alas it was able to be conveyed tersely but didn't I, *input (x) is independent and output (y) is dependent.*
+
+Functions center between [[quantity]] relation, where one quantity depends on another. 
+
+domain arbitrary?
+
+All [[external semantic media]] are [[abstraction_and_generalization|abstractions]]. They're only shortcuts for [[reference]] to the [[parameters]] of a set of bonded [[reality_and_existence_the_deepest_underpinning_constructs|objects]]
+
+*Circular reasoning* is the process of 
+
+It terribly happens that for any such circular argument, an infinite loop is traveled in search of truth
+In which the truth value of proposition P depends on proposition Q's, and Q's depends on P's. The speaker's
+belief about any plausiblity of such argument comes from an anticipated assumption for the conclusion to be
+trues
+
+Empirical induction is valid
+
+Because it has served truly in the past
+
+Why should it do so in the future always?
+
+
+The Bible is the Word of God
+
+Because the Bible tells us so
+
+Disputing against [[empirical induction]] in inference from a finite set of instances, mathematical induction seeks
+to prove truth of a proposition in a rigidly nonempirical and mathematical style for all its possible
+instances, infinitely accruing pile
+
+The principle of this totalitarian induction, given the infinite sequence of integers, for any instance Aₓ from
+a general proposition A there hence exist infinite cases of A: A₁, A₂, A₃... for which there's always to set
+out next Aₓ₊₁. All in all amounting to, if A₁ is true and it can be sucessively proven for the neighboor
+instances, then the general proposition A is said to be true; and false otherwise
+
+1+(n|n mod 2 = 0) is odd
+(n|n mod 2 = 0)-1 is odd
+
+1. A₁ is true
+2. For all Aₓ, when Aₓ is true then Aₓ₊₁ too
+
+Then A is true
+
+domino?
+{{{python
+def is_there_distance(p1, p2):
+	return p2.x > p1.x or p2.x < p1.x or p2.y > p1.y or p2.y < p1.x
+}}}
+{{{python
+class Object:
+	"""
+	Abstraction widest in generality, utmost in abstractness, that represents all; the base, parent class of
+	all, even for other universes
+	
+	Attributes
+	----------
+	being: str
+		'reality' if it happens to be an objective truth (or just truth), OR 'existence' if a subjectivity
+		
+	plane: str
+		'physical , OR 'ideal' if it dwells inside the mind
+	"""
+	
+	def __init__(self, being, plane, qualitative_state, procedural_state):
+		self.being = being
+		self.plane = plane
+		self.qualitative_state = qualitative_state
+		self.procedural_state = procedural_state
+}}}
+Sets are defined by their instances, or with farther propriety, elements, and their interrelations
+
+Bearing different perspective, a state is a set of quality given on an object; a qualitative set
+
+There ought to be an special method, for classification when an object belongs to both reality and existence
+
+Reality and existence are defined by their instances/elements: objects
+
+The means for happiness (vs temporal gratification?) is only suffering. And by which also soul's vigour,
+in resistantly undergoing temptation, is propelled
+
+A plane is just a set of points ascribed to the possible positions of height and width, bidimensionally, that
+indefinitely expands
+
+And spaces?
+
+In order to determine the independent variable of a function, to alienate the cause from the effect, one has to
+find the variable whose explicit cause lies outside the function; to intent that if the cause of a variable
+is one calling inside the function's encompassing, then such is the independent variable and, invariably so
+by the possibilties confronted with under logical negation when a proposition's truth is earlier known, other
+dependent one
+
+Tracing the causal chain of human behavior isn't an indefinite process, the base cause of it is satisfaction
+
+Futurely desire ascends with rise in pastly satisfaction: the more one is satisfied by behavior, the stronger
+desire for it will be. The mind is executing the rational resort for assuring one's well being in the future, of
+whetting the appetite for that behavior, sadly so, unaware of the virtuosity in the pursuit
+
+In that same vein, das
+
+The greedy management of an object's search within an iterable, stepping until last instance of said object, is
+proceeded by the repeated verification of the object's existence farther last instance of it, until no more
+copies of it are found
+
+{{{python
+return index if index < len(iterable)-1 and obj not in iterable[index+1:] else obj_index(iterable[index+1:], obj)
+}}}
+Infinite vs Indefinite?
+
+All processes originate from one, unifying process, process tree, dir, fork
+
+Pendulum case, perpetual motion of living things. That their power to change themselves is an illusion. The
+faculty of organisms to change themselves, is maybe consciouness
+
+One is constantly extracting away, attention and resource wise, in the performance of any behavior. And there's
+not a clear point in which a behavior becomes subconscious vs semiconscious vs conscious
+
+Knowing ignorance when one knows some quality but not whole vs unknowing ignorance
+
+To know is a boolean/binary operation: you either know or don't know wholly
+
+Knowing/Unknowing ignorance vs objective reality truth
+
+We seem obsessed with positivity first and negativity last, or left and right, in antithetical notions
+
+Painted hole case for existence vs reality truth
+
+Logical vs Rational, rational about satisfaction and logical about abiding by the prescriptions of logic
+
+A link is the bridge built when a commonality, a common ground by which to equally compare rooted out by
+abstraction, is recognized between two ideas
+
+Ideas are qualitative sets (states) and the communication amongst them, provided they maintain certain
+closeness, is enabled by links
+
+The length in enumeration of the ideas that are based upon a particular one, accents the generality of it
+
+What abstraction offers, as a paliative to complexity and thereby understanding, is a manner by which two ideas
+soever repeling can be equally regarded
+
+A sequence of the repeating phrase, "that reminds me of...", from any idea to another is equivalent to an
+incremental practice of selectively mowing qualitative grass against obscuring heights that further permits
+progression. Doing so, the linking offset is shadowed forth: the quantity of ideas it takes in order to bind
+two ideas; even though the mind performs this automatically and it may be then strange that actually road to
+be walked for linking, a progression is to be completed so seemingly usual that a custom is. Moreover, this
+makes it clearer for it to be expressed by computation
+
+It is up to the basic desires of feeding and reproducing, the style in which All-Father contrived enviroment with respect to man, that the sense
+through which one obtains data of utmost account is sight. The capacity and superiority of sight can be
+understood by negating the other senses' existence: subtract all senses other than eye and, sure, survival
+probability and comfort decline but not of weight greater than sight's absence. For, firstly, eye's reach is
+far superior than the other senses; secondly, accurate awareness of physical movement bestrides in relevance
+and it's the visual apparatus that allows it; and thirdly, the most emphatic predictor about the trajectory in
+which hands oscillate, them beign extremely important for the interaction with the enviroment, is visual data. Visual is more important because the speed of light is faster than sound,
+and all the other objects perceived by other senses?
+
+A priori and a posteriori
+
+https://en.wikipedia.org/wiki/Permutation
+Graphing permutations of a list relative to another list, according to distance, distance relative. In which
+it is not necessary neither pattern nor particular nature for the elements inside the array, only their postion
+is taken as reference
+
+Distance relative, turning head 180 degrees, distance is interval y < x > z, or interval notation
+
+For a*b*c..., (z*a)*(z*b)(z*c)... = a*b*c...*^n. And for a+b+c..., (z+a)+(z+b)+(z+c) = z(a+b+c), distributive
+property. For a-b-c..., or a-b for b could be expression multiple terms, (a+z)-(b+z) = a-b. Also for division
+
+For (a+b+c+d)+x, x only added to one, not like distributive, only for multiplication, probablity of choosing
+one determined by BCI xd, prior knowledge
+
+List reverse vs medium, antithesis
+
+don't sin program
+
+https://softwareengineering.stackexchange.com/questions/198284/why-is-0-false
+Loathing thus from the widespread attached booleans for 1 and 0, true and false respectively, but not only from
+shallow convention for the semantic translation to existence also corresponds, bash's logical flux functions in
+consideration of exit codes for which the numbers indicating executive success mean none other than their
+negations in such sense; execution that is succesful: 0, and unsuccesful: 1
+
+In other words, the universality in thinking of 1 existence of truth and 0 unexistence of truth
+
+prescriptive vs imperative vs procedural vs active vs normative vs how vs dynamica vs a priori vs  VS declarative vs qualitative
+vs passive vs static vs what vs descriptive vs experimental vs a posteriori
+
+{{{python
+class Procedure:
+	def __init__(self, modifier):
+		self.modifer = modifier
+}}}
+state
+
+Program that'd check for boundary errors, linter
+
+Functions/procedures merely establish state modifications to perform upon an object, separate from the force
+that exerts it/calls such procedure/feeds input
+
+Infinite divisibility, for time, step of procedure/process
+
+It may well be that quality is not real, only a product of our mind, therefore there's no objective quality/
+truth outside mind. 
+
+Denoting relation between ideas through set operatos
+
+Discord sophia
+
+After losing a wit, therefore granted one utilizes in order to identify an object the mapping between its sensation from one
+wit
+
+Comparision/mapping between senses
+
+Permutations with balls. Floor dividing number and doing permutations/possible sums of it, substracting from
+one and adding to another accordingly (5 = 2+3 = 1+4 or 1+3+1). n-2*2 for separating balls, x2 because when
+reached middle the same as right
+
+All ideas are ultimately rooted upon experience
+
+The more suffering the more joy
+
+Learning projects?
+
+Input/output terminal setup idea vs development, intake vs outtake
+
+The concept of an idea as applied to itself
+
+If max(x, y) == min(x, y), then x == y
+
+x*y == a*b if a == x and b == y, or a*b == x/divisor*(y*divisor). 15*2 = 15/3*2*3 = 5*6
+
+Geometric transformations, symmetry, y = 18-x, y = 8+x, 18-x = 8+x, x = 5, in the 5th iteration, both equations equal
+9 17
+10 16
+11 15
+12 14
+13 13
+14 12
+15 11
+16 10
+17 9
+
+3d cli library, geometric transformations
+
+Learn drawing for machines/devices, sliding mechanisms, friction of sliders
+
+Skinner box
+
+Fake instagram anonymous messaging link
+
+School corotos business
+
+School photomath program
+
+Circler device
+
+Temptation, derailing cli program
+
+A numerous assemblage of links towards any idea, thither lying for consent commonality amidst thence
+disposition from one to the other, petrifies the farther its memory against forgetfulness with the temporal
+go by
+
+https://en.wikipedia.org/wiki/Display_aspect_ratio#256:135
+https://en.wikipedia.org/wiki/Dimensionless_quantity
+https://en.wikipedia.org/wiki/Ratio#Units
+https://en.wikipedia.org/wiki/Proportionality_(mathematics)
+
+Movement (or displacement) is an expansion of measure, natural difference between points, amidst which in the former
+consideration beholds space from a held initial point to a new one (therefore its terminal point); a difference from
+earlier to later or a procedural disposition towards a quantitative extreme
+
+But the latter by which the interference of time as the enabling entity is considerably disparaged, but hereby unhazed:
+for the mere abstract act of change needs time, so hence counting and particle composition. That it's distinct to moving
+the object perse, we move our mind until the end of it
+
+Thereupon the precedence of measure over all acts of movement, as a based notion: that either necessarily connect to 
+space, but one aims to the gauge of liberated space by force, and the other any space. Otherwise its unexistence and thus
+equality between
+
+Directed quantity for if direction be accordingly selected and can possibly include influences to the measure. Scalar
+quantity, however and more basic, for such that 
+
+A computer that sits in seclusion from client conduct is apprised to be a dedicated server
+
+There is a classification of network types after evaluation of the physical distance between its connected nodes: Local
+Area Network, LAN, for short distances like a home or building network; Metropolitan Area Network, MAN, for greater
+distances; and Wide Area Network, WAN, for distances definitive of countries or cities
+
+Twice data pulsations after which an interaction of asking and so receiving is rendered, and only just with that seizure of
+ability, interweave what is the dantiest network between two computers; that it be unnegotiable the commonality, the
+bridge, the interaction to germinate amidst them
+
+The client requests and serves, for in requesting there's serving of it, so, same. While in server there's exclusion of
+request but merely responding to a prior request. Particularly, the demarcation in the exemplary network between them is
+structural and timely: both mutually talk but one after the other, client then server, and the latter in concordance with
+client replies with the desired data. That is, client requests pastly and it be overt for a future response
+
+A switch is the central apparatus to which all computers are connected and interconnects them integrating a network
+Network cable ports lodge in these for connection within the computer activated by a Network Interface Card, NIC. An
+electronic circuit that consents networking via radio or cable. For which the former's dependency hovers upon a Wireless
+Access Point, WAP: an artifact harboring a radio transmitter and receiver plus a cable port that is attached to a switch,
+router, or hub
+
+A firewall is a security system that digitally guards the network from the massive Internet
+
+A special instance of a, network in which its nodes are affirmed as peers with the pretension of either sharing and
+requesting, that are both client and server and therefore equals, is a peer-to-peer network
+
+Internet's compartment is made accessible by a router, which connects the network or computer to it. They're often bundled
+with a WAP, switch, and firewall; for that manner, they're nominated as wireless/wifi routers
+
+Two physical formats of data traversal, or communication, are at disposal for connecting computers: cable and radio
+
+It seems getting good at any ability requires mere practice at it, as opposed to all the fluff individuals make about it
+
+Breathing as an abiliy to train, regulation of it, nervousness before girls
+
+A program that would derive things based on a person's instagram
+
+A logical proposition processor that would also show shapes with sides equal to the quantiy of atomic propositions
+  
+Universal shortcut program
+Wrapper programs for unwieldy tasks/libraries/applications:
+
+Hacking a person; its instagram, getting info, etc
+
+Stalking a person through instagram
+
+Local school dating app. Like tinder, but in school
+
+Visual arithemtic operations
+
+Objective Emacs vs Vim experiment
+
+Agar.io, population as dots, size depending on relevance of individual
+
+Translating tasks/instructions/programs betweeen programming languages
+
+Abstractions vs Hierachy vs Connections vs Knowledge vs Complexity vs Component vs Simple
+
+Cli sleep tracker
+
+Daily Planner, Sleep Tracker, School Homework Prioritizer: 1h
+
+ChatGPT homework doer. 
+
+Psn acccount maker, ps plus trial
+
+Life is just prioritizing action order, import of action order depending upon action, different action order same effect
+
+It is down to the alphabetical particles of text units as far one can penetrate into its decomposition, that unsignifiable
+even deeper off letter but the unattributed geometric structures. Summarizingly: there's no mentally supplied drift for
+the geometric compostion of the letters themselves, it is only in deliberate organization that their lines make up meaning.
+
+The changing subroutine (c) erringly laid on word starts overlooks space fore the cursor, so the start (w) and end (e)
+word motions cannot be apprised apart
+
+Operators that design operations upon motions, that by their range define units of text, are prepended; so by the
+ordination of such effect to such extent is this vim's fundamental work for edition
+
+Time is a structure, vectors/arrays are structures. Everything is a structure
+
+Editing increasingly lengthy units of text in which turning over the keyboard's indulgence is needless, thus a paliative to
+complexity and time for the edition act, is vim's wilingly luring basis. For even with no that extra sub-action and
+directing only mouse, it is a further temporal investment and complexity for the expression of symbols, even for the most
+efficiency in response time and travel; whereas it's altogether a rote practice of key jostling for the keyboard
+
+A change of output by the prepended combination with another key, wherein order and structure is to be cared for, is a modifier
+key. Order and structure distinguished against the combinations of a set engaging the commutative law, with no sense of
+structure nor order whatsoever, given the collective context. This is differently an intent of a one that changes the
+other, not biderectionally. Ceasing but remarking the last incompatibility to the set combination, that the modifier
+bearing on itself machinates to nothing
+
+The modifier key supposes an expansion over the preconceived functions of normal keys. Only two of the ongoing modifier
+keys, Shift and Caps Lock, change the symbols in liue drawn by their inactuation. As a way of system guidance then,
+Control, Alt, and the such stand
+
+A chunk being intertwined and a trailing retroactive bestowment upon, of world generation, is an enactment of retroactive
+generation (retrogen). Concordantly, sparing the undertaking of chunk search anew, or in all a sheer reconstruction
+
+a/b*x = (a/b)/x, a/(b/x) = (a/b)*x
+
+All units compose and are thereby composed by previous and posterior ones
+
+Why irrational numbers called irrational?
+
+Superfraction, infraction, multiplication is just proportion of the sided quantity
+
+Rational vs logical, rational subjective and logical objective about formal structure
+
+Improbability vs impossiblity edge case, programming
+
+sequent, sub-sequent, con-sequent, latin, retroactive, grind, minecraft, refine, enact, slapstick, in, lieu,
+check out, erratum/errata, data/datum, small pox, hemisphere, intractable, type, assortment, pamphlet, debunk,
+purblind, vest, trustee, pulpit, indolent, indolent, resolute/resolve, synod, pistole stroke, emolument,
+methink, hindmost, litera scripta manet, proselyte, feign, scanty, trans prefix, enthrall, intertwine,
+transpose, regurgitate, be synonyms: dwell, land, lie, place, occupy, take up, lodge, settle, exist, await,...
+precursive, canopy, amenable, amalgamation, quassi, median, precurse, presage, predate, posdate, endemic,
+landmark, vace, format, fare, the feeling ain't no blue, gunny sack johnny be goode, vexation/vex, setting = 
+context, pivot = basis
+
+https://en.wikipedia.org/wiki/Stethoscope
+
+Statistics in consideration of a skinny-fat fella group
+
+Adjective is quality addend to noun, adding quality to noun its function
+
+Reading DS3/DS4 controller signals and controlling window manager
+
+Preprocessing and abstraction in linux commands, echo {1..3} = 1 2 3
+
+If one knows truth then doesn't have to know its falsehood, and vicevera
+
+Law is mandatory, deductive vs Property, that a set displays, inductive
+
+Noun+adverb+adjective, what+how+quality
+
+Distance is below or above number, origin point/position
+
+Screw mechanism without cover
+
+Opposites differ in the fundamentals but do share some commonality
+
+https://en.wikipedia.org/wiki/Operant_conditioning_chamber
+
+Arrays and vectors
+
+Sentiment analysis, opposites of good and bad, and middle
+https://en.wikipedia.org/wiki/Sentiment_analysis
+
+Tendency of associating left and right to start and end, numer line, left/right brain hemispheres.
+
+Negation of a number is subtraction
+
+Brain is a pattern machine
+
+All numbers are connected to all numbers, or positions, suitting an infinite relational web of all-to-all;
+counting with too recursiveness the regurgitated property, for each number to any particular universally
+relates and is related.
+
+Through the geometrical and graphical tint using more closely to the staying world of shapes: any position, say in a number line, can be contacted
+from all earlier ones and, as such, all, infinitely, latter ones from them; being the "relate/related" language
+sound too, all numbers be composed and compose of prior and elder numbers.
+
+I like exploring edge cases in code xd.
+
+com on/off command, turn on/off my esoteric code comments.
+
+Music for concentration because of its predictability.
+
+All-to-all number relationship vs computer network, internet
+
+Program for getting all improbabilities and impossibilities of inputs of another program. Improbabilities and
+impossibilities are conditions, propositions.
+
+Expertise just gained by turning attention to its very object.
+
+bashrc sourcing dates file, timer.
+
+A game in which you had a limited amount of buttons for an unlimited/copious amount of actions and  you had
+to decide which button which action.
+
+Words, sentences, paragrahps, essay/book/treatise, are composed by the previous unit and are defined by
+delimitation. The nature of textual units. Eveything has meaning, we assing meaning to everything not that it
+has intrinsic meaning.
+
+Minecraft making house underground vs overground, that underground is destroying as with an sculpting rock vs
+starting from zero, filling. Underground has upper, lower and horizontal limit (roof+floor) and it is thus more
+controllable vs overground that only has a lower limit, less controllable.
+overground which only has the latter (floor)
+
+Integrating AI into my work.
+
+A quantity of ram allocated over periods rather than all at one point in time.
+
+Independent function vs dependent function. To identify the independency of a function check if output changes
+according to succesive inputs. Functions are relations, types of relations independent/dependent. Functions are
+also structures, types of structures. In an struture, the meaning of tokens changes according to organization.
+Verifying if a list/array is a function. f(x)=x/x=f(x)=1 independent or dependent. A vertical slope are
+multiple function stacked upon each other. An horizontal slope is a many-to-one relationship, vertical is
+one-to-many, and all the other functions many-to-many. n-to-n relationship, functionally, being x first and
+y second, otherwise different meaning. Function without contemplation of procedure is black-box, domain is
+black-box input and range output. Most math operations are defined around two parameters.
+
+All numbers are outputs of all mathematical operations, many-to-many relation. Are there unknown mathematical
+operations, math independent from mind, objective.
+
+Repeating/periodic (from periodic decimal) functions, functions for which output repeats across inputs like
+f(x)=x//2 and f(x)=xmod2.
+
+At any and all points of a list it is sorted if landed upon and afterwards area all greater, lesser than or
+equal, if ascendently or descendently.
+
+Numerical line plus notion of time and intensity, order and progression of such line by such notions. 
+
+Types of infinity/finity. It does not make sense to say: approaching infinity, or a a finite distance to
+infinity. Starting/origin infinity does not start at infinity, given it doesn't make sense, starts at a finite
+point towards the end that is finity.
+
+Number 0 does not have start nor end.
+
+
+Codepulsivity, code delayed gratification. logging module.
+
+Code impossibility/improbability checker.
+{{{python
+if (abs(a)*b >= abs(c)*d[1]) == (abs(a)*b > abs(c)*d[1] or abs(a)*b == abs(c)*d[1]):
+	pass
+	
+# Indexing conditions of a conditional chain, selecting conditions from a conditional chain, implementation on
+# a progrmaming language.
+if abs(a)*b >= abs(c)*d[1]:
+	if condition_1: # = abs(a)*b > abs(c)*d[1]
+		pass
+	elif condition_2: # = abs(a)*b == abs(c)*d[1]
+		pass
+}}}
+
+Program that formats code lines, and segments, according to the length of the current screen.
+
+A structure is any set of which them constituents indivually separated in quantity and/or time: the original
+being objective, outside time, the second concerned with the mind's eye membral prioritization; that is one
+member that *previously* persisted in a fella's performant memory, and *afterwards* another that is, duh,
+exclusively as such in relation to said persistence.
+
+From the art of inference then, to either direction a member is *subsequently* perceived doesn't in and of time
+itself signify a relative quantitative inclination, for a set about intensity, but that the global milieu in
+liue, dictates an infitely negative point, that is left-handed, from which a quantitavely ascendent reflective
+sequence of perception should start; therefore the direct association of posteriority with quantitative
+greatness.
+
+Operations that are demarcated upon the precedence of its operands be asymmetric structural operations:
+conditional, divisive, comparative, exponential, radical, subtractive, etc. One identification for two
+nominations, to operation and operand. However, the others that appeal to commutativity for an indifference
+of order: addition, multiplication (thus), max, and min.
+
+The more connections an idea has the more memorable is it. 
+
+One's determination of the temporal relation between ideas upon the simple condition of, an unconscious
+mekanism (sequential existence that indicates structure, like binary semaphore):
+{{{python
+mind1 = mind2_state = Mind()
+mind2.add_idea('second')
+if mind1.state[idea1] in memory and idea2 not in memory and idea_1.tmp_relation(idea2) 
+}}}
+multiplicative tradeoff, x+min max-x: of -1,+1 ab-a+b-1; of -2, +2 ab-2a+2b-4 , ab-a+b-1 = a(b-1+b/a-1/a) =
+b(a-a/b+1-1/b), make sense of it, general formula?
+
+passive income don't have to do shit, inaction, versus active income, in which you have to do action, that's
+why active. passive income priority for decreasing action and thus time, passive income cheaper on time, active
+more expensive on time. passive income one-time temporal investment, active infinite temporal investment.
+investment is trade-off. maybe temporal investment upon passive income sources is greater at any one unit of
+time, but it is of course greatly surmounted by active that is the same as multiplying a quantity infinitely
+(x*float(inf)). an investment is a trade-off in which the loss is hopefully and desirably less than the gain,
+the gain is greater than the loss (by some distinguishable extent, perception's limitation?). from active
+income, one should further the breadth of passive income sources.
+
+pyramid number progression, pyramid is 2d list, list of lists, list is a structure, structure is generalization
+over computing list. a list is a representation of a structure, instances of generalizations are
+representations.
+
+newspaper paradox, that if only good news were displayed then good wouldn't be average, what is shown in the
+news is out of average. control paradox, if a force controlling your consciousness and you dispute it, then
+how do you know that force is controlling you to think that very same thing, recursion. how does the brain
+determine the temporal inclination between
+
+brain mechanisms for determing intensity and temporal inclination between things
+
+A game in which you had a limited amount of buttons for an unlimited/copious amount of actions and  you had
+to decide which button which action.
+
+Words, sentences, paragrahps, essay/book/treatise, are composed by the previous unit and are defined by
+delimitation. The nature of textual units. Eveything has meaning, we assing meaning to everything not that it
+has intrinsic meaning.
+
+Minecraft making house underground vs overground, that underground is destroying as with an sculpting rock vs
+starting from zero, filling. Underground has upper, lower and horizontal limit (roof+floor) and it is thus more
+controllable vs overground that only has a lower limit, less controllable.
+overground which only has the latter (floor)
+
+Integrating AI into my work.
+
+quantitative intensity distance from 0, numbers. comparative intensity merely about greater and lesser,
+comparison. quantitative intensity  individual units, not comparative intensity. as in verbs myriad vs large,
+amount vs space.
+
+gradable vs nongradable adjectives. metric vs absolute/binary opposites.
+
+Warframe meta of farming, parallel farming, not quite being at the same time but at the same time window of mission.
+
+If you buy all objects of certain type in a market, then the price can be so established arbitrary. Formal subject of economy through the game warframe.
+
+Transcribing abuelo's story with balaguer.
+
+Maybe all extremes of ideology (e.g political) are necessary for balance.
+
+Observer's paradox from warframe vid.
+
+Write a tribute to mom.
+
+Pains that i am currently experiencing: lower right corner in the right part of rib cage when i bend over. Listing pains habit.
+
+Schedule a muscle gaining routine for girls xd.
+
+Getting money from multiple sources, doing multiple things at the same time = parallel money earning.
+
+x*y = (x//x)(y*x) or (x*x)(y//x), same with y. tradeoff.
+
+
+All numbers infinitely delimit to and from which to move of distances.
+
+Fix my hair loss, early.
+
+A program's control flow is the executive schedule of its computations. For any declared proposition the intention of adjacent execution will be thence disposed (or indisposed); for a
+repetitionally patterned set of coordinations these can be abstracted to a uniques set that'll be haunted n times with the end's rim definite. The engrossment of un computational ruling
+to habilitate, the other without, this being selection; the latter iteration. These are thus control structures assessing the content to futurely compute as issue of computation itself
+for mathematical truth.
+
+The order of procession appearing from topmost to on bottommost, this referenced as sequence. This direction opposed only towards vertical positivity during the iterative control
+structure; I hypothesize this downward turn because of western writing.
+
+A code unit is any finite set of computations.
+
+Can a method be called as a function?
+
+Happiness is proportional to pain, or viceversa.
+
+Java it makes sense type casting double -> float or int, or any lesser storage data types?
+
+Asymptotic function f(x) = x/x+1.
+
+One can predict if code will jump back to loop with its condition.
+
+Book about new human civilization in mars, from a male and female, after earth has been annihilated by asteriod.
+
+Mental focus involves a narrower visual eye focus, as opposed to broader/more creative focus.
+
+Java static object in non-static context error? In java you can't pass a function to another function as its parameter unlike in Python, :( Python is faster for the act of programming.
+
+
+
+google adsense bot? Attention as a function of out_of_average(object) mental check, the infinitely impressing object that would always impress you for all its aspects, if something
+impresses (it is out of average) you will attend it and it'll be better memorized? TikTok showing novelty which causes drawing of attention, and dopamine, which causes more searching
+for more novelty and so on... a feedback loop
+
+separating ideas written in inbox.wiki by day and relation subsequently With two line breaks by day and related ideas on same line It is more efficient to only use d It is more
+economical/efficient storage-wise to separate text with only capitalization as you are sparing the punctuation with which the subsequent letter would have been anyway written.
+
+Explore the idea of capturing the state of a human mind and reverting to that same past state Which would effectively mean time travel for yourself Useful for experiments Multiple
+instances of the same thing in different temporal positions vs spatial positions Physical objects are differentiated by space By which they are said to be discrete from each other
+Vs a differentiation by time By which one object is different from that same object in later or earlier time Same time multiple spaces vs Same space multiple times See this
+bidimensionality?
+
+oop more about the state of an object Its qualities While functional programming.
+
+Converting code to factors = functions?
+
+adjacently afterwards synonym list.
+
+polytomy word.
+
+
+capitalize on synonym for impose on Capitalization
+
+Keep going on after exception in a program?
+
+static vs dynamic typing https://www.sitepoint.com/typing-versus-dynamic-typing/
+
+why can't do recursive definition of methods/functions in java
+
+
+Plan for retirement videogames?
+
+everything has an axiomatic limit ground.
+
+A system, concretely deterministic, is a bijective/surjective function that maps states of a domain to other states in its range, in a one-to-one/many-to-one fashion.
+
+The attachment amid a system's input and output, the bijective/surjective functioning, can be mirrored with an abstracted un, thus curtailing the complexity in those inducing states that
+factor in onto output, for these preceedings need not to be asserted at the adjusted observe level of the behavior; this is called simulation: bear closely alike output through same input
+by an abstracted process link.
+
+A proper subset is an abstraction over its superset; an abstraction is a proper subset. Invariably, a parted decrease in cardinality, instantiating a non-empty set, poses an abstraction
+over such subset's superset.
+debloat vim Removing punctuation marks for less space
+
+idealize, conceptualize syn. lt
+
+cardinality, processor register
+
+imitate, mimic, simulate, emulate, reflect, duplicate, replicate, clone, resemble, equal, equalize, mirror, parrot, repeat, correspond, reproduce, echo, recreate, remake, match
+
+connection syn list
+
+ways of writing: definition first then name or viceversa, the presentation followed after the content or viceversa.
+
+partial syn lt.
+
+inclement?
+
+complex numbers, injective/surjective/bijective functions, feedback loop systems
+
+dogma, doctrine, religion, ideology, conviction, persuasion
+
+hit, stroke, blow, whip, scourge, lash
+
+pain media: whip, lash, scourge
+
+rod?
+
+tool, medium, implement, instrument, agency
+
+treating inequalities as normal equations: minus to one side minus to the other, same for plus and so on...
+
+screech synonym of squeak.
+
+type synoynm lt.
+
+indicate as express synonym
+
+merely attending an object shows its difference from its enviroment, that an object is defined by this notion of difference and discretion.
+
+transient short-lived.
+
+mighty syn list add magical
+
+how do you know what you eat is safe and healthy for you, for certain?
+
+function is just a reference to a line address in file.
+
+https://en.wikipedia.org/wiki/Function_prologue_and_epilogue
+
+programming language in which variables could be used as functions? programming language without memory? proramming language with only goto statements as variables as functions, that
+in other to refer to their values would be to goto a specific line in file, cool concept mofo.
+
+What medium does a powerful programming language confer for associating names with expressions? Variables (and functions too)?
+
+It's the product of ponderation upon an idea the emergence of tangential, [...] (immature, software engineer) ideas. Anki way of memorizing words.
+
+1.5+1.5 = 2(1.5) = 3 integer vs 1.5+2 = 3.5 always decimal/frac. therefore, 1.5*2.5. the index in the radical, by definition i guess?, can only be a natural number.
+
+root aproximation formula?
+
+exponentiation with fractional roots, choose a time to search for women later in age in another foreign country with women of my color and good noses :), True False association in 3d
+cartesian plane state-> state is a function.
+
+in nth root/radicals, if the exponent is even then the result is always positive, -- -- = + + = +, --- --- = - - = +, and so on.
+
+negating a pair +- is same as swapping them, and for a list of pairs too: +-+- negated is -+-+
+
+a/b/c/d = a/b*d/c.
+
+vedic math book. registers in computers? decimal representation and decimal wikipedia pages. gait word. ams irrational aproximation
+
+if a non-terminating non-repeating decimal, then infinitely changing, random number source, effectively?
+
+rc file is run commands file, cf file.
+
+In bash aliases, why does quote enclosing does not disable tilde expansion?
+
+interval and sets and number lines and geometry line, ray, segment and finity vs transfinity vs inifnity in both vs one directions
+
+Thinking about finite things is the average human experience, vs infinite objects. Weird, finite infinity vs infinite finite xd
+
+Something is said to be similar to other thing when that thing is not similar to many things?
+
+By the overbold jurisdiction of the flock, and baselessly not for its farther complexity and a contrapositve to lowercase, sets have been symbolically interlaced to A,B,C,X,Y. Nay that's
+but a pint of the letters, I extend that to ALL letters with positive capitality: [A-Z].
+
+In a set of two, a pair, the opposite of one is the other and viceversa.
+
+globbing for files and regex for txt, globbing is a concrete case/specialization of regex, they're both regex.
+
+Sustained focus will make switching again into focus easier, this is GOD.
+
+script anothe word for program?
+
+depend syn lt.
+
+-(5+1) != -5+1, instead is -5-1, cubesumdiff
+
+reciprocal of number vs conjugate
+
+anki putting domains of special products and others
+
+interesting property: root of quotient = quotient of roots, reversed?
+
+contiguate as synonym for link.
+
+in anki putting blank sentences is pretty effective
+
+memorizing patterns in curses programs, of centering objects in screen and such.
+
+getter vs setter methods/functions, review packet ap csa
+
+gotta write every valuable thought down because then ill eventually incurr in it again, waste of time?
+
+umbilical chord syn for basis
+
+list comprehension python cant do multiple comamnds, sad, well only with function.
+
+implentations of programming languages' library methods/functions, or built-ins, inside it by the user, like wrapper curses python my implementation.
+
+im just gonna assume the domain to always be real numbers, anki, for the sake of terseness
+
+rise start syn lt.
+
+ankify java type casting stuff (int)a*b != (int)(a*b), and casting between different types. school ap csa. ankify stuff in cs packets too.
+
+i can feel my pulse when adopt certain position upon my right hand.
+
+why is anki sumOfEqualFactorProducts true? Delve into low level math proving stuff
+
+Source code, or just code, is the set of symbols from which a program is made up of.
+
+wherefore, thereof, whereby, thereby, thence, pronominal adverbs.
+
+result syn ltW
+
+An object is a data unit from the world scanvenged by anyone of the 5 senses, being thus subjectively: optics capacitated to only nontransparent spatial subsets, aux gated to a sound
+frequency range, touch and smell under minima of weight and distance, taste to concentration. Why, a common factor melodically bouncing each, a limit to intel and awareness of the world.
+A secondary battery of apparata sculpted by God unto us, and limited by him likewise for our sole fulfillment, that is: x+1 is higher while infinity therewith forgoes not that elevation.
+
+One's existence's whole intent is one's effort for portraying God, which would be a blasphemous folly to ever even commit comparison with God, as obvious offset as finity to infinity.
+
+capture, gather, get, collect, recollect, recover, pick, grip syn lt, apprehend, harbor, possess, obtain, acquire, scavenge, salvage, fetch, derive, attain, wrench, captivate, clutch,
+snatch, ensare, annexx,
+
+limit, gate
+
+enthrallment
+
+One will thrive inasmuch as one had suffered. One will desire inasmuch as one had thrived. One will thrive inasmuch as one had desired, given that the future remakes the past.
+
+A function is a map from A↦B such that every instance of A maps to only one of B and every B is mapped by zero or more A, that is, all instances of A must be linked to one B but not all
+in B must be linked by an A. B can be left unlinked if not already by one or more A. B can have many A.
+
+Now dragging said upper frontier of references to B, imposing an exclusion up to one A per B, exhibits an injective brood of function, an injective function, which is made different in
+the binary cardinality of A's that one B can dereference from. B can be left unlinked if not already by only one A. B can't have many A.
+
+Surjectively, a function maps each A to only one B and B's are mapped by at least one A. Thus, there's no exceeding B. Two opposites, injective and surjective, for in the analysis of the link
+cardinality to B, the former founded unitary or empty array, while the other, in an inversely ascending operation towards infinity, is of one or more.
+
+And exempting this multiplicity of linkage, the bijective version is spoken for: any member of A mapped to exactly one of B and viceversa, any B mapped to exactly one of A. This being
+product of stirring together surjective's and injective's accounts, every A maps to one B and every B is mapped to by at least and at most one A; Bijective functions are both injective
+and surjective.
+
+Two sets are equivalent if and only if a bijective function can be conducted from one to the other, that is, they carry equal cardinalities.
+
+Injective/one to one function.
+
+Surjective/onto function because onto alludes to the whole coverage of B by A, no element of B is left unlinked.
+
+All surjections procure a lesser latter set if not equal, for all in it must be threaded to by at least one object. All injections procure a greater latter set if not equal, for all in
+its domain must thread to one object. Straying from the principle of function for the latter by input unlinked, and paradoxically leaving output alone for the former.
+
+elucidation word chatgpt xd
+
+Inaslong as its posteior text unravels, the \r carriage return escape character doesn't prime the cursor to operate before the previously printed text, in place, it overwrites.
+
+Newline/Line break/Line feed
+
+python =+ or =- just normal assignment
+
+\pm upside down is opposite sign, ye!
+
+program that has side effects?
+
+floor(x+0.4) == round(x), floor and ceiling functions staircase graphs
+
+python compile vs exec vs eval
+
+(8-8)*(-9+4) =  0*(-5) = 0-72 = -72, (8-8)(-9+4)-(8*9) = -2(8*9)+32+72-32 = -144+32+72-32 = -144+72 = -72, dsa
+
+examples of surjective functions: abs, ceil, floor...
+
+compulsive vs impulsive
+
+brainiacally, mentally. somatic, bodily, men+tally ?
+
+measure, gauge, span, length, dimension, extent, vastness, extension, stretch.
+
+divide, bifurcate, split, segment, partition, from cut?
+
+oneWillGainInAsmuchAsOneInvests/Loses youPayInRelationToAPerceivedWorthOfPayUnitsAndReward whatMightBeHardForOneIsEasyForAnother 6ft5GuyPullingCarrotsExampleGettingGoldFromCarrotBuying
+person allThisRelatedToTradeoffInEconomics tradeOffIsIncreaseInRelationToDecreaseOrViceversaFromWhichAnExtremeIntensityIsPickedToDetermineAnotherState
+
+(4-1)(7+2) = nb+(a+n)m = nb+am+nm+ab TradeOff Product is (a-n)
+
+Comands are delimited by termination of their corresponding processes until the other one.
+
+errors in code are just objects that are not linked as one state to another function
+
+Nhumber for whole number and Nnumber for natural.
+
+quantity,valence,quatum,adicity,arity,cardinality,number,numeral,assortment,set,group,list,collection,structure
+
+python is so much easier/better for type casting flexibility, weakly typed language?
+
+the greatest god-given endowment is abstraction.
+
+temptation inhbitor device/chemical
+
+theAbstractIdeaOfASetImpliesNoDirectionSetsHaveNoDirectionOnlyWhenAppliedTheSpatialPhysicalNotionGeometryIsDirectionAppropiateSetsVSSpaceVsDimensionTimerProgramInAllLanguagesThatIknow
+
+Space as a function of time and two objects cannot be at same space position at same time or one object cant be at different positions at same time, function(time,space,object)
+parametric function, time-space function is a bijective function, the nature between two objects to repel each other, two objects cannot be at the same position at same time.
+
+economics of knowledge exchange, knowledge workers, from john locke essay concerning human understanding
+
+content of structure vs order
+
+When one is in hardship, the comforting resort for the mind is to think about a pleasurable think, of course.
+
+java lambda expressions, learn 
+
+fibClock.java c(a+b) = multipying each addend by c, if multiply one, how would be? variables for decreasing typing in competitive programming, uniline codeblocks vs polyline, with
+conditions too, for cp? also interpreted vs comiled langs
+
+a/b/c = a/b*c
+
+bit = binary digit
+
+at some point after resisting a change of state, there will be a critical point, at which the force of resistance will get tired and give away to temptation. 
+
+melodysheep video human future, the greater a set of items, the more abstractions/subsets can be made of it, inevitably.
+
+!= is < and/or >, from flag anki program for verifying if y == fH//2, or within screen coordinates
+
+my desire for woman and porn and sex is an inner desire of love, and for being noticed in society, desire for love, maybe because i wasn't endowed with love?
+
+computronium?
+
+Im fascinated with curvature of the human nose, and roman nose, inquire into it
+
+accumulator, constant change of state of variable until final result, recursion
+
+sqrt(9-40) is perfect as sqrt(9+40), what is this called xd?
+
+circle equation is just pythagorean theorem and distance formula too. why is the circle equation like that, connection with a*b=c, (a*d)*b=c*d
+
+angle types by operation and range, supplementary and complementary, and obstuse ,etc..
+
+chord special case of secant, circle fragment hierarchy
+
+psionics, psi, chinese candle clock
+
+posit meanign
+
+overfitting statistics george hotz
+
+https://en.wikipedia.org/wiki/Lindy_effect, george hotz
+
+everthing is connected
+
+betoken meanign word jordan peterson round table on numbers bible chapters.
+
+For a latter random number to be certainly greater than the other expressed asin an interval, this un's rise must be at least equal to a sum of 1 with the former's maximum value
+possible. Otherhandedly, for the converse case, its end instead so, must be at least equal to a difference of 1 with the former's minimum value; to post and prepone one segment with another.
+
+finfinite set:sorted proper subset from an infinite set that has been started upon a first member
+
+emolument,payment,money,grant,dowry
+
+A span's aggrandization and another's downfall is a tradeoff, by either correlation and/or causation, intermediary to, in comparison, as the much of the original and such uptilted
+quantities; mathematically: a+c b-d or, viceversa, a-c b+d, with respect on one to another such is tradeoff. The remarkedly economical facet of this is thereof, the
+science of comparison and expedient election therewith, can be transcribed to one a triffling mathematikal rule of adding the inculcated operands and, merely when
+they're positively or only negatively entitled, the choice will at once have choiced; otherwise, it is an image of the original.
+
+Now put to say, multiplication of a tradeoff, a product tradeoff or different addend sumdifference product if you will, settles to, for the specific case of the added
+and subtracted being equal, translucid inclination amidst a greater or lesser distance between the factors against the originals for the same opposite foresaid
+relations; or which is also switching the pair order as equitatitve as negating a structure. The gap's gauge is machinated, the operands as two discrete units set off,
+by a binomial product minus its original: (a-c)(b+d)-ab = ab+ad-cb-cd-ab = ad-cb-cd, that it beautifully apprises of, into a deeplower concretization, the sumdiff
+product pattern these reals' equivalence satisfied: (a+b)(a-b) = a^2-b^2.
+
+If it is posited that the addend and subtraend are unnull and equal, then (min(a,b)-c)(max(a,b)+c) < ab, for if one is null then the relation's structure is insistently
+clear; the inverse is also precise: (max(a,b)-c)(min(a,b)+c) >=, that is equal when the addend and subtraend equal the difference between originals in that same order.
+
+Thereby, it secretes from obedience to the algebra about abstract arithmetic norms that the any one of the factors or addends can be calculatively unveiled with the 
+
+slope, tradeoff, decreasing vs increasing, slope is opposite of empirical induction idea from unconscious mind while semisleep
+
+a-c b+d repeating trend pattern at some point, at which, 5+1 6-5 = 6 that infinite loop
+
+(a+-n)(b+-m)-ab = ab+am+bn+nm-ab = am+bn+nm, when n = m and tradeoff + and -, (a+n)(b-n) = a^2-b^2, diff of squares -> product of sum and difff ye
+(a±n)(b∓m)
+
+clear,unambiguous,crystal,crystal clear,translucid,transparent,open,
+
+polarity,extreme,inclination,knack,tendency,disposition,aim,proclivity.
+
+sprawl vs home syn lt meanign
+
+equation hours to money, example of my hour's worth 14 dollars, unit conversion between quantities of differing nature.
+
+correlation vs causation as function mapping, conditionl vs biconditional operators for determination between the twoo
+
+identity concept as the basis for math, all functions are identity functions, identity function parent of parent functions.
+
+rube goldberg machine analogous to programming, connection to if-else one liners that i did for the leap year/or not program for ap csa class.
+
+go to live to santo domingo, ultimately, to increase my chances of survival
+
+The out-of-average human trick in order to catch someone's attention  better, analyse this
+
+All these uncertain, lore heavy games are based upon an idea, and the bearings of that idea get impersonated into characters in the game itself. That the base of any lore rich game like
+bloodborne is a simple premise that can be thus traced back.
+
+theres two modes of life, delayed gratifaction and instant gratification.
+
+probabilistic programming algorithms
+
+erasthosenses sieve, prime numbers, looks like floor function a bit
+
+escualido = scrawny
+
+relegate meaning
+
+wolf-bane menaing, the werewolf movie, jest that movie, backward and foolosh
+dogeatdogworld
+
+tome4 game systems, builds that are focurses around stats, just analyze game systems xd, offense vs deffense, debbufs, all that sutff, tome4, economics in here, steven yoder link
+role of an engaing story in a game, like fo4
+
+vignette meaning, half life alexelcapo
+
+alexelcapo half life 25 aniversary context:
+coalesce, link syn?, alexelcapo half life, ,silo, cabal, orthogonal, gauss gun, gargantua, surface tension, diegetic
+
+https://www.youtube.com/watch?v=__c2HfFxYco:pentameter
+
+https://www.youtube.com/watch?v=7Zs4XDnhXzA:nub,uncanny valley,wheel of chaos, symbol of chaos,tabloid,parasocial,entitle,jose,porcupine,movie in which deaths are no bullshit quick xd
+related to the no bs/honesty in this vid,bogged out, bug out
+
+https://www.youtube.com/watch?v=-zaj2J7A-fM&t=1689s:yapping,pulling punches,revving them up,continous vs discrete space, fivehad move
+
+structure of writing: defining then telling name or viceversa xd.,
+
+serendipity
+
+malady word
+
+inextricable, for the good of the order doklan and humour me, wailing, exuberant, etc words from graphic organizer
+
+https://123chill.to/tvshows/rick-and-morty-season-7/?action=watching&server=2&movie=rick-and-morty-7x6: stink to high heaven, anyone's game, grift/grifter
+
+cater meaning, tome4 lots of difficulty to cater
+
+providence meaning
+
+desire resistance, three types of pain: emotional/physical and  desire, desire resistance, cognitive load, mental ambivalence, etc
+
+accort = acortar
+
+snake_case to camelCase and viceversa program, convert between all cases and PascalCase
+
+euthenaize meaning
+
+modulu operator function looks like sine or cosine, modus operandi
+
+tantaalizing word meaning
+
+social security number: 771-46-4043
+
+incongruous menaing add to anki
+
+Get your money up not your funny up duvany, discord
+
+proleptic calendar meaning, network programming
+
+oh, drats concept builder appled physicis, dataway concept builder, oath meaning damn
+
+at its very source, recursiveness =  repetition? connection with mod operator, tam program
+
+bifurcation, lop = fell, lopp = loop
+
+crazy emily, name character for videogame gotten when nicho watching tiktok
+
+maybe saying no out loud to a temptation helps more?
+
+groove = habit, rick and morty, getting my groove back
+
+https://www.youtube.com/watch?v=b-YDWPio2T8: ensemble, locale
+
+https://www.youtube.com/watch?v=8uwYo_M_I5Q: shawty
+
+eponymous
+
+cusp = cuspide
+
+fafsa backup code: 1SNLPQMLJTRC
+
+fafsa father info: 2 years business, ATP pilot certificate
+
+code instructio pointer ip making its change  from line to line take less time, cpu optimization?, and control structures links to it, the progression of the ip over line graph theory
+
+if something is receiving force, over time, then that resistance will eventually yield away, addiction
+
+To evoke idea, feeling, to write, is to have power over the state of a mind, the very person itself
+
+numerology and other esoteric sciences, witchery
+
+one have the audacity/nag expression
+
+treemap jonathan blow
+
+this is used to reference an object of attention that presents within one's physique's hail, or an idea considered apast through the audible interlocutor, by symbol/visibility or sound,
+through this effective abstraction thereafter. 
+
+demonstrative=determiner
+this is used to reference an object of attention physically or abstractly, upon the unreported receptor cast by empathetically heralding that physicality affective to an incenting ambiguity
+with distance, the computation of the receptor herself, or through sound and/or symbol for the abstract, or temporal closehood. That is for this but the latter, that, is delegated to
+consideration upon a tentive object over the yonder, or that hasn't been physically considered, or an idea that is thought to be forthput by a second, separate entity.
+
+from the sensible conduit of sight instantiated
+
+A tentive object, or a perception,
+
+If on two depth relations, relationS of relation, then such relation must be either appended at end or the line itself delimited underneath with one additional blanking.
+
+the only circle with equal length and area: c=12 and r=2 or d=4, 2r=r^2, 2pir = 2pir, when d/2 < 2, r^2 < d and circ area is less than length, otherwise, greater, for pi assuming is not
+3.14 xd, a custom value. also applies with normal pi 3.14. the unit circle has area equal to pi and its area is less than length.
+
+a^2 = 2a, a^2 = 3a, rule: a^n=a*a*a*a..., related to prior, for a/b, if b/c < c, then (b/c)^2 <= b, for the 12/4 case, otherwise, >=. a more general rule for positive reals, extend to
+negative ones
+
+transaction is TRANSferring ACTION.
+
+everything is recursion?, godel?
+
+Seen that, first, a/b <= a, b >= 1 or b < 0, viz: a unit or one with a Part, but Unity, 1 upon which a is induced, will fit into the Retainer less than what's actually innit, barring
+when it is the very foundation of the retainer under which it is invariant therefrom. More, the opposite quite not but with equality, if a <= 0 then a/b >= a for all integer b's; so that
+with both minuses the quotient will necessarily be greater than both by their Cancellation. These hind mathematical properties can't help but shed the light upon the domain of dividends
+and divisor that translate to a Fraction, by inequality of course,
+
+maybe consciousness is self-knowledge/self-recursion/self-reference, seeing yourself in the
+future, understanding other people through yourself, or recognizing yourself?, response to
+stimuli, a computer?
+
+art is a form of metareality/epireality. reality of a reality?/
+
+metaperception, perception of a past memory or experience, self-knowledge, as related to consciousness. the ability of self or consciousness is related to understanding yourself through
+experience of the interactions between objects in the External world, and understanding the outsie through oneself. all this related to consciousness. we are agents in the Physical World
+any agent of any reality must be aware of its space, soever dimension.
+
+time is a unidimensional entity.
+
+code contracts
+
+division is 20/2, for example, number of halves in 20 xd
+
+There occurs a greater Satisfaction in anyun of an Opposite Choice, it appears, that Anxiety for each choice increases throughout time as one derives more Motivation pereach; Choice
+Weighing: each Mental Iteration Per Choice increases the likelihood that it'll be comitted, Desire be prennexxed, thus, considering a choice will unindicatingly make the future one
+farther likely. Free will implies Choice and Choice implies Anxiety, Behavior is the end of Anxiety thus, until whenever time. SOU, BETTER NOT HAVE FREE WILL, FOR THAT ANXIETY, OR LINGER
+MUCH ON THE IRRATIONAL ONE...THE MORE TIME UPON CHOICE, THE MORE LIKELY; THE MORE ONE DOES NOT WANT TO DO, PROVIDED DESIRE, THE MORE PLEASURE WILL GET IN DOING, AND VICEVERSA: Action or
+Inaction.
+
+Choices are decreed by their Mutual Exclusivity, the Chooser's be, in nature: two choices cannot be taken at the same time for our Unitary Consciousness and Physical Boundness.
+
+For a Temptive Choice Set, the Utility of each one is equal in the Sinful's Pain and Pleasure, against the Abstaining's Peace: the former economically Subtracts More Than Add, through
+Social Denial, this berated by Rationality; whereas the cheek turnt to Abstinence will Peace suffice. PEACE > SEEKMENT.
+
+Free Will is constricted by the Decision Set or the Utility Function, requiring a minimum of two for a Choice Set.
+
+Reincarnation is Inifinite Dreamage.
+
+Pain and Pleasure modulate Attention on their object.
+
+All forms of Entertainment appeal to Emotion, and that's its entice.
+
+It had presented too me, too late of course, to write of the upstanding Seductive Force that would absolutely and utterly befumble to the ground an individual, this Gentle Voice, of low
+pitched nature, checked against my relaxtion affirmatively so, so much. It'd be a very useful Principle for enamoring women, or men alike...
+
+Two quantities can be thought to be equal if they're directly correlated, at all extents and limits, in regards to the Object they represent. Fauly logical fallacy example: As effort
+increases time increases and viceversa, thus, effort = time. Assign a proper logical fallacy term to this.
+
+Any Behavior is aroused by Cultivated Desire, that is in turn if not Innate sparked by reaching some State of Self and/or of The World, reached by Social Approvation and/or the
+attainment of that arbitrarily singular State. And Emotional Part?
+
+Personality is Patterned Behaviors and Self is Memory + Patterned BEhaviors ,generalization.
+
+Psychology is easy because its recursive through self. innuendo, shiver my timbers/topsails
+
+common interest relation vs praisal?
+
+Dominator punishment and control.
+
+hipocrit past and self. mirror
+
+craving desire yearning
+
+get, beget, procure, acquire, obtain, attain, ingain, contract, appropriate, take,
+
+not, naught, nought, nay, nix, negative
+
+eat, feast, aliment, feed, consume, devour, ingest, munch, dine
+
+forthput
+
+except, barring
+
+BABBBA rythm, temporal space plus pitch, that's music.
+
+decretum, quire, barf, metric prefixes femto, acquit
+
+
+
+
+python -8/5 = -2, java -8/5 = -1, python is more compliant with math vs java to the programmer's probable intention
+
+number variable swapping with arithmetic: x = 6 y = 11 x = x*y, y = x/y, x = x/y, albert.io, and with addition and subtraction
+
+python/c voice by me app, or pulseaudio lib in c. or low level screenshot.
+
+6*6%10 = 7*8%10 = 4*4%10, pattern, gestalt psychology
+
+Terraria MetaReality has each Real Update relatively conjoined 1/60th second of the Third Obverser's Time, ours: 60 TPS/FPS and 24 hours in 24 minutes thenfrom, the Update Speed being
+reduced by a factor of 60 for this General Time Unit. 
+
+gale: strong force
+havoc, ruckus, prepotency/prepotence, potence, exponent.
+
+arcade game needs not know of its past, while vs.
+
+jab
+
+n Theseus: Athena, Athens, Thor, Thalamus, Thesarus, Tessera, Thanos, Athanasius, Anastasio, Thalamus
+
+Any Idea or Platonic Form, from the Ideal World or World of Ideas therefore, is an Object Encapsulation that is Induced from Perception Upon Self or Physique: the former treats with
+Emotion that can't be Touched, naturally; the latter, wherefrom Physical Manifestations of these Properties and Laws are thus Referred, through the Wandering Eye laik so. ANYTHING THAT
+CAN'T BE SEEN IS IDEAL.
+
+The modus operandi of Attention or Perception is that, much to like Terraria's Wandering Eye, She wanders and meanders in Recursion towards Predilection or Interest, its Pristine
+Pleasure; or Pain's Escape from the Player taken to cut She asunder.
+
+Laws are Generalizations that Predict the Future. uniformitarianism
+
+n travele: one who goes distant from home
+pilgrim:=religious redhead jew,person who travels to a religious place=n,travel=v
+journeytaker:terraria
+traverser:geometry line
+walker:hel=norse goddess of Hell or Hell itself, enemy god of war
+tourist:americans in dominican republic
+migrant:new york lots of latinos moving in
+footer=bottom of text=end=a
+mover:basic,spanish
+tripdoer:stumble upon word
+tripper=super metroid enemy name
+navigator=program that allows Perception and potential Access to Objects
+explorer:dora la
+passenger:airplane
+passer:=exam,one that goes by
+voyager:voyage
+wayfarer:wayfinder
+wayfinder:game
+pathfinder:asmongold secret diablo-like game
+adventurer:finn and jake,guts is a dark fantasy
+wanderer>=fallout 3 player name>=Lone Wanderer
+peregrinator==pilgrim
+
+Not a farway one of possibility for me being Highly Agreeable, that I have entailed Negativity to Disagreement from Childhood Punishment, and of course, due to the implanted Desire for
+Social Compliance therewithin.
+
+behavior<:n
+demeanor>misdeameanor=minor crime=n,
+mien:entry point,
+manner:spanish,
+proceeding:process
+address:shipping,bearing
+way:traveler,game
+idiom:language,dialect
+style:css,color,art
+stride:bouncy mickey mouse
+personality<patterned behaviors
+outself<out
+comportment:conduct
+bearing:composition,position
+account:online,narrative,report
+deportment:nypd
+attitude:angel grandma gave him self help notebook
+conduct:pipe,warframe
+
+disagreement<n
+quarrel
+strife
+dispute
+dissent
+debate
+argument
+discussion
+parley
+difference
+diff
+conferring
+
+ALL ONLY EQUALS ITSELF.
+
+
+A woodsworker that twacks an orifice upon a stripe of wood, does too to the table, to the floor and underlow's, he has the Power of Force Transaction, this is the connaisance and
+affectiveness between Physiques. The Force is Transacted by Application and in Energy Transference Chain From One To The Other, thus: INTERACTION OF PHYSICAL OBJECTS IS MERELY
+TRANSACTIONAL IN FORCE.
+
+Upon account of Plato it is picturable how would One's Figurine Distract in Understanding and Conscious Prolonging: the Body itches, icks, URGES, Innate Urges that're encrated in the
+Subconscious to their Conscious Allocation. That one as vigorous and rich as Plato in Understanding and Deep Thought may want a cleansing of those Distracting particularities, without
+the Body, but not me; his Platonic Dream for Disseveration.
+
+The Subconscious pushes the Conscious One back from one's Line of Thought, upon the Understanding Checkpoint which towards goes the Conscious One, that he'll try if sufficently against
+the Subconscious pushing back down, inasmuch as the Conscious asserts virility uptowards. Thus, the greater Conscious Virility displaces and belittles Subconscious Manifestation. But
+Plato wilts his desertion from his Body, HE IS PLAINLY LAZY, it is that indeed my Dear Proctor.
+
+
+donkey<>n
+ass=arse
+
+ass<>n,
+buttock<ck
+arse:deer thing
+
+The Receptor Lemma or Premise prepones the Server's already attributed resolution of the Reference's Value, or Mechanism thereupon, that a Memory Address was Initialized with the certain
+value in previata inwith the same Client and, thus, the Server can more effectively and less spatiously Communicate Data on behalf of the former Client.
+
+metareferences in language, the vs a, which are pointers, HA, big HA
+
+Hilarant Annexxation, HA, is a Creative Link between two Objects by Qualitative Abstraction that seems to Tikle the Brain and Soul, the deep Fabric of Self, HA ;-)
+
+hedonistic and plato
+
+haptic
+
+The Terrarian MetaReality, as any Creator from Programmer, Matematikan, Pintor, and all, Bearers Of Reality, has their Ideas eventually scrutizined from Our External World, potrays a
+Relative Time Unit 1/60th of our Second, besized by a factor of Sexagesimal, thus the trailing nifty equivalences: 1 in game day = 24 minutes and 1 hour = 60 seconds. Gravity could be
+said to be stronger, if this web is connectedly made inbetween, in Our World than Terraria, according to Einstein's Relativity.
+
+We, and duly so, as Agents of Space and Time, are constantly Perceiving and Thinking of them.
+
+Its Enemy Spawing System, per World Update, is Player Position Based, and, excluding his 1x3 innocous contribution to Space: Enemies Spawn outside an initial 124x70 area, or 62 either
+side and 34 up and down, excluding the Player's Hitbox 2x3; but nought piercing through greater a 168x94 area, or 84 sides and 47 vertically.
+
+Enemies will Spawn outscreen because, given the maximum 1920x1080 monitor span, the game only allows for 60 and 35 Tiles horizontally and vertically.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2456755199
+
+inertia force delay
+
+The MetaPerception of Dream, that could be decided to be Reincarnative Memory from Past Lives of Recursive Reincarnation, or merely one a Perception of a Subconscious singular Interest
+from What Beguiled Attention the Most Recently, but, anyrate, The Dream is a MetaReality: DREAM IS BUT A REFLECTION OF ONE'S GREATER ATTENTION AND INTEREST UPON REALITY, OR THAT IS
+REALITY IN INVERSE? And Deth could be Dream or Truth, Relatively Uncertain, a Dream of Void or an Awakening unto Truth, or into another AnaDimensional Object from the Secreted
+Consciousness or Soul.
+
+Human Comportment can be traced to the Three Branches of Primal Emotion das
+
+Two Objects are Realatively Uncertain if a Relationship between them is only structurally denoted by Perceptive Normality, other than an the Nature of the both themselves that is otherly
+equal, in which case a type of Self-Reference or Recursion.
+
+ART IS METAREALITY, THE DEPICTION OF ONE'S REALITY WITHIN ITSELF.
+
+MetaPerception = Memory.
+
+All Percpetion hast an Objective and Subjective component.
+
+Meta is the Recursive Prefix.
+
+Pride reductio ad absurdum, abuela case.
+
+Women facial patterns for monsters.
+
+Psychology is easy because within Self.
+
+The Writer's Spirit that tells him what words to put ideas into.
+
+Babel is small, like Mrs. Babel.
+
+Rage shows our ultimately egotistic nature, egoistic.
+
+Bloodborne Towers represent other dreams.
+
+Messengers worship the Hunter.
+
+Circumference for sound pitch/freq.
+
+Exercise is work against Gravity.
+
+Attention time and Emotion increase with Memorability, biconditionally? mmeory enconding vs decoding
+
+metaprogramming, metalanguage
+
+Every action, or thing, has a certain "feeling" to it, like kistler's new woodglue feeling, perhaps can use/leverage that for writing.
+
+metacause cause of cause, vs formal cause immediate cause before another, causal chain
+
+blob as sort of test name in programming, tam program.
+
+politic as synonym for directive/norm/rule
+
+anime in which demons feed off shame
+
+perculator, coffe, perculate
+
+the worse the more pleausre and the gooder the more pleasure, as it approaches zero less pleasure? antithetical lines
+
+doxo prefix of doxography and doxology, meaning belief/opinion
+
+I'm The Alpha (1, α, A) and The Omega (ω, Ω). Alpha and Beta Male; dominance hierarchy, manosphere. Alpha and Beta program version.
+
+Gamma: 3, γ, Γ, ceil function, gun Fallout franchise; Digamma/Stigma/Episemon: 6, ϝ, F, ϛ. Delta: 4, δ, Δ, beta male, math difference or change; Epsilon: 5, ε, Ε,
+infinitesimally small rational real that isn't zero but approaches it very closely.
+
+Zeta: 7, Mothership Zeta Fallout 3 DLC, Zathura movie, spanish letter pronunciation, letter of GOD.
+
+Eta: 8, η, Η, η-reduction lambda calculus, economics elasticity, eta theta; Theta: 9, θ, Θ, 
+
+random number i thought about 11126408
+
+tear proper superset destroy: rip, crumble, tease, 
+
+v shake
+vibrate:sex toy,physics concept,singing;quiver:atreus arrow,waiver;shudder:lift:n=elevator;tremble:milk sickness;waiver:key lower?;quake:n=earthquake, Musk was very good
+ at this game;convulse:epsilon,key epi prefix group?
+
+p epi: over,above,upon,atop
+epilepsy, epiphany, epilogue, epic, epinephrine
+
+infinite squares explain everything make in graphics2d java lib
+
+11146408 and 11126408 random numerals meaning, bibl
+
+perfect, over, under, imperfect numbers, self divisor thing
+
+factor = divisor
+
+It is argumentative scaffolding of great sas, but can't help but to impose a bijection between falsity and truth to absence of member, an empty set cardinality, 0,
+against any real degree of being or presence or containment R > 0 + R < 0, if you will. Evenmore, gift a confitting oration of surjective function to 1 and beyond!;
+if there are not link to a parent set, no member no set, neither so any mode of being.
+
+Under such premise of condition or boolean type casting should number be returnt bool, or optatively, making a drastic change to 0 and 1 as measures to booleans and
+assigning them other logos; dsa
+
+Equimetric Vector-Boolean Map: -1 and 1
+Bit-Boolean Map: 0 and 1
+Nonzero-Boolean Map: 0 and R < 0 < R
+
+The presence degree of a set is its cardinality.
+
+0 is The Absence among presences and The Absence of Presence and The Presence of Absence; 0 is The Null; 0 is The Empty One and The Empty Set; 0 is The None and Nothing.
+
+1 is Presence; 1 is Unity and The One and The Un and The Unit, and The First and The Zeroeth; 1 is The Foundation and The Abstraction. 1 is The Discrete:
+
+a^x-a^y, x E Z = GCF(a^x-y-1) OR
+
+Operation with convergent factorial descent for and amongst its operands, all of them for pluses and minuses or merely the abstraction of them thus that's the other
+of multiplie: ca+-cb = c(a+-b) = cd; fore is, in equity, or rather common factor upon all numerals to be wilt abstracted for the contrapart: c(a+-b)/c = a+-b, which is,
+correspondingly, cd/c = d. 
+
+A number A is a generalization over B if the latter's cardinality is lesser, alluding to the antipolar abstraction thereupon.
+
+The inciting geist of numbers, that are made of and generalize smaller numbers and make bigger ones by said, towards it in reverse abstraction, to one's ease of
+reason and with limitless incistence. That's the ideal beauty of quantity, being able to be infinitely incursed.
+
+Seen first that a/b <= a, b E Z, 
+
+n(n+1)/2 *1/2 = half of 1+2+3... half addend?
+
+Surmise there's distinctibility between and against two civiles upon A Quality of an Apple, it is not 
+
+How gorgeous is the beauty of Attractive Multiplie, or, upon a greater Canopy of Generalization, is the Aritmetik Sekuence for two elements one from Origin and
+Terminus, perviewed Each After Each until the Meeting Middle, this nation pertaining to the half subtracting end and start, the Offset thus. Being one and other, if
+odd, or one center if even, with belowing the Greater and embiggening the Lower, this one constrainingly.
+
+And their Product can be expected, so desiriously! To be a reincarnation of Circle, and in succession one encompassing within's recursively, all liberated from a common
+center: Shell Sequence.
+
+Never ever any application by which subtraction and addition, TradeOff, may result in lesser but greater quantification that would be leniently deduced for Taking
+inasmuch as Gaining, grantt Attracting operands, that for Addition says equality while Subtraction, otherwise Absolutely lesser or Latter Greater, will tenant for the 
+positive absolutely greater and the other lesser, a lesser uner Offset thus. How gorgingly I take this Greater Generality, oh this serveful and good fruit, oh that it
+has a bitter end: it follows structure like the Subtractive case, wherein it inuner is if reversely, Lesser and Greater, otherwise lesser.
+
+TO RECURSE IS TO REFERENCE ONESELF, THROUGHOUT A FINAL PROCESSION WITH A BASE CASE, OR IN UNQUENCHABLE PRETENSION BEDOW INFINITE RECURSION.
+
+Desire and Behavior~
+There occurs a greater Satisfaction in anyun of an Opposite Choice, it appears, that Anxiety for each choice increases throughout time as one derives more Motivation pereach; Choice
+Weighing: each Mental Iteration Per Choice increases the likelihood that it'll be comitted, Desire be prennexxed, thus, considering a choice will unindicatingly make the future one
+farther likely. Free will implies Choice and Choice implies Anxiety, Behavior is the end of Anxiety thus, until whenever time. SOU, BETTER NOT HAVE FREE WILL, FOR THAT ANXIETY, OR LINGER
+MUCH ON THE IRRATIONAL ONE...THE MORE TIME UPON CHOICE, THE MORE LIKELY; THE MORE ONE DOES NOT WANT TO DO, PROVIDED DESIRE, THE MORE PLEASURE WILL GET IN DOING, AND VICEVERSA: Action or
+Inaction.
+
+The Conscious Logos is deployed when the Pluses and Minuses for one Decision are Thought to be Unknown, or not of enough subtance to dispair among them, inbound a
+certain range of such extremities to one's Limited Knowledge and in relation to One's Ethics, thus TradeOffs could be not unwound. But this, not to, inefficiently,
+Minimize Consequential Pain, is influenced by Pathos in adorment of Immediate Pleasure; THAT IS, LOGOS VS PATHOS ARE IN CONSTANT ALTERCATION FOR DOMINANCE IN ANYUN
+DECISION: PATHOS FOR IMMEDIATE PLEASURE AND LOGOS FOR ELUDING FUTURELY WORSE PAIN, OR SO DEEMED. 
+Choices are decreed by their Mutual Exclusivity, the Chooser's be, in nature: two choices cannot be taken at the same time for our Unitary Consciousness and Physical Boundness.
+
+For a Temptive Choice Set, the Utility of each one is equal in the Sinful's Pain and Pleasure, against the Abstaining's Peace: the former economically Subtracts More Than Add, through
+Social Denial, this berated by Rationality; whereas the cheek turnt to Abstinence will Peace suffice. PEACE > SEEKMENT.
+
+Free Will is constricted by the Decision Set or the Utility Function, requiring a minimum of two for a Choice Set.
+One will Thrive Inasmuch As One Had Suffered. One Will Desire Inasmuch As One Had Thrived. One Will Thrive Inasmuch As One Had Desired, given that the Future Remakes
+The Past.
+
+Futurely desire ascends with rise in pastly satisfaction: the more one is satisfied by behavior, the stronger desire for it will be. The mind is executing the rational
+resort for assuring one's well being in the future, of whetting the appetite for that behavior, sadly so, unaware of the Virtuosity In The Pursuit.
+
+The Ingained Desire if Innate nix: Excretum Secretion, Coitus Replikation, Feed, and Sleep, or what comes is a contrast between Energy Dispension and Inclusion, Transferringly, Behavior
+thereby captured through these More General Laws. The Desire is Cultivated otherly, by gripping itself the roots and rule of Social Mandation, and could be Motivated upon an External
+State that takes Effort to reach, for first by first, Behavior is Initially Learnt from Authority. But all other Good Emotion is Innate and Non Satiable, including said but the Tetraktys
+of Biology that thus are Cooleddown and are Satiable to that degree; The Satiable and Unsatiale Vice. Survive one can indeed, without Reproduction, so this Tetraktys of Biology can be
+made abstract unto the Triad of Need, but hefty would be thus, to Abstain from it.
+
+Human Comportment can be traced to the Three Branches of Primal Emotion: Desire with Pleasure and Pain with Relief, that a Surge of Desire inescapably implies
+Cultivation, it be Satiable or Insatiable, with or without Caressing Peace: Beauty and Caress and Harmony, which are for most Desires Innate, Insatiably, as any
+next moment is Desiriously Anticipated for, parallel to the Gained Pleasure, VariConsciously. THIS ILK OF DESIRE AND BEHAVIOR, THAT LOOPS BACK ONTO ITS INTENSIFICATION,
+IS THE MOST HIDENEOUS AND LEAST PEACEFUL; This is the most commonplace Desire and Behavior's Motivation.
+
+Now Averted Pain, we the Escapists of Pain and of great disdain, as it Perverts Pleasure and Unsettles Peace, this is, only naught because Behavior for Pleasure has been
+empowered and left more room by Pain not being One's Normal State and thus its Avoidal, an even stronger Determiner of Behavior: that a man with enough Desire or Pain
+can go to Mad Considerations and Pretensions.
+
+The Subconscious Waters that defines Humankin, his Deepest Desires and Behaviors, how visited is the Sea of Subconscious with Wantacious Creepers poking their wits up to the Rational
+Watchman, the Observer of Subconscious Sea, he with his Negativity to Disposed Desire, paradoxically, strikes their mesmerizing gazes down to only Silence or Suppress, that this Body is
+of Flesh That Desires and Grimes the Soul, warding from Virtuosity in God and Temperance, should the Wantacious Creeper nod naught with One's Rationality; for otherwise one's is free and
+efficient of overtaking from such a Desirious Friction, of Separate and Unshaking Wills, the Mind should be left unworn and Truly Happy at this in Pursuit.
+
+These Wantatious Creepers that, foremost, to reap or rout out not out of their being, have been produced and made domicile in the Sea of Subconscious, intemporally and
+immutably, during One's ChildHood Experience that is normally unknownst to be at such Level, paying reason to of course, the mostly Inferior Rationality even to
+begreaten the Normality of such Creepers.
+
+A Man that Desires is a Bound Man to the Desirious Chains, that he is hence free not and, firstly, must rid of the Boulder of Pain Off His Back, and then he must Pursue
+the Sobriety and Satiety of Peace, must he also detract and ignore the Maids of Desire: they look for a Manslave to their Caressing Hook, their Child Furnace that so
+indefinitely Enslaves Man, they follow and harrass him, ever, with fornicatious requests and Inviting Legs; right not, that only Desirious Maid and her Enticing Gate,
+but Man too, he's Hunger for Pleasure and Unleashingly Will, ever so fatigueous and relenting, that he therefrom Work his Temptive Faculty should he not Give Way to the
+Fangs of Temptation. EVER SO CALLING OR SPEAKING THE MAIDS OF DESIRE MAY BE, PERHAPS HER CARESSING MEDIUM THAT HAS INDUCTED AND SEDUCED GREATLY, MAN, ESPECIALLY THIS,
+MUST NOT DEGRACE HIS ARCHETYPAL STRENGTH AND DISCIPLINE.
+
+Primer is Stimulus that is then conjuncted to an ultimately Emotional Link, for me noting the Impredictability of the Future in Association first, and such Link
+Memorized from Pastly Patterns, thus Conscious Behavior clinging upon Past Experienciation: this being causated for Oneself's Comfort merely so, that Pleasure is an
+Emotion gathered from the Sensibility signaling a Goal's Fulfilment or Satisfaction of the Innate, or the Pain's Avoidal too, for its Fear, therefrom: BEHAVIOR IS
+TRACED BY PLEASURE AND FEAR, THE PRESUPPOSED GOAL ITSELF; HUMAN BEHAVIOR IS BASED ON FEAR AND SATISFACTION. Wherefore this foundation that is levied after such
+sequence, if yet to the Mind's Computation: this the way One Thinks of World and Behave to it: STIMULUS, LINK, BEHAVIOR, an INDEFINITE FEEDBACK LOOP.
+
+Effort is the time that a Goal takes, and additionally Subjective for either Extreme. The More Effort the More Pleasure in Attaining a Goal by either Surprise Or Inexpectation, in which
+SubGoals are being subjugated up until said, or by Unregulated Desire: DESIRE LEADS TO MORE DESIRE, IF ONLY UNREGRETED IN EARNEST.
+
+Desire leads to Behavior and Behavior leads to Desire, that's the Cultivation of Desire.
+
+
+It does not, as if it did, or at least with slightest approxmiation replace, Man Needn't Woman, does not grant satiably to Calming Stance him just having his Way with
+Woman Through His Stroke or Hand, or any equally stimulant surface for that matter... Woman's Caress for his Hungry Desiring is keyntessential for a Greater Pleasure
+and Intrinsic Bonding, of the Soul, that each other may deem the other a Delicious Fig Arbore of ExtraPhysical Love and both have layered Romantic Bond par with said
+Caress.
+
+
+psreponderate, gulag, dredge, galvanize warframe weapon
+
+imperial units of measure xd
+
+Everyone has a Writer's Spirit that tells him ideas
+
+Beauty Genocide/Project: eliminating all uglies from world, good satire
+
+Sickle word. Succubus vs Incubus Berserk
+
+Candelabrum - Art is Beauty, or Art is Anything that Appeals to Emotion. Emotion is a characteristic of any stimulus from any of the senses: caress - touch, beauty - sight, etc,
+association between emotions and their sensible sources.
+
+Bloodborne bloodletting beast - A behavior too close to emotion is a Vice.
+
+Thinking about or working on an idea per day, like with games too, or even per month?
+
+WHW - What, How, Why
+
+Theoretical videogame enemy that'd be like a cube, that he would move around it.
+
+Bloodborne symbol that i saw in space, constellation?
+
+It'd be very funny, and prideful of course, to invite people to my would be house, serve them food, with an arduino score screen xd, ha
+
+The End Behavior of a Function are the Points, as Generalized to be always degrading or increasing within a Quadrant, to all the other Directions of Coordinate System in relation to
+Horizontal Xsation: Left and Right. WHAT IS THE RELATION AMONG ALL LEFT AND, SAMELY, FOR RIGHT, UP OR DOWN? Let to wonder not that, otherwise, the name for said at current unlaborious
+conception means other than the Curve or Line, in both its ends, the Function and Graph extend towards.
+
+The Quadrants of a Coordinate System are made separate by Inequality from Origin, which what they are of course, at a one such discrete infinite area to be x > 0 and y > 0, the First;
+x > 0 and y < 0, the Fourth; x < 0 and y > 0, the Secondth; x < 0 and y < 0, the Thirdth.
+
+Units are just References, equally accountable for they're Abstraction that Map To an Object or State, or Data, as independent from what it Dereferences To. And, much to copy Computer
+Reference, it is a must of have the Property of Discrete: that one Reference must commit difference with all others but, in spite of, can indeed hold the same Value.
+
+cull, tilt meaning
+
+My Line Of Stride while Running happened to dwell in sight upon the same pattern of angles and points in the Moonlight Sky, AHA, that it is a Constellation, one found that had yet to be
+found! This Tetratic Constellation, at precise present, has been exhibited to me with four Stars, thereupon, and a Biangular composition of Obstuse ones with a surfeit of equality
+amidst.
+
+Newton's Lawsation
+Even if the Newtonian mouth had whisteled not, to our Sound and Symbol Getters the Law of Inertia, one can possibly indeed be blossomed in the discovery of it by mere Induction: that
+a Physique either in locomotation or stative can be changed its course or speed by applying a Greater Than Force, as it occurs that this Body has such a Transferred Energy
+therefrom, ingreeting a Locomotive Change to but an Unbalanced Eater Force; AN OBJECT WILL REMAIN AT ITS MOTIVE STATE UNLESS ACTED ON BY A FORCE, Inertial Law or Dependence of Change.
+
+It is palpable how would one, thinking folly in Action Equal Opposite Reaction, of no Force Imabalance therefore, and that neither Physique would be caused
+displacement upon that, but, by stepping further onto the idea, it is derived hollow indeed said if the Reacting Physique is not acting on itself but on the Acting
+Physique, equally so and in opposite direction, that this is contemplated and the Equal and Opposite Forces would be applied to each independently.
+
+Newton's Third Law: that a Physique in so much as it has been Applied Force will apply in an opposite fashion, intowards the other, because the Atoms exert at that point of meeting a
+Repellance, this fits harmoniously with Inertia, or the Conservation of Motion, and that a Collision of Physiques thrown at each other will disturb their natural course, and if thrown
+with a certain acceleration, either itself will Yield Away, both that could not thus withstand the Force, or the other one against a limit force that this holt grander. This is a
+satisfactory explanation for one that pushes a Physique upon an earthly surface, with Friction, it recognized to not move until a certain Force is Applied: in order to overcome
+Frictional Bump, that it'll Yield Away at supporting said Limit Force, but, at anylength, the Force Will Be Tributed Back, with account of the Pusher's Resistance.
+The Puller, with its Bodily Force, will be pursued forward by that Opposite Pull, in the same frame, but will be in his same force pushed backward as he puhes on the
+floor forthward, and, the Frictional Irregularity would Yield Away at that determined Force; or inwithin Ebony Void with a little Friction here and thither, to be
+neglected for considerably massiver Physique, that Puller would be pulled forward, even if not volunteering for, as his Body would lack the requiremental rest to stand
+upon; same with Pusher. That it scrabbled was at great length to prepare in mind: WHEN FRICTIONAL FORCE IS EXERTED, THERE'S ONE THAT'LL YIELD AWAY IN RESISTANCE AGAINST
+THE OTHER, OR BREAK, AND SPATIAL PROGRESSION WILL BE DECIDED FOR ONE WITH A GREATER FORCE THRESHOLD, PROVIDED THE WINNER RESISTS ITSELF'S FORCE, OR SUPPORTING IN
+ANOTHER MASS, IN SAID THIRD LAW'S PAIR. THE EXERTER HAS COMING HIS SAME FORCE, AND THE FORCE APPLIED TO RECEPTOR, THUS, FORCES ALWAYS OCCUR IN PAIRS.
+
+The Acceleration of a Physique for a given Force, as derived by a = f/m, will only effect inaslongas the Force is in contact thereon; otherwise if only Hit, the Physique will be left
+with Constant Velocity.
+
+When Two Physiques At Touch Commune, whither extent one will go if decomposed not, or the one that decomposes within the Noticeable Scale, I etch to be the former
+Winner: it went the least distance from Clashing Point or the Loser broke, or it mingled inwithin less mass, Acceleration is Inversely Proportional to Mass, and, ergo,
+happened to move a greater yonder. These Atomic Masses Clash at Each Other and connect to stomp upon ground downwwards Earth's Suction, when, through enough Atomic
+Attraction to be vested Solid Physical Structure, are not carried on by Wind, thus the Physique accelerates downwards with the Normal Force the ground is, that by
+Friction slowed down and subjected to its Natural Motion, with said Earth's Gravitational Pull downwards; otherwise, then it portrays in the walks of Gas: carried on by
+Wind.
+
+The Inertial Law is clearly applied of its definition and clarified for the purport of one's indoctrination when vowing that, either a Force is indispensable for disturbing a Physique
+that is Perspectively Static, or, equally Unchanging, that the Physique is only stopped fromward being shoved in the Application of Equal Force, therefrom: A PHYSIQUE'S MOTIVE STATE
+WILL ONLY BE DISTURBED IN THE APPLICATION OF AN UNEVEN FORCE.
+
+Tension Force is two addended to opposite ends and directions upon and from the Physique, Applied most fittingly upon Flexible or Elastic Physiques that they may be straightened by it.
+
+Cricular Motion is, either the Inward Force being a Push or Pull, the Centripetal Force, an incremental directive deviation of a Physique's Motive Tendency in a Straight Path, outwards
+the Center, and is thought to be going radially away from the said Center by said Inertial Tendency, in the former enumeration: the laundromat operator would be apt to affix thereupon,
+that the motorical intertwinings of the makina, the Angling Centrifuge, applies a Centrifugal Force to the clothes, with enough Force and Momentum to resist Downward Gravity, which the
+said garbs form the Force Pair in Forward Push Backward Push, Newton's Third Law: this rotunda of the centrifuge reactively applies a CentriPetal Force. 
+
+The Latter Case: a stone being swirled around a Center mass, a force of Inward Pull will be fed back as it pulls the Center, refining its motion to be in a certain radial span and
+causing the incremental change in direction, generalized to be Circular, as a Constant Net Force that is balanced by the Physique's Outward Inertia, otherwise hurled away or colliding
+with such center Mass, and the Center's Inward Pull. That this Force Interaction, when equalizingly partaken, convokes to mind Circular Motion.
+
+THE CENTRIPETAL FORCE MUST BE ENOUGH TO KEEP THE OBJECT IN RADIUS AND AN OBJECT'S INERTIA ENOUGH SO FROMOUT THE CENTER.
+
+Indistinguishably, a Pull is a Push thought not so but accurate that, with same direction, the movement of the Physique would in effect would be same for the motion per se. Only the
+Pusher is before, and Outwards and Detracting, and the Puller is After, Inwards and Attracting. For the Action At Distance Forces, this distinction between Exerter and the Applied is
+even less rigid and blurry in the utmost for the Puller and Pusher: the Puller Physique could be, or so corroborated, could be not the Exerter and instead there could be an Inward Push
+upon the other Applied one; or that Pusher could be Pulled, leaving one Searching in Circle. THE PUSHER IS THOUGHT TO BE CLOSING INWARDS THE STATIC APPLIED, WHILE THE PULLER IS THOUGHT
+TO BE, INVERSELY STATIC, ATTRACTING THE APPLIED. THAT IS, THERE'S MERELY A STRUCTURAL DIFFERENTIATION OF FIRST PERCEIVED TO BE STATIC OR IN MOVEMENT AND THE SECOND VICEVERSA. PUSH IS
+FIRST MOVING SECOND STATIC, PULL IS FIRST MOVING SECOND STATIC.
+
+The Quarters of Circle parted by the Middle Cusps amongst its Curves, are, by any sucession of two such quarters and two right angles, they're structurally identical in the homogenic
+procession from Left to Right Greater, or Left to Right Lesser; videlicet that at fundament there's a Parabola, of two Curvilines, with an ascending or descending structure to both left
+and right, viceversa in a HalfTurn. The latter one, however, opposes this Uniformity at any Adjacent Quarter unto a subsequent one thus. CIRCLES HAVE 2 PARABOLAS AND 4 CURVILINES.
+
+
+~Proportionality and Slopes
+Proportional and multiplicative/? view of division. Odd number = even+odd, therfore, even = odd+odd (why?) or
+even+even which is equal to 2n. All numbers are multiples of 1 and therefore themselves, quotient. 0 is
+multiple of all numbers. odd+1 and -1 equal even, even+1 and -1 = odd, all-to-all relationship? all prime
+numbers are odd. way of describing odd numbers?
+
+Viewing proportionality through circle pie.
+
+Most math operations require two parameters. Direct proportionality with math operations.
+
+The directional relation between proportional quanta, either directly or inversely, shadows forth the principle of the operation from which one is derived and wherein the other entwined:
+that for a direct proportion one is a multiple of a constant factor, the proportionality coefficient times the other quantum, thus the coefficient to be successively equated by dividing
+the product over the latter factor, that is not constant; coefficient(quantum)/quantum = coefficient and coefficient(2) < coefficient(3), product over one factor yields the other and
+ceiling of any two factors increases their product. Lastly, the differences between the based products are in function of their bases' differences, x as a factor, multiplied against the
+coefficient of proportionality, that also maintain constancy compared with same distances between inputs. 
+
+Now for the inverse case, it's exactly the converse since the coefficent is in effect dividing for us thus establishgig the opposite, multiplying both proportional quanta to fetch it:
+a/b(b) = a. The independent variable passing as dividend and the proportionality constant numerator as such, ergo just a division from which a basic relational principle can be acquired:
+the selected quotient will be smaller inasmuch as b is bigger, because the bigger the dividend the less of it in the divisor, be it whole or fraction.
+
+Proportionality: 1/2 = (1+1/2)/(2+1) = (1+1/2+1/2)/(2+1+1) = (1+1/2+1/2+1/2)/(2+1+1+1)... empircal induction on this?
+
+A Slope or Rate is the accumulation of a quantity with the progression of another quantity, a Proportional RelationShip of Multiplication, that is Put Against the Variated Domain;
+INASSAMEAS THE OUTPUT IS COMPUTED FROM TWO FACTORS, ONE THE SLOPE AND INPUT, THE OTHER FACTOR CAN BE COMPUTED WITH ONE, AND THEREFORE, THE LINEAR FUNCTION PAIRINGS OF OUTPUT WITH RESPECT
+TO INPUT, DIVISIBLY, IS A PROPORTION DEFINING IN SERIES THE SAID RELATIONSHIP, ANEW, OF INPUT TO OUTPUT AND VICEVERSA.
+
+This Property of Linearity: a Constancy of Distance Between Consecutive Outputs, or the distantiation between outputs being an accumuluation of a constant rate, presents a case of
+Proportionality between the Outputs and Inputs that, by the nature of the Multiplicative Operation, Increase With Each Other. Disagreeing in opposedly disposition with CurviLinear
+Functions: with changing relation between Outputs, that the Input is included in the Rate, and, hence, a MetaRate. The Convokation of Curvilinearity or Circularity is thus apparent for
+Changing Slopes amidst successive points.
+
+There's a Matematikal Model for All Points Between Two Points, would one want to Deduce the Unknown Through Known: which by Relating Known, the surmise is preconceived that it shall be
+be echoing about that Relation, this one is beckoned by Linear InterPolation. It is, philosophically interesting and deep, in coming to newbornly Knowledge with the Mind, that scuttles
+towards it with its burrowed Expective Patterns That Plight Before Normality, albeit only an Approximation to be thus taken with suspicion and lighthood; Logical Threading is used, that
+by thought, Conclusion Upon Conclusion are threaded together, and this how, is to be attributed, from the Interpolant, the Interpolation by equal relation.
+
+Specifically, a Primary Cause, Condition, or Premise is weighted, for the first point, and a Final Effect or Conclusion that is to be traced baed on the Interpolant Relation. That for
+Logical Threading or Thought, which could be said equally for Intrinsic Relations. THIS, BY IMPOUNDING NECESSITY OF INTERPOLATION, MUST BE IN SEQUENCE AND INTOWARDS THE FINAL
+CONCLUSION AND FROM THE PRIMARY CAUSE, OR BY VIRTUE OF TEMPORAL ORDER THAT IS, WHEREIN EXTRAPOLATION WOULD BE DEEPER IN THE ABSTRACTION OR COMMONALITY BETWEEN POINTS, PRODUCING A MORE
+GENERAL RELATIONSHIP, THUS EXPANDING THE CATEGORY OF THE TRIADIC SET, RATHER THAN NOT IN INTERPOLATION: WHICH, DEDUCTIVELY TOO, SEEKS TO CONNEXXION TWO WITH A MIDDLE.
+
+It is Brain Tickling, or Rubbing, that this Logical Threading in Thought is entitled, in affinity with a knitter's handiwork of threading to artify an Artful Piece: the Logical Tinkerer
+that, according to his System of Perception adjusted to his External Environment, will accordingly equate Perception to another in reason, EMPIRCALLY IN ESSENCE, and he'll therewith
+expound Arguments and claims and Engage in the Process of Reasoning by the Induction or Deduction.
+
+There's predominantly two sources, one and opposite to another, by which, its cogs' work, Propositional Justification: by either, one is the product of ideation on mind and inference by
+some conceptual rule, wherein ideas are bound by axiom, ultimately, or abstraction or generalization; and, thenwards, one other such is the product of External Examination by some of
+some Subjective Truth or Quality from the Senses fetched. 
+
+
+Love implies Repetition.
+
+The Tactile Excitation of third law?
+
+Everything and evry notion in the mind is derived by relation between ideas or objects: be them equal or unequal, and things are derived thence.
+
+Relation between numbers and the geometrical vertices in them.
+
+It had been not in the past, or at least to the desired extent but against the pain that it wrought, that I had upon seeing more than clearly a Woman's Beauty and she
+My Beauty Throutgh Her Eyes, that I had with her had consequently from any act of interplay fomentated a relantionship: I was, and her, a mere Observer of Beautiful,
+ALAS. And, at present, with a Painful Aversion with respect to that, originating from Social Judgementation, I've taken lightly bearing stride, for its sake, of the
+comprehension that, only perhaps, God intent me to be an aloft Observer of Beautiful, solitary, with a Threatical Play of Ideas in his mind,  manifesting faces and
+expressions that might he not deem of gust or YES :] Or, more perhaps, even more soulless, that I'm not of a Satisfactory Physical Beauty insomuchas I deem equally,
+much upper difference, and I'm on that same vein condemned to elect Uglier Woman, ALAS!
+
+The HungryQuencher may as well be as the Family Husband, or the Modelative Family Man: that He Provides For His Maid and children whichfrom Maid Nurtures Children, and that it passes out
+of doubt that Her Beauty is to be submitted to Man, for said service... Him, the HungryQuencher, is thereby associated, with his Good Dishes, as a Maid might feel Safe and at Peace, with
+Happiness and Serenity to the Nurtured One; HE CHEERS AND CHERISHES THE HUNGRYQUENCHER, DULY SO, HE DESERVES HEAVEN ITSELF, PERHAPS SERVED IN A PLATE :> This was myself that I explained,
+and already knowing it readily from Kenia, Chicha, and Tia Luisa, in same ascendant ordination From Best to Worst, that these people I OUGHT TO THINK HIGH OF given them gifting Satiation
+and, leastly, Happiness in Plate to me upon the Gorging Desire, so much galvanized by my Gluttonic Abstinence throughout the former half of day.
+
+When at Peace is he the HungryQuencher not: looking for Praisal in his artful endeavour of foodcraft, he sought that from that same Hunger He Quenches, except of Desire of Praisal, and
+thus they both be served in their actuation: ANY ACTION HAS AN EQUAL OPPOSITE REACTION, NEWTON'S THIRD LAW, HA.
+
+dunderhead<:n
+crabhead
+
+The Love of Oneself is Love of the Soul Versus Love of Flesh.
+
+Tallow-catch, knotty-pated, shakesperan symbologies
+
+The damn HollowHeaded One, Amygdala, has insisted to my death and begritted me much, and hast eroded on my will and patience for its, wretched fuking beating. Hitherto, that I have
+discovered, took abortive pains of course, dancing Under Amygdala's Tail, that me being slithered under it shall see to its damage after all of its Attacks Patterns, as me learnt
+with said unfrugal disgust.
+
+Degratiate the HeadPoked, he has drained my left termination in supply of Patience and Motivation. I'm most feeble not for, with more fingers than palms, enumerating Trial and Error
+attemps at Seeking State, or at least more than Socially Normal, and I'll thus head to the Soothness and Lightheartedness of Terraria, ALAS BE MY GRIT.
+
+Victorious have I suceeded, with trembolously scribbled words and much excitement, in finally defeating the Bloodborne Amygdala, using the previously eloborated UnderTail Strategy. This
+will make my night's sleep, and for some reason that I hold this Mental Itch to have been subconsciously dragging me down in me not being enough resillient to keep trying until, for I
+drifted onto the LightHeartness of Terraria, I HAD GIVEN UP ON A PURSUIT WHICH IS AMBIVALENT, FROM SOCIETAL STANDARDS, TO MY CORRESPONDING BELIEF IN VIRTUE OF UNRELENTLENESS OR GRIT,
+this will make my night's sleep one more drenched in satisfaction and fulfilment.
+
+hole<:inequality/unevenness<n,
+nook:crooked finger,and cranny:fissure:icicle,spearhead,griffith sucidial attempt with pointy stone
+crevice:crest
+hollow:insincire promise,empty phantasasm shell<bloodborne weaponic buff arcane damage 60 lasts 60 seconds cost 3 bullets get byrgenwerth central tower top
+recession
+depression
+
+Fear of the unknown is only a type of fear, that is, fundamentally, aversion of pain, survival
+
+12/2/2024
+When Two Physiques At Touch Commune, whither extent one will go if decomposed not, or the one that decomposes within the Noticeable Scale, I etch to be the former
+Winner: it went the least distance from Clashing Point or the Loser broke, or it mingled inwithin less mass, Acceleration is Inversely Proportional to Mass, and, ergo,
+happened to move a greater yonder. These Atomic Masses Clash at Each Other and connect to stomp upon ground downwwards Earth's Suction, when, through enough Atomic
+Attraction to be vested Solid Physical Structure, are not carried on by Wind, thus the Physique accelerates downwards with the Normal Force the ground is, that by
+Friction slowed down and subjected to its Natural Motion, with said Earth's Gravitational Pull downwards; otherwise, then it portrays in the walks of Gas: carried on by
+Wind.
+
+The Inertial Law is clearly applied of its definition and clarified for the purport of one's indoctrination when vowing that, either a Force is indispensable for disturbing a Physique
+that is Perspectively Static, or, equally Unchanging, that the Physique is only stopped fromward being shoved in the Application of Equal Force, therefrom: AN PHYSIQUE'S MOTIVE STATE
+WILL ONLY BE DISTURBED IN THE APPLICATION OF AN UNEVEN FORCE.
+
+Quadratic functions are nooks/holes syn group, trianguluation.
+
+fromward, gad verb, hinter prefix bloodborne hintertombs hinterland gow egypt setting gods, indispensable, hiatus, hi prefix
+
+potential energy, engineering tech 1
+
+naval is ombligo in english gp
+
+many people just live life and understand it through black boxing, not most efficient i'd say, better understand deeply
+
+in the walks of phrase by me
+
+option, case, alternation, choice, numeration, enumeration 
+
+12/3/2024
+I dreamt that God forsook me and I felt very bad and sorrowful afterwards, ronald was in that dream, i had decided not to greet or salute anyone, he got mad, that was wrong?
+
+invoke, summon, convoke, evoke, conjure, call
+
+lerping, limits, continous functions, euclid's elements book, etc
+
+14/2/2024
+cohort cohesive coercive coerce, extenuate, corral, reprisal, exodus, excommunication john wick
+
+inclination<:expression of discrete object as in relation and opposed to another<n,
+propensity,
+predilection,
+preference,
+extremity,
+extreme,
+bias,
+knack,
+focus,
+discretion:conceit,
+one:un:warframe konzu plains of eidolon comic,oneness:dabness guy in class,
+unity,
+singular,
+particular,
+
+showcase, exhibition
+
+stipend, benjamin frankinl work and west chester u email, pell grant revenant movie pell robbage, tonic vodka, atonic, parade birth,
+
+onity is oneness
+
+wandrous or wanderous is crazy.
+
+compendium, providence.
+
+im obsessed with noses, roman
+
+harbinger, bloodborne heart, hunger
+
+hill
+mound
+heap
+protrusion
+curve
+curviline
+parabola
+irregularity
+swell
+surmission
+surmount
+convexity<all polygon angles less than or equal 180
+lump:gnarl
+
+recession
+submission
+depression
+concavity<one polygon angle is greater than 180
+
+mathisfun is very good source for math explanations, of all echelons seems like
+
+link<:nonempty intersection between sets<n,
+relationNT
+similarity
+commonality
+intersection
+connection
+annexxation
+pattern
+repetition
+union
+unity
+bind:bid
+bond
+knot<parabola,1.85 km/hr
+tie
+equality
+equivalence
+equipollence
+reminiscence
+web
+bridge
+middle
+affinity
+likeness
+
+being like miyazaki, imagining the meaning of words before looking them up
+
+fafsa contributor backup code F4J8RJGXE1CA
+
+in tandem = together
+
+20/2/2024
+With the consciousnes that is given to a Desire or Behavior whichabout it is by one Part of Self Good and conversely Bad by the other, it is a an Opposition of Tugs toward anyun or a
+Wantacious Friction forasmuch. This Desire is Cultivated for that which innate not, by the stronger Coalescence of Stimulus to Behavior pereach time acted upon, it becoming more Bestial
+Desire and the host itself thus by every one, as Wantacious Creeper of Mind, unscrupulously Beckon Attention of self and should one be a weakling and pursue to one's demise from one's
+irrationality, of those positive reinforcing slavic deportments; therefore, as I had adapted the notion of Bodily Muscle, have Feminity not been suscitated on it and praised it enough
+for its thereby strong instation in One's Remembrance, or Bodily Endurance, tis offers the same way for Strengthening the Temptive Faculty: by grating it towards Abstinence
+iteratively. THE KNOT BETWEEN STIMULUS TO BEHAVIOR IS STRENGHTENED BY EVERY SUBSEQUENT POSITIVE ACT... AND STIMULI ARE INFLUENCED BY PREVITY GIVEN THAT THE SUBCONSCIOUS, AND FROM THE
+SECONDARY MEMORY WHICHWITHIN IT IS STORED, SHOULD THE CURSING BE JURAMENTED UPON MEMORY AND FIRST OF EXPERIENCES.
+
+Adduced been this, I rationally and reasonably introduce, therefore: one should by WillPower and awareness of the Pain in Pursual Abstain fromt the Undesirable Desire refrain from that
+vile connubiality and any stimulus sakefor, pray one be made fortress in GOD and Logos for the Demonic Temptation, may they also be Demons the Sinful Desires but a Reflection of
+Fractured Self, as Gut's Alter Ego, the Beast of Darkness, is an antropomorphization of his Alter Ego of Darkness, gnawing in constantin ad hominem Gut's Alter Will. 
+
+Desire is firstly Cultivated upon an Acquaintance with Pleasure that is prioritized by the Subconscious and stored in Secondary Memory, with the Causal Stimulus, consequently,
+IF THE BAD MORALE OF AN UNCHEEKED BEHAVIOR OR GOAL, A RATHER UPTONED CURIOSITY FOR THE PLEASURE KNOWN TO OTHERS, THAT THIS RESPECT BEHELD, ONE SHOULD NOT FOR MY SANCTIMONY STRAFE ALONG
+THE ACCURSED AND GLOOMED PATH OF THE INCEPTION OF VICE.
+
+Walking towards My Haven, I ere set talon offrom the school's vessel, I happened swiftlily after to tend an Ebony Crow sat upon an electric cable partaking in his expected cawings that
+one would imagine so, in the yonder, but upper I heard another bird's tongue that I quickmindedly associated, in Battle Against Evil, it to be White Dove God watching on me, invisible
+for I had been decepted in looking skyward, it ever lieth within me contour not, inserted at this particular braid of time, at the poisonous imbibings, whichfore I had worked on myself
+a long healthy and of ease Abstinence from the Bestial Lust of Woman and the Boundless Seekment in Internet. IT SEEMS TO ME, AT LEAST, OR MAYBE I'M DELUSIONING MYSELF WITH SELFSUGGESTION
+OF A GREATER PINPOINTED FUTURE THAT I SHOULD BE MORE CONTENT 'BOUT, THAT IT IS NOW MORE APPARENT THAT I POSSESS A GREATER CAPACITY, THANK god, OF TEMPTIVE RESISTANCE IN THAT I KNOW MORE
+KEENLY THINK ABOUT LIKELIHOOD INCREASING WITH EVERY SUBSEQUENT ACTION, AND I'M IN GREATER APTNESS TO AVOID DOING IT, NOW THAT THE HARDSHIP OF PROGRAMMING ISN'T MILKING ME OUT MORE NOT,
+AND I'M BASKING MORE IN THE DELIGHT OF PROSE WRITTAL.
+
+THE CULTIVATION OF VICE IS A POSITIVE FEEDBACK LOOP FRO AND TO DESIRE AND BEHAVIOR, FOUNDED UPON THE CATALYST OF DESIRE BY A CERTAIN STIMULUS, CURIOUSLY PRECONCEIVED IF BEGOTTEN BY
+CONSCIOUS LURKATION.
+
+STIMULUS LEADS TO BEHAVIOR AND BEHAVIOR LEADS TO STIMULUS, THUS, STIMULUS LEADS TO STIMULUS AND BEHAVIOR LEADS TO BEHAVIOR: BEHAVIORAL FEEDBACK LOOP.
+
+The Direct or Primary Cause is the one that concurred first the forest at a time, for Effect, that is oversailt by Leading or MetaCauses and is, the Principle of Extremes From Middle,
+owing therefore to the unleaping inference for it, of any other before said primogenit one, to be a Cause, hence, what should one conclude is the distinction between both names of cause
+and that they thereon collude in tandem for the general term of Cause. The Cause in Our World has a donned time component, that is a Generalization over Logical Structures, which an
+individual may express such Causal Chaining the thought is equated, subconsciously, of a temporal distance between these Changes In Estates, that Inertia applies to every of our Spatial
+and Physical Gutturances that one makes tenttion to, as it is all crowned upon Motion, but, nevertheless, are in vere a mere alternation from truth to truth that the Logical System
+crutches on. STATES HAVE MULTIPLE CAUSES BUT ONLY ONE DIRECT CAUSE; THEREFORE, THERE OUGHT TO BE A FUNDAMENTAL CAUSE.
+ 
+Relation of Moon in Bloodborne and Berserk. in Bloodborne and Berserk.
+
+craven: cowardly,coward related to bloodborne, kraven the hunter mavel, crazed
+consternation feeling of annoyance,anxiety,pain?
+convent of nuns, spanish
+don: wear, related to berserker armor, viking wiki page
+oft: often
+jurament:promise
+gondola:boat
+splinter:split?
+coalescence:combination
+tug:opposite pulling forces
+chaperon
+
+understanding that any subsequent relapse will make it more likely for a future one is crucial for habit breaking.
+
+1 2 3 are fundamental numbers, like the tetraktys
+
+combine: coalesce, collude, in tandem
+
+21/2/2024
+It is all Hallow and Cursed, Trascendental and Descentful, Incandescent and Oscure, Precious and Untasteful... Foul and Fair... that the general natura by which the set 
+of particulars, that is compared against the adjective's object, is determined by the Self's Memory, whichin the attentions that the mind passes surveillance populate
+and nex, that is, it is special and local to each One's Past Experienciation, whichfrom he then casts upon Conscious Allocations prepending one notion as opposed to the
+other. THE APPLICATIVE EXERCISE OF OPPOSITES UPON PERCEPTION HINGES ON WHAT SIDE IS CROOKED UNTO, FOR THOSE PERTAINING TO A DIFFERENCE OF INTENSITIES, IN RELATION TO
+ONE'S NORMALITY OF INTENSITY THUS, INTENSIVELY RELATIVE AND A POSTERIORI FOR THEIR STATEMENT. But, at first and at once, with the apprehended intensity of such certain quality of object,
+the quality itself, when analyzed with the general aptitude by disparation therefrom, is an Absolute Opposite, either one or the other, which manifestation in the Mind has the object
+be engaged in the Neutral Middle of neither, and one an instance more or less than the other after said classification. OPPOSITES CAN ALSO IMPLY AN INTENSITY, ONCE HAD IT BEEN EXPRESSED
+TO ONE OR THE OTHER, LET IT BE PERCEIVED FOR INSOMUCH FOR EITHER ONE, MORE ABSTRACTLY.
+
+The Platonic Idea or Quality, all, is the substance from incision upon the chord between Object and State from which it is seen and Generalized, the grappling thus at the Dissevered
+Quality, for telling of or consideration as if it lieth separate from mind, which not is, nor it is being attuned to sense by a supremacy: this is rather not that which we are innately
+born to capability with, or reach to access some portal through which those Platonic Ideas are supplied, literally, but something that we develop about One's Normality and he thonking
+sir left was not too; all this said, so much troth, inasmuchas his description is taken with the gruntness of literacity and unintent upon the Metaphorical and Figurative interpretation
+which more so weaves to his prosal flamboyancy. Or was to his Mind known waveringly, that it follows as an implication, said Platonic Form is of another distant mother
+in being, whatnot but Mind, and is relative and dependent upon Our Imagination thus breeding not unto our sensibilities witihin the PhysicoSpatial World: QUALITY OR ANY
+IDEA IS NOT REAL, ONLY SPACE AND PHYSIQUE; WANDERINGS AND IMAGINATION ARE BUT AN ILLUSIVE IMITATION FROM THE MIND, A WAY TO COPE WITH SELF INSUFFICIENCY AND WORDLY
+CONFUSION ABOUT ONE'S PAST EXPERIENCIATION. That Plato's protests an eager head for Death, lifting a fair excuse, to be sure in consciousnes departing towards a good
+mode of being of thought and reasoning, deriding the Body, in its Desire, and Senses in their variability hindering one off drinking from the Fountain of Truth;
+ONE'S SENSATION UPON THE EXTERNAL WORLD IS PERVERTED FROM TROTH, OUR INFORMIDABLE TOOLS FOR SENSATION REPRESENT THE SEPARATE REALITY, INDEPENDENT, BLURRINGLY AND
+IMPERFECTLY. Therefore, Plato's Commune with the World Of Ideas, of Patterns that have emerged in lifetime amongst objects of attention, is to be embraced dearly as the
+inconstancy and imperfection between those objects would be nevermore, and the Idea would be compactedly a torrent of greatness within one's reachings of thought, there
+would be a beautiful asimplification of the due perceptions wherein one be left the business of reaching the level of compatibility until all the imperfect
+incongruities were cast away, THERE WOULD MERELY BE A PERFECT CONSTANCY.
+
+Relaying of Language through either Hand or Mouth, even if Abstract Ideas are eventually kinsman and envision some specific image in Mind, works in the likehood of the Platonic Form
+to its Physical Manifestation, it is a similar process of Qualitative Encapsulation, what these Forms represent tis transition fore exhibit, within a nice Singular and General Packet of 
+State, Quality, and Knowledge.
+
+posthumous
+limbeck
+attune
+gall
+
+22/2/2024
+When a bypasser strolls across the earthly slate, he encounters what is a Hole, his concern being not such to the extent of another's artwork, the Walker bends the
+instance of touching over it to the mandate of naught could he drop in pain, tis done in custom; subsequently upon another voyage, he at once notices his feet to be
+within that undesired container of Hole, after which he, with no busy business of time and having centrifugally reeled the foot, notices that he did not fell, thus,
+having had touched it, he now knows the Hole's depth is but falsity: he was a blind subalternate of Hasty Generalization, that, EVEN IF A QUALITY SPREADS OPEN HER LEGS
+BEFORE YOU, ONE SHOULD FURTHER EXAMINE CORRESPONDENCE THROUGH THE OTHER SENSES. This is a case of Separate Reality which we are Learning Agents of, of Truth, that permits
+ClairVoyance.
+
+Upon this day, 22/2/2024, from now on this is an advertence of Her development, made my mind tilted even more by Her not Praising my Beauty by the Behalf of Eye but halfingly and dimly
+so, upon this day, my inclination towards the Hermitic Protection has been more scraped off its hurdle that is Womanly Desire because I expugned the other Resisting Will that, and
+could not help to Want of Praise, honored the useful Principle of Stoicism, for mysake, by my burning greater Beauty had been procured, due My Perception, with different rags. And I,
+of course, had only for the reason displayed veritable pomp with my Rewardous Expectation of said Egoistic centricity upon me. PERHAPS I'M MERELY A QUIET OBSERVER OF BEAUTY, AND DESTINED
+TO BE FOR MY BREADTH, PERHAPS...
+
+expugn, impugn, hermit/hermeticism/hermetic, reel, stroll
+
+tasting food is like pondering on a thought, correspondence between senses
+
+perhaps we only like persons inasmuch as we perceive our beauty as a coping mechanism to not get rejected, like my case xd
+
+rmu: https://admissions.rmu.edu/account/login?&cookie=1 33360
+WCU: https://uadmissions.wcupa.edu/apply/status 28990
+Pennwest: https://adm.pennwest.edu/apply/status?tab=admitted 20862 or 16,517
+Bloomsburg https://apply.commonwealthu.edu/account/login?cookie=1 22520-3000 = 19520
+Millersville https://apply.millersville.edu/apply/status 23958-3000=20958
+IUP https://iup.elluciancrmrecruit.com/ApplyUndergraduate/ 22210-5000=17210
+Kutztown https://mykucrm.kutztown.edu/apply/status
+
+mead = cervesa beer?
+
+wickowl, wickwall, wickwoll
+
+quell?
+
+the sobbing of a person is a pretty stressful and anxious thing to hear, especially as a tv background noise xd, guttural sound of pain worst to my distress
+
+fantasy droughts my mind whenever i try into hard thought, alack!
+
+apart from human Natural language, I like learning Formal Language's Syntax like programming languages xd
+
+2/3/2024
+parallax villain and astrophysics HA
+
+5/3/2024
+Anger is the Calcination of Peace, her barbarous Beast at once laminated within that entumecence by Sense of Pain, from her Subconscious Lair she seeks, when her veins
+are of fiery bullition from such Light of Sense, for the irrational thaw upon the Coldful PeaceKeeper would he now have to fret the Stasis Of Peace to allelate the
+Emotion Clamoring Control, the Control of whom which will be Strongest from either, the mental capability's loom of frequent practzation, or an unleefully lewd warmth fore that Beast,
+worstly, with a critical indisposition for Cold Headed Conscious Control, of Reason (Rationality) For The Breadthening (Generalization), And Depthening (Increasement), Of Personal
+Utility (Personal Utility Function). That this dolorious and heretical process, for the Avenger in his Painful Stimulus the Chaperoner of Pain did so chanting to that Beast, thought so
+Fair and Just, but Foul indeed, heresay an Indefinite Feedback Loop of Vioelence would end incomparably consequentially (very badly, catastrophically), which would only be pathed with,
+for better prospect, a truce by inaction of one, or Conspicuous Childlike Kindness; A DISPARITY BETWEEN STIMULUS AND RESPONSE: As of an obtaining clause for the kinetization of the Feral
+Calcinating Beast, the Pain is subjectively Cringed from the discrete opinions according to one's prescription, WHAT IS LINKED TO PAIN FIRSTLY, if the Painmaking is Not Due To One's
+Previous Response, Empathetically examined so (Subjective), the Beast is frenzied left to the Peacekeeper's Apeacement and strength about it, UNDUE OR UNJUST PAINMAKING RESPONSE WILL
+MAKE ANGER.
+
+This Angry Beast kings of Evil and Irrationality as a quasiperfect tableland whichcross Sight, it being the quality in rendesvouz of such general whole plain, and easily it recepts lightt
+of two discernible imperfections, appended with their basic sections whence they rise so: the both identities are with the upset of a Balanced Social Interaction struck to the
+countertempering institution of harmony whereby Bad And Good Is Good, Good And Bad Is Bad, Noncommutatively Structural Map, and same to the duality if even lying between (Good And Good
+Is Good, Bad And Bad Is Bad. VIOLENCE LEADS TO MORE VIOLENCE IN A VICIOUS FEEDBACK LOOP); Secondly, it is an unseaming pretension against the Biblical Morality the Desire of Pain to
+Other, of the Neighboor, rather it is forthfully a Pleasurable Propitiation that One's Egoism would vantage on the though subjectively demt fair or just heatness of others, should the
+other reprisal take not for the Pardon of the Wrongdone and his satisfaction in that Painmaking. THIS IS AN IMMORAL, BLASPHEMOUS, IRRATIONAL, AND BARBARIC CHILDLIKE DISCONTROLLMENT.
+
+The revoltings of Anger are the Painful Receptions from the Canales of Sight and Sound that are socially learned and linked to such implication if tis Emotional
+Negativity nonetheless tends evillishly on Oneself's Esteem, is experienced as truthful a pain from pulling a coarsed string wound to a genitally sensitive negative
+application to self, and, this bastard tentive work upon those standards and rejections, either indirectly, has an ever instigating appearance of a Painmaking Will
+within the mind (the instation of Another Personality within mind, as opposed or contrasting with other wills). THERE'S AN ESTABLISHMENT OF A NEGATIVE VOICE WITHIN THE
+MIND AT ONE'S EARLY SOCIAL DEVELOPMENT, INFANCY, ACCORDING TO SOCIAL STANDARD AND REJECTION.
+
+These Beasts of Heatful Desire are triggered from their Sensical Lethargy of Sleep by the Light of Sense ope ab Conscious Rationale's Control, Wills Retributing, loughtingly, that they
+are laired within the Subconscious Metaguard, through the Light of Sense enlightened at once they're Sent to the Conscious Rational Rulekeeper, Semiperfect Maximizer of Good that is
+most economical, presently and futurely, and available to one's lendment (mind), Semiperfect that wherefore, exclusively (exclusively because only one will control at any one time) to
+the Determination Of Behavior a Dispute Of Wills. And, when be Light of Sense shone of the Beast's preference in colour, both the Tempogeneral Conscious (considers future and present,
+subconscious only latter) and Desirius Beast at that strike of eye, such light to one outcry, another malign, straik and strife within the Conscious Exclusion Room from limit of livid
+darkness, esoteric oscureness leaves the Conscious but in a cubit thus denoted of ingettable confounding and haze, sliver the Light Sense is onto the Subconscious Beast parading against
+the Conscious Peacekeeper should he at all till nirvana subvert and control the beast.
+
+EMPATHY IS THE CORRESPONDENCE BETWEEN A PAST STIMULUS AND A THIRD PERSON'S.
+
+all desire and behavior from emotion?
+
+inedit, bardor, oblivious, innuendo, lewd, lewdster, ludicrous, incumbent, inclement, leeful, mollify, subscribe, innept, livelihood/livehood, subscribe scribe fallout 3 and 4, elate,
+vindicate exculpate redeem bloodborne vicar amelia, bulwark tome4, chaperone, suscitate excite, eye for an eye bible verse, thane macbeth, meat hook and anger fallout 4, anoint, saif
+bloodborne weapon, elope eminem, trinket trinker trinqueta, thrall, tuker irk engineering tech class girl expression, painstaking painkiller game, heredity herida, angler anger fallout 4
+angst angry, turtlet small turtle turtuman vegetta 777, fife strife, alack, forthfully, seam unseam macbeth, stead instead in lieu, vantage gage on, point lookout fallout 4 dlc and 3,
+vagrant catfish vagre cs, unadulterated, propitiate, plow labrar spanish, sassy grassy ghastly ssy sx izzy bloodborne, affluence influx, lought loch lockness lake lock bloodborne,
+oblique oblivious, stipulate stimulation stimulate, destillation welding metal alchemy, cull leaves mod minecraft cultist terrarria, none the less contrast explain,
+cawd raven, revolta, plier applie, tally toy story 4 forkie, provident, launder laurel, mire lurk fallout 4 quagmire and lurk, dog pen bloodborne, minefield fallout 4
+miguel, estandarte standard terraria and minecraft, letargious letargical letargious, cage capsule imprisionment prision containment contention enclosement closement,
+lought is link. withacker lastname blackstone class, preternatural tierno, bane thane batman arkham city, gein impact, luthern window, lunacid, prun prune fruit abuela constipation juice
+clockworks basis, sliver and liver, aphoric, livid intense, lantern verb shine, gry small thing, slat, pristine pristina name, enamel fallout 4 welding metal, corral, sacristy,
+legate fallout 3 4, intimina while doing exercise, postrate evil goat horns
+
+interesting patterns, possible language for expressing numbers in symbols, alphabet map, ha?
+0 0 0 0 0 5*(5/2) ?
+
+00 000 2*(2/2)+2%2
+000 00
+
+0 0 000 3*(3/2)+3%2
+0 000 0
+000 0 0
+
+0 0 0 00 4*(4/2)+4%2
+00 0 0 0
+0 00 0 0
+0 0 00 0
+
+12 sums/permutations/organizations/structures
+
+0 0 0 0 0 0 
+
+000 000 2*(2/2)
+00 000
+000 00
+0000 0
+0 0000
+
+00 00 00
+0 0 0000 middle if divided odd and gives odd, so, not this because 6/3 is even even though 3 is odd
+0000 0 0
+00 0 000
+000 0 00
+0 00 000
+000 00 0
+0 000 00
+00 000 0
+0 0000 0
+
+0 0 0 000
+00 0 0 00
+000 0 0 0
+0 0 0 000
+0 00 0 00
+00 0 00 0
+0 000 0 0
+0 0 000 0
+0 0 00 00
+00 00 0 0
+
+0 0 0 0 00
+00 0 0 0 0
+0 0 0 0 00 dup
+0 00 0 0 0
+0 0 0 00 0
+0 0 00 0 0
+
+perm of [1, 2, 3, 4]
+[2, 1, 3, 4], [3, 1, 2, 4], [4, 1, 2, 3]
+[1, 3, 2, 4], [1, 4, 2, 3]
+[1, 2, 4, 3], weird
+[2, 1, 4, 3], [4, 1, 2, 3]
+
+[2, 1] [4, 3], [2, 4] [1, 3], [4, 2] [3, 1], [4, 3] [2, 1]
+
+
+[2, 1, 3, 4], [2, 3, 1, 4], [2, 3, 4, 1]
+[1, 3, 4, 2], [3, 1, 4, 2], [3, 4, 1, 2], [3, 4, 2, 1]
+[1, 4, 2, 3], [4, 1, 2, 3], [4, 2, 1, 3], [4, 2, 3, 1]
+[4, 3, 2, 1], [4, 1, 3, 2]
+[1, 2, 3, 4]
+
+
+[1, 2, 3], [3, 2, 1]
+[2, 1, 3] [3, 1, 2]
+[1, 3, 2] [2, 3, 1]
+
+[1, 2, 3, 4]
+[2, 1, 3, 4], [3, 1, 2, 4], [1, 3, 2, 4], [2, 3, 1, 4], [3, 2, 1, 4]
+[4, 2, 3, 1], [2, 4, 3, 1], [3, 4, 2, 1], [4, 3, 2, 1], [2, 3, 4, 1], [3, 2, 4, 1]
+
+[1, 2, 3, 4] [2, 1, 3, 4], [2, 3, 1, 4], [2, 3, 4, 1], [1, 4, 3, 2]
+[4, 1, 3, 2], [4, 3, 1, 2], [4, 3, 2, 1], [1, 2, 3, 4]
+
+18/3/2024
+label<libel
+
+marble<fallout 4,merl<bird
+
+laity<observation/awareness
+foray<array
+
+callisto<project,mass effect clone,callous
+
+insipid<intrepid,inert,centipide
+
+exegete<language interpreter,exegetically<historically
+
+embolus<locket upon a blood vessel,blood pressure<pressure,embolism<bolism,ebola
+
+gloss<bright<movie will smith
+
+libele<
+ lyric<lyre,
+ Steven Yoder Class
+
+andronomous<gta v aerodrom
+
+voltaic<game fallout 4(< or ,)item mod power armor (HA, <media category from which I got the word> <specific media name>
+
+game fallout 4>lose one's marbles,your marbles
+
+servobot<servorium,game fallout 4
+
+water<hapiness,smell of wet cloths i associate with good memories of diversion
+
+What is labelled the Egoistic Side, surbliminally the anteponing baltic against the Good Altruistic that is but marveled and motivated by Pleasure from such comradery, is encruxxed upon
+the glossy unfitness through the oration of the Mental Limbeck about Selfless Neighborhood but one versed more in the Contemporary Utility (or Wills' Tensity/Hierarchy more suitably),
+for the callous liutenant inerts the weak will: social ingression of hapiness, that exegetically is bolstered of less motivation thus; PREMONITIONED PLEASURE IS THE VOLTAIC CRUCIBLE OF
+WILL (ITS STRENGTH WHICH MAKES IT MORE LIKELY TO BE BEHAVIORIZED).
+
+The hand can tell how healthy someone is?
+
+respect is admiration
+
+Should the Conscious Will have had an ensounder port upon the Ideal System, only just, if not he had been absented from the 1 sleepful hour that at which 22:00 Nico and
+Me arrived, dot to, the limitlessly alpha movie, within the Tavern's delging chameras of incalculably comfortable tunic about the body: Dune 2.
+
+19/3/2024
+Natural World predicates to Sensor that, in its same unclerked in the Homosapien Datagraph or forebrought present Consciety, the Forcible Transfusion occurs everall
+such Physical Interactions, and tath a more deeply encrutched mass or velocity, not found upon but equal or less without a Tradeoff Range, would be generated pertinence
+of a Greater Force; or for the same Physique a Greater Velocity would endorse such boltier maw as the Nerve would thous he which to the loss of pain imparts it on one
+such extent sledge. Momentum: let the Mass or Velocity bail the iridine for such Greater Energy that is but Conserved between the Physique; mathematical identifer is 
+the both quantifications increase if individually the Momentum Force that this thus receives the Proportional Qualification therefrom; P = MV.
+
+Acceleration in relationship to Force when stated within the Momentuous Energy, Force Applied Over Time: Newton Time, that this Force Acumulation at the even merced of its Caused
+Acceleration, tis Impulse, such force can be Algebraically Monolithed by Opposite Division of Time which would by the Delta Velocity herself commodate Acceleration, tis formulation
+thus the Algebraic Cancelation thereof By Multiplication: F = ma, F = m(deltav/deltat), Fdeltat = mdeltav. IMPULSE IS THE ACCUMULATOR OF FORCE OVER TIME.
+
+Disencumbrement of two physiques to opt the mutual act upon such Physical Intralation, by the either verity thiter, the Net Force That Was Applied tents Acceleration, and their Impulse
+accumulate the Momentuous Energy that is, it be a bird's flap upon Collideous Link by which the Momenta Are Oppositely Exchanged, invariantly: CONSERVATION OF MOMENTUM.
+
+The speculation that nods with the Thought Of Behavior But Dreading Opposite, rather swirlingly paradoxic, will manifest itself interspersly with the better Conscious
+Want, soin the Unwanted is expressed naught the Wanted, as hath incurred daymorrow upon the pediatrist, a luminous Blond Caress, had indulged in my Praise of such
+myself's which done is Virtuous, and the state it suscitates, upon which the nerve took scooting race off with trembling thighs.
+
+pokemon game i used to play in wii, revive moment and buy a wii, wii u?
+
+difference><
+ discrepancy=increpancy
+ adamancy<game trove
+ impertinence<
+  meddle<medal,stubborn
+ immutuality<interaction between objects change of states
+ antagonism<antagon<agony<great effort<book<berserk<
+  genre<dark,fantasy
+  char guts<the struggler
+
+ n
+
+stead>homestead
+
+When a Factor multiplies itself within a Product, thus Potentiation, and if groping as such whichout itself wheter Prime or Composite in an unmutual Prime Dissociation: Firstly, then
+the Exponentiation formal to the Log's Base operanding within Log when multiplied by a Lesser Number will give the exponent plus a Zeroth Exclusive Fraction, wherestead a Greater Number will
+give a sum with a Mixed Fraction, regardless: the Log's Base when initiated upon the Power's Place, or not ushered an uniform power thereon too, multiplied with antagon tis wilt
+equipollea Log Sum, or naughter Log Power Mult as, in the former aligning Power with Base such is isolated to a one log, cleft to the other Undescendant Factor that is calculated fro the
+Same Base within said Factor that enchamerates the remainding gage; logb(nm) = logb(n) + logb(m).
+
+ostension<ostensible
+
+Armor withal its confection on the Physical Reality, minorily, hast whereall to for the Firm Of Benefit At Life a property idolating it Death thence gainst User or Player Character,
+that to a scrutiny between resisting it against the offension within the Reality is mapped therewith its value to an Objective Representation With Quantity, from the metalsmason
+interring it the Doth of Jove's Kinship. To provide a precise definition: ARMOR IS ANY OBJECT THAT METTLES AGAINST ANY LOSS, OR IN VIDEOGAMES, NUMBERS AGAINST NUMBERS.
+
+Alike the ternure of the Most Of Herd, Fallout 4 implements an Anatomikal Armor System whereon each Body Part can be outfitted with a Defence Valuation, if not antedated by Long Armor;
+each Armor Tier ceded from such system and each one agreater inital Base Value: Raider Armor the bandits' bezzlefrom, Tier 1: Chest Init Base Def. 4 +10 Upgrade, Cost 18 +15 Upgrade,
+Weight 7 +half chest upgrade 5; Arm Init Base Def. 1 +5, Cost 6 +75 Upgrade, Weight 3 +4 Upgrade Cap 10; Leg Init Base Def. 2 +half chest upgrade 5, Cost 8 +half chest upgrade 5,
+Weight +arm upgrade weight 4 Cap 10 (such is inseen tis that Armor can be uberized from n to Light, Sturdy, and Heavy, such is the Armor Upgrade System); Ballistic Def. is otherwise
+same to Energy Def. than Raider Chest, Base Init Gy. Def. 2 +9 Upgrade; Total Bll. Def.:Light 4+2*2+1*2=10, Sturdy 14+7*2+6*2=40, Heavy=24+12*2+11*2=70; Gy. Def.: 2+2*2+1*2=7; Cost 
+Light 18+8*2+6*2=46, Sturdy 33+13*2+81*2=221, Heavy 48+18*2+156*2=396; Weight Light 7+3*2+3*2=19, Sturdy 12+7*2+7*2=40, Heavy 17+10*2+10*2=57.
+
+FALLOUT 4 CAP PROFIT META IS EXTREME DELTA TWEEN COST AND WEIGHT: TO CARRY MOST AND GIT MOST, OR MINMAXING.
+
+2/4/2024
+My juror of sophita, it is, aglomerated with that which it finds commensurable to itself of whom the Physical Impetu trods the same 'bout: anyall Stimular Signal were
+it Physical Force by which it is unhastened, interaction by a prior physical force, will be transferred as the nominal Momentum to another object and to itself; in the
+stern of the coin same then, an origination will affect the soul in the lot as prys the customary family of thought within the user, its subjective force on him, and
+will ordain behavior be intravenous, or reflection, or extravenous, or a subjectively apaired expression outwards. In the relation of what self gets will say or do
+as he seigned and viceversa for this is, tis manner of denomination and society, corrresponding interactive system that calls The Logicorational And Of Reaction et
+Stimulus: IMPETU IS CONSERVED OR ONLY TRANSFERRED AND ITS INTENSITY IS EMOTIONAL APPEAL. Thereafter, the avid candidate of case would be, thus saving mental tar of the
+inclined interlude from a Pain, to dispense such Painful Impetu as the innocent the conscious when the Body is of such wary, the affianced subconsciousness of physical
+transmission tis.
+
+A Network is a system in which each object its last residue is of State Transference Onto Another or the amene is being it that Message is at first escepted in one, and
+then projected onto another to their equality, at the end's mean such is: equality of data intertween such actors gives Communing Communication.
+
+An Unrect Angle is of one radius and another inneath, the Triangular Base, or soever other code might leg, base, or hypotenuse be, to radie of Differing Slopes have between them Segments
+a unique Hypotenuse that is greatest in pathlen of each segment but lesser than Their Square Sum, of course. This abreviation of the Radius As Hypotenuse is duely so comprised for the
+most slopes, infinitely, that are Slanted Not Rect, given the against both shorter segments that in sequence first represent Dela/Change Y and Delta/Change X; THE HYPOTENUSE IS AT THE
+TERSELY ESSENTIAL DESCRIPTOR A COMBINED BIDIRECTIONAL CHANGE TISEVER ENTRAILED WITHIN A CIRCLE SAME, THE RADIUS CIRCUMVENTING, THUS IMPULSING THE LENGTH UP AND WIDTH DOWN, OR VICEVERSA,
+AND TRADINGOFF SUCH FOR SAME HYPOTENUSE; h = sqrt(a^2+b^2).
+
+A unit of the circular orb, Radial Unit Radian, mays upon the same ness as Pi but the Circumference paint through each behested distance a radius, thus 2pi radians = circumference. This
+unit veirs the more intutive its returning base wherefrom said, as Radian Comes From Radius But Degree Comes From An Arbritrary Physical Convention, More Ambiguous And Subjective. 
+
+3/4/2024
+The Memorial Network usurps What Was from the Novelist Overwatch withon a Unitary Attention more attained to mildew if more time offrom, the deeper the time atons the
+forgetful cyst of the heeded culling more the key alockation for it, such the alcove coverted deeper for the Searching Caravan that, at once, wouldst get outmaneauvered
+in innovation of distant reminiscence as the mind in its subtent reconaissance jolts jove afterupon the resurfacing of the curiously clever idea, from the Subconscious.
+Dejavu and Reincarnation shall be not Adulterated With Inabsolution hence that ONE AT MOMENT FORE REMEMBRANCE KNOWS NOT AND HINDSIGHT NOW KNOWS VOID, by a sunconscious
+flounder from the adtent Link to the behid memory; REESTATION OF THOUGHT PACTS UPON THE SUBCONSCIOUS WATERS WHICEVER RESOUND THE WAVES DO OR FOLLOW, EVERELD BOTH EKE
+EACH OTHER: IGNORANT IGNORANCE.
+
+eke<iker casillas,ache,v>
+ get hardly possibly with out,increase smally,
+conjunction<mediatic link otherwise logical or temporal, diffs one from another medium
+
+vesper<ghost munequito,night,evening,noir,noucht,basslight,hesperus
+
+Wes Interjection to deice meet nokt Rational Incense, the turmoilous Absentee That Is Sunconscious Ber Conscious sooths that withwhich time is accustomed of Mediatic Externation, for
+the same Idea, is shortbade for that same, hence't (hence it) a greater convenience, VOILA.
+
+Veg: 1 cup baby carrots, 2 cup spinach, 3/4 cup plantain, lettuce 1 cup
+Fr: 1 small or half large apple, blueberries 1 cup
+
+4/4/2024
+Shun it be my adoption of that which decidiously ayed for the commotion of my, nitre overlaid, Vesper Automaton, intent sold off doubt at its normal unletting to the
+doing, heremorrow beset the Unmeanderous Rote of the Seventh A Half's Supper, in the same way as mine deep hauled turd, retart uptill the perfect dot the occiput,
+though the latter willst not find but merely a prolongued voyance from the guest's uhl (ass hole) until adaptive custom, the perspicacious aspect of looter (greater)
+fast wast apprehent.
+
+5/4/2024
+The deedwork done today otherwise for naught the individual's bell would throe of the compuntuous from my discourtesy of Bodily Constitution stipulated of not very
+vital hegemony, tis wast done from the incursion of woman; woman such so such complexively versed, subjoining man to their erotic hail, that it upset the base of my
+thought for an undesirable seance of headthrob. At last done with it. Felt the commencement of a head, fore hissing now at thud, and potentially connected cause of
+rended sleep for tarry punctuality.
+
+7/4/2024
+To make resolve for my abruptly sepulted Cowl of Greater Peace as I had underpast aposteriorily set part, despite, unyielding gauntlet of pornographic temptation
+furnished of a greater nature than the yielding austerity, of course, tismorrow and weekend's extension altogether have not devolved to it, ho! the less ornt
+(decorated) asto Encite the My Rational Will Unto Detention (deattention) and thence mine fabulous mental battery upturnt in its perennial and, eke of the cauterizing
+doth casting attetion elseyonder, tis Ecclesiastical Abstention, Allah.
+
+8/4/2024
+Afloat the bow upon all and anyness of the sea rippling about the intensities, generally, matematikal, that obeys all such intensity if the little more as the greatent
+more uptained, in equity between them one the less but less not, for greatent other, of the same extensional kernel then: SUCH IS THE EQUAL TRADEOFF PRINCIPLE THEN,
+THAT, IMPONED IN THE ABSTRACT IDEOLOGY WOULD SCANTIFY ANY INFIRMITY OF FINITY THEREUPON ALLOWING FOR, INFINITE, SUCH VARIATIONS.
+
+The fortunistic opportunism of Object Taxonmy, The Naming Of Ideas With Which The Arty Writer Arranges To Bidlight (express idea), is stunningly enticing to the Creator even if and more
+the business is a cornicopious ordeal: the Provisioner Of Name for a Cohesive Object System would devise names by an obtained Interlational Structure fromon a certain fundamentality, and
+the other objects named accordingly to said more general access. This is what the accounted denominations of Geometrical Lines Within Circle and nowupon Angles have effectualed upon me:
+ANGLES PATENTED OVER A CARTESIAN PLANE WITH ITS VERTEX IN ORIGIN ARE IN STANDARD FORM; ITS LEG UPON XAXIS IS INITIAL SIDE, COUNTERCLOCKWISE, TO TERMINAL SIDE. A CLOCKWISE ADVERSED ANGLE
+IS NEGATIVE VERSUS POSITIVE. A COTERMINAL ANGLE IS A NEGATIVE WITH COINCIDING TERMINAL LEG, OR BY LOYAL INTONATION (samely), THE ANGLE'S ANGLE AYOND (a = up/on, beyond yond=yonder)
+VERTEX. A REFERENCE ANGLE IS THE ACUTE ANGLE UNDER A NECESSARILY OBLIQUE STANDARD FORM ANGLE, AND IN DULY DUELY REFERENCE OF THE NEXT RECT ANGULAR SPREAD UPON THE XAXIS.
+
+I wonder that if the recordt efforts of humanity wasn't the present's effervescence of words within the dictionary, it would be harmfully exasperating to reactuate retention of all words
+with their meanings again: THANKS FOR SOCIETY :) And I from my present hardoings as dutiful as Ideal Redacter, the act of creating a personally occurt incubator ad hoc beffects the
+intention of preused such expressors and them, partking the adept slogweep, conconted with onether (each other, one other).
+
+acrimonious<
+ acri>acrid<badly intense<aj
+ monious<
+  mony<noun forming sx
+  ous<full of<sx
+ badly angry<aj
+
+asperse<
+ v>
+  besprinkle<bespatter<spat<gaiter but only instep and ankle<
+   gaiter<cloth of ankle and lower leg
+   instep<curved upper part of foot between toe and heel
+  attack
+
+Today was productive in relation to Ideal Exposition, got the ultrasound detection over my kidneys to my reputable belief. But suffered upon that Woman's Caress quite
+literally from sher (her) upascending aspersion of tis tactillic impression, love, that I am denned at this ponderation within the pungent cage of fantastical
+trepidation, to my imagination; from her normally job if not the Adonistic Man... Also I'm becoming more aware of my Writing Power being better than before, and 
+Before's Fore, which serves onely to paint the omegaic amount of my free moments, to my Satisfaction and Peace, the harbort neath Deep Thought Then Writing.
+
+9/4/2024
+Of the ominous exertion proves the Thought That Leads To Understanding And Generality operates wherefore the disoscured calcuation of a Perpendicular Slope as Negative
+Reciprocal; obscenely resultant to end's of increasing one slope would make the negative one less abduced downard and more forward to readjust for the preputed, a Black
+Box's Interaction Is Blissful, Forput 90 Degree Divisions; TWO SLOPES MAKE ANGLE, ANGLE IS GAPE BY THIS BIDRECTIONAL CHANGE.
+
+A Physique has everhad the primeval obliquity to epistle its Energy In Soever Way It is, Through Motion Express The Force, forthstated off the Momentous Work it would
+impart the Motive Work it'd apply forethrough the human's event, the consequential force imparted to it would compute atop, atall, the distance for which such Physical
+Inscript would be therefore movt (moved); Newton Meter scented too and pronount Joule about which the steady supply of Newtonage, Newtonic Energy, Per Distance Unit
+would accumulate each such for each furth. Debit not the validity the Momentous Pair mv to engender the likely indistinct bed from onether though strikingly elastic
+towards twin, but that it vows in itself from exself a Work Dispense On It Versus The Energetical Combination Of Mass And Velocity, Or The Force With The Time ft Newton
+Tempnit (temporal unit) very closely alinkt but that does not concentrate on acute movement or its flat out absence, as peert Work, that Force Times Time would vary
+at and icorrespond.
+
+set<consort<cohort
+
+army<
+ legion<fallout nv,
+ century,
+ brigade,
+ battallion<battlement,
+ troop,
+ platoon<movie william dafoe
+
+equal>egalitarian
+
+The magohany tree warrants to the deep sacker the fructiferous organelle (fruit), Phial Of Principium (principium = knowledge), when in if his grit to prod and prove for Generalization's
+Induce, the mind will from that foraging fuss set loose... and Peace Great Jove abduced to whose but one's: of which I remarkt the Numerological Unit As Happening Of Both Collection And
+Inner Substance debt to (like) the Romane Archymony: Legions 4 place unth (1000) - 4 place fifth with triadhendred (5000+300): comprist 10 Cohorts over then hundred (100) - 3 place fifth
+with triadtence (3*10=30): Centuria of 80-100 agents in six the Cohort: last of rope finally, Contubernium to octane the Century (8 men) times 10.
+
+Agrant indeed is the 10th Divisor of no parvum or ungainly insolution (grant, bestow, gift, feed, provision) whereby Military Armies are socketed (connected and divided) off the hiking
+upgbrought (upbgring) of a Legion, for, indeed, it by the may (possibly) be proclived (inclined) aloud by the Pythagoraic Tetrakty's Value 10, upon the heath of his Greek Influence addit
+(additionally, it add = addit). Admittance too the Link Recourses To Only Bellow at me present tenure of too the two, marshalst, Fallout New Vegas Legate Lanius.
+
+Each Century was manipulated by a Centurion, first cohort first century is Primus Pilus, other 5 Primi Ordines, and 2 to 10th cohorts are Pilus Prior; the feet cardinally escorted
+by Paladin's Harmsteel (shield) furrows on latter later after's for the First Better Structure: STURDIER AND DURESSER UNITS ENVOY FIRST.
+
+hoplite terraria?
+
+The American Military Hierarchy blends not the Formally Uneducated With The Knowledgeable By Oath and gives entitlement to latter of comission over its former for the effort is had more
+the seconds cracking with the mind at learning and understanding through a Baccalaureate: latter; as where the physical requirement yet still without Personal Study is thus deemt enabled
+less to the common beficacy (benefit + efficacy) of the other and all as whole, MORE OF THE LAITY LORDED BY EPICURAL FEUDILITY.
+
+Another day of surbrought (sur+bring = overbring) production of Symbolic Models and in part dehearted (deheart = express, take out from heart which is soul) of new semantic wonders, and
+made the Deep Thought Tracer a greater deal warding of sleep by exhorting out ma laif Breakfast Fasting 17 Hours, I pretend to belief so without coupling the possibly blemish of Place,
+and subsequently the finger was made iridin in the reused (intensely used) motive of tippi typing.
+
+10/4/2024
+horseback<>aj
+ equestrian<
+  eques<horse<n
+  trian<travel<sx
+  pedestrian<normal
+  terrarian
+ saddleback<game ark survival evolved
+ horseshoe<game terraria item plus pc
+ cavalry<cavalier,knight,formal
+
+corsair<pirate<robber
+
+The Cohort is interlockt unexceptionally upon the thrice constitution of Manipuli or Maniples impending to the extent of two Centuriae in turn too. Therein of a
+numerically subverst the Logisitcal Graph Eques Legionis or Equites as within the English Symbol Map: of sound and more verst social status in the monetary prepondrance
+more vested as they had to procure the equestrian animate et all naturalities of war (tools of war).
+
+Of that which is Comissioned Officer the Centurion dentail from least to most imprecedent (unimportant), Principales: Aquilifer ostends the Legion's Standard in
+preponderant feat about which was engraced the MOST, but at me it is a blunderous projection but, again, Gains The Soldier Morale; the Signifer localed per Centuria a
+flag: Centurial Signum, and would be entrenched within the involvement of Soldier's money; Deputies have under oath first of Centurion: Optio and Tesserarius; the
+Cornicen would vouch the Officer's Dictations through the the imputation of labial asignance upon his long conduced fife (trumpet); Imaginifer hangs up the
+rectanglement (image,picture,painting) of an Emperor be it by followed question or confounding Defilement Of The Mental Retainment, from a prospect suspection of hence
+cavalier.
+
+The more extentt (extended) is the needle persuading me to My Ugliness it betwackt notice upon me that the more taken I am to Writing, or to less scintillating takings. But the
+tavernkeep keeps still to soften sensation pitching it the plenish (abundant) cheek a sided nuzzle of the Protuberant Juice Of Woman; that the mind scours with alacrity at incumbency.
+And it keeps me certain when the Ethical Revelation Of Beauty is pasted but then in alternation, at once, I Expect Ab Stoicismus to be lauded again, and again and again and again AND
+AGAIN, which only Leads To Hellbrew; this selffoldage (infinite loop) success immaculate of enthralling my mind because I WANT WOMAN SO SUBCONSCIOUSLY.
+
+A Skirmisher is a Light Infantry Soldier that but jeers the Enemy with their normally attributed Crossbows for their Besetment Of Soul; lightlihood of Armor and Warutil (utility of war)
+condescends the apprehended snail motility wherethrough the possible posit be too Reconnaissance. Natural percolated with Javelins, persuasiont (persuasion = like) with Velites, or
+Rangial Arm.
+
+Hoplites are greek Rangial Javelin Soldiers where the Terrarian Metareality in mirror beholds this of itself's, wherein they process from Marble Biome.
+
+Brigadier Of Battalion, Of Company; the battelement's parapet incubates protesting protection thereafter provision of harm.
+
+lofty<
+ aj>
+  good,tall
+
+structure>architecture
+
+machicolation<
+ n
+ hole between battelement corbels<corbel<parallel wall support<base
+
+moat<n,trench around Fortress Rampart<wide hole
+
+rug<n,thick cloth
+
+scion<child node/object<linked object
+
+epiwall>wainscot 
+
+vibrate>
+ topple<tuple<structured set
+ swerve<dsaa
+meander,wander,wonder, 
+
+correspondent>incumbent
+
+11/4/2024
+Whenz (when) Mind recurs Sequentially divides to, so, adiff (a different) idillity of themselves relating or by an Extrinsic Divisor for which the former is the
+stronger in whose to whom (individually intrinsic is stronger), but unparalleled especialty in their concoding (combination); therefore, Any Posterior Remembrance
+Sequential or any and all Thought by Time, Space, or Intricism Interlated. And of an Inestructurt Set, a General Notion Of Collection Or Plurality, the mental
+consideration is inherently sequential for the thought that nervetheless Intrinsically or Extrinsically impresses the head with superposition (image). Thus of an
+Ordinality not giving the Relation By Intrinsicality but the Sequential Link: latter later after, Posteriority, which is a Tuple but Set, Inestructured, of Any Such
+Posbilistic Orderings cannot have the duplicate for one off the other would be not intelligible: in Iterative Distinction the Discretionary Property is only Intrinsic
+Link; Tuples only emulate Extralational Posteriorty. THE MIND IS SUCH THAT THE MORE LINK THE MORE MEMORABLE, HENCE THE COMPEL TO INTERCONNECT IDEA.
+
+sprawl<extend limbs unvirtuously/awkwardly while lying down<v
+
+spin<>circularly move,twirl
+
+secretive<>hiding truth,furtive
+
+Understanding and/or generating ideas Inductively vs Deductively.
+
+Achieving greatness or knowledge by having quick mind: like Anthony, or being Creative (lateral thought): like Me.
+
+Shorts Periods of inactivty, or inattention?, when one is sleep deprived or tired, makes me scared! like temporal faints of mind, veritably
+
+Shallow Understanding is Black Box, Deep Understanding is Peeking Within Black Box.
+
+All things that not promote peace are Evil, all things that promote Vicious Seekment are evil; all things that promote peace are Good.
+
+From my understanding, what makes a face attractive depends on a sort of abundance of either Depth, Width, or Height? And too related, it seems that a lot of virtuous things are
+retroactive, meaning related to older ages, olderism? xd; including facial longevity that is such in relation to previous map tween age and faces, and that they are also held attractive.
+
+610-483-7869
+
+feedback loop, or normal loop, of physical struggle is attack and retreat.
+
+craft a personalized prayer for god HA?
+
+29/4/2024
+The tempest that driveled Pleasure Calculating (that intends to get something) Effort wrangled with the invaluably imponderant, adjudicated the Mind of a Haggard Bear
+selfsame me by it to me temporal operator of current greater struggle, less efficiency but astounder Guilt that bespatters heat on Mind presently; but at least the 
+moat wast not overdonet much of in the like of internity's (internal part) dissuasion, about the Guilt, by not obscenifying the Soul and Body with Overt/Visible Woman:
+embrightening to Man, his Dark Desire, Love foretolt dismally once and over the moment that Relays The Present Past Indulgence, of the normally sightcoveted Sexual
+Amulets (worn cloth). The fingergear has been set in motion then to the Writtal Endeavour.
+
+Foot of being, of which both talons walks the same path imparted from the Vectorial Expression of Numbers: the Circle's Negative Angle Is Negative Displacement that is
+subtracted from 360 degrees, and the Positive Angulation, unappallingly, devotes from 0 Sustraend Subtraction then.
+
+Potential Energy without Understanding Occludement when the found, if same Joules of Work, then there would lie must the same Mathematikal Expression inwith, now the
+Work by ma = F and height displacing From A Floor To The Displacement's Terminal.  And plurally more, adventure bled onto: Better Mass To Better Force. 
+
+An asperous weakness has conflagrated My Peaceful Choir, the Body's Squire was Not Mature But Greener against the Ailling Agent, since almost a forthnight's one, yet,
+worse or perhaps I'm too stricken by my own behalf perduring much storming indeed: them many physics I'm being forced to imbibe are not the natural way a body heals,
+which anyone of the shape or adjunction with nature soever virile, is bane and vain for the Natural Process Of The Body.
+
+30/4/2024
+The hellous (hell + ous = full of hell) commotion of Me Body, Illing Fiend begone bethornt (thorn + tear) upon Hellbound. Seething am I, the Body's spite but too Kore's
+sliced to in Profusion Of Hardent Thought: a new actor intermittently pounces the heart onward whereby after such column (time = x?) imagination anoints truly so that
+it'd stop and keep pointing forward as to implode, thus, the Mind Is Too Affected In Its Fear And Anxiety.
+
+7/5/2024
+Sinuate Wave transducted in the Subtractive Negation the Minimum Cusp is made to the Maximum, and both masts swapped from any start as reckoned so if declesiont (descended) now upheavt.
+The reutilization of the ratio but Negated from these Landmark Angles From The Unit Circle that happenstance their limbs are straight across the Unitarial Radius; henceon any Maximum
+and Minimum would be held at the same distance from the Axial Midline, constantly equidistant neathwards and surwards. Whether the measured is increasing and encrevicing a parabola or
+decreasing and depressioning it, the Sinuate Midline models an Xaxis up off the same Amplitude as insameas down off.
+
+Terrestrial cobbles obfuscate against but recoil both as long backward the meter and, upon soever else object it subtends the motive's substrate transpasses to image
+itself about the other object and any of its course, for him too, in Energetical Transferences which sign the positive immortality, of it, within this Universal Frame
+Of Reference. ENERGY ONLY POSES WITH DIFFERENT GUISES, BY WHICH IT EXPRESSES ITSELF FOREFORTH HUMAN LIKEHOOD (likehood is just human consideration).
+
+Barf of the demon has the much succulent description of my body, demeant to abhor me with this weakness and instillation from my Bodily Aquiferous Reservoir to a
+Natural (green) Bile that hooks, evergoing, my nutritious submission upon its antipersonal want to soak in the respiration chamber devoid estation.
+
+Examination is tomorrow unto the depths, as executioners to our, mental shaft agudized by dutiful interaction with its subject, and the practitioner's ability then
+to hound for the correction and express it so in the medium. Blood better not curse the vessels to greater braze, that it course so in the body in animosity for this
+important session to be had. Rumination that twarts the body's pending, and mind, ablazed be naught but despurred with God's pugilistic blue, its sanctimonous release upon my
+estruenduous apparatus of head.
+
+Writing has been my perusal since the Fingers are uncomissioned by the unlofty head, and unlucky, emancipated towards a dome of peaceful sleep whenever not instantenously rapped to the
+opposite Waking Dome, gullible the tumbling character for one to the Rational Emolument Of Conscious Effort, but too dosed to doze onto Peaceful Sleep, the hissing flute such fine sleight
+with its lethargic and conscripting talons of gaze's monument for feeding, trepidates the mind to that ever oscilatting state but Peaceful anon for the precedent pugilist.
+
+9/5/2024
+Yet in the adjournment of unsubtractingly state of heatlh that is preciate, a continual lodge within My Strong Scale has prorogued if gauntly now shade by shade being
+repulsed without, which is lovable but loathable in this prorogue. My reputable occulation of deluxe fire imaging from the goodcoming heaven, denotes the soothsayer's
+oracle royally whereby Mine Soul is imponed high in the Pole Of Hope.
+
+sky<
+ heaven<god
+ firmament<basis,filament<fiber
+ pole<
+  spatial unit 16.5 feet<n
+  antipodal<opposite possibly axially
+ orbit<astronomy,astral body circular movement
+
+heath<
+ n>
+  low shrub
+  place full of heath
+  wasteland<fallout<bad effect,slow object
+ hearth>fireplace's floor,house
+
+Might the may wavering fore the precept of Rational Taxonomy be a useless conception attaching Potential Energy to a physique but, bartered truthfully now upon the
+firmament that Any Displacement Is Attained By Work whereby a physique is ascertained Energy within; whichafter, demoting such height will result in the Motive Span
+Rate's endearing, Work devolutioned by self same agency forth the opposite directional.
+
+battlement<n>parapet
+
+evince<v>eviscerate,control/conquer,express
+
+gait<
+ n>
+  stride
+  walk
+  gaiter
+  agate<game>diablo 2
+
+turpentine<
+ game>fallout4
+ resin
+
+thicket<brush,n
+
+scrawny<scrubby,scanty
+
+stately<aj>extremely good/virtuous
+
+A Graph is the singular shoot from the Matematikal Stalk from its parental producement of Structurt Sets whereon Linkage is evinct Spatially. Trees compend a kind of Graph that save
+and exempt the Recurrence From A Node Whither Itself By An Unsimple Path, resoluted onto by a Triangulative Pragmatism, whether related from once or twice: Singular Tip bores into a
+Duality's Once which that latter encausates it to the other, which poles onto the former fin; or Duality's Each connexions to the Singular Tip. This unhingedly revises Circular Loop
+To Self.
+
+Whence disappearance of Nodial Recurrence, the Tree Structure would have with n nodes n-1 Edges or Linked Pairs, if it eke be Node is Vertex.
+
+Graphical Paths are Adjacent Pairs Of Nodes porting a Sequence From Anteriority To Posteriority; of which Simple persuasion are unique in each node. Now a Cycle is Path whichs end
+accompanies the start node, thus, a Tree lacks Cycle.
+
+Undirection Of Linkage enthralls Bidirectional Connexions and Paths that are commutatively illustrated by an Any Ordered Pair, this is the Undirected Graph; Directed Graph procures
+Linkage that is directionally incited, Not Necessarily Node a Goes To B And B To A Though Can.
+
+These are Function Classes clearly.
+
+A Connected Graph has Every Node Lead To Every Node By Anylen Paths; if not, then it has Connected Components.
+
+Mind nostalgically that the magician's hat within is an impossible diversity of abnormal awry and flurry before the untested customer, tis as I reckon now of the Matrix Multiplication
+For Possible Paths ensare, how transfixed me heed with Matematikal Magic yet fancily desconnect from my understandment, insomnially esoteric. Well but that from a sinuate audition flank
+I do understand that this Matrix denominates the Linkage by the Rowingly From And Columnially To, per node, and secondthly: thrice naught extremely unyielding from an unacquaintance
+the Matrix Multiplication is encompassed for each row times each column for each new element in row major ordenance, therefrom this application for certain lenghted paths gives forth
+the correspondenct quantity per each to each; if tween connexioned be them, a once is used otherwise zero. This product is then called Adjacency Matrix.
+
+Following this simple dichotomous idea at the definitive Artifice Of Writing these discrete sorts of formalities, for the bifurcated aspiration of understandment and self appellation:
+the Exclusionary principium of Consecutivity that would not flinch the deepest firmature (fiber) of one's machinative lattice, rotates rotely around the End Diseparated From Start;
+where except Inclusion vanquishes this disparty by End Is Start And Start Is End, both bide wherewith other.
+
+Peaceful rectitudes of time acquit the mind in their prolongation of its Normal Pernicious Attentions, when One's Historical Agendum from or if not possible to quit the Encaustic 
+Stimulation tis powerless self to experiment but will to one morrow sever Negativity And Anxiety, so that one is affused its vastful relevation. This protuberance of the mind, of
+idlehood, rendered stance fore while I was through the instrumentation of both apparata Nourishing Appetite: goddamnt fabulous Peace, wrench my being withinto thy stately dimension for
+at least Sexagesimal's Half for day, ho, alright already be your purpose about me that Sleep does deny nix her saint spell upon me.
+
+Paste of nut, chestnut, hazelnut, anynut, laced onto the Tasteful Limb mine amongst altogether the annexation of such dines predates them about all speculation of Surface And Substance;
+but tis as the ascendantly dented estate of society with its indulgences beckons the palling vertex, whichafter the soul resolves to the grater grooves and a stadium more asinine, the
+Seeker Must Be To Temperance Not Rumination In Greater Pleasures, which suffer grand posthumous anhelations.
+
+decantation<
+ n
+ division<n
+ immiscible<inseparable<aj
+ wine,witch,decanter<decantation holder
+
+dabble<
+ babble<
+  speak quickly or confusingly
+  minecraft<game
+  aj
+ rabble<
+  rant<speak emotionally<v
+  mob>unstructurt set<collection<n
+  low social estate<plebeian,n
+ attend with low effort<v
+ move liquid lowly<v
+
+putter<
+ n
+ minecraft<game,
+ dabble,desultory<random
+
+stump<
+ n
+ lower tree stem
+ surprise<v
+
+confidant<trustee<one who is trusted<n
+
+10/5/2024
+My disobfuscative execution fore today's contemplative radminence (radiance + luminance) disdain of the sword's parcht antipodal decanted a Motivational Efficacy, from
+mine the low corsair tis with anywho that propitiates Thermic Morrow it wreaked such remission; soever when and now the Motivational Capacitors retain a scrubby
+munition is what distills from excommunion on the task the sheer automaticity and a tamed undoing of haggard compunctions that Vice belongs... add with a perspicacious
+liking to the Writing Office: evidence evinced through this particularly construed session kingfully.
+
+The persuasive degree by which it cohibits the permissive compellance to a based desire upon the selfsame impugnt impiety, when the Agent is innately apportiont to it
+expounds a tenser opposition to choice which would most likely result in the human's declension, untraint Temptive Makina, at such inception of Sinning then; or if the
+Agent reads the heresy's pleasure from an External Reward that may conjure upon him. Therefore, to transfuse more epithet of asperous reliance: the Interal Desire must
+be overriden or the punitive remainder arduous to the calcination; otherwise, the complexity of worldy circumstance would have to be reigned by registration of all
+liabilities. Frail Moral Box only belays time of the Agent's Temptive Resistance, if even be, onto an inevitable slip onto the Heathen's Hearth.
+
+The inhumane opposition which with the modular system contouring after the body and justifies unto the Somatic Interface, Pain I'm floating upon: compromise for exasperation by your
+deceased courage, perennially unmanned, and the Back Pain will emit nully to self being; Pain For Peace, Not Pleasure For Pain. This also clamps the denominative finger to pain and
+effectuals hindering malices upon mind that will disassure and dice Deep Thought, and Peace... Peace.
+
+11/5/2024
+I have been proselyte of Hungry Protraction since pleased Dominican Imperium (time period), for it is Social Ideal the calamity deducting subroutines edicted upon the Body to excreta,
+by it energetic lumps filtert thereto, thereafter the Body succumbs to depurating degradationing players that nix other would have spoke the effect to mound and consequently maim health,
+or tis that at this capital ceremony the Body would debase of healthy cumulations. This pontification has held Truth in myne cyclical empiricism against duvious proclaims by hereticals
+then about the latter headlong penance.
+
+I disaccord with computing albeit Statistics links to an organization of numerical data and concrete phenomena, name 'stead, Character Intensities or Attributes as it absolves or eases
+the comprehensive pace upon it, and mineself brothers this ordinal framework better then. Poised will it as subject: tome4, oneth Size, hindmost six from one, tiny, small, medium, big,
+huge, gargantuan, correspondingly;
+
+ Encumbrance or Item Load Intensity which stead motional stasis is upon surdone;
+
+ Speed:
+  Global Speed: Speed from this Turn Halting nominance is tracted per turn. This speed oval rotounds Actions Per Turn by a Multiplier Coefficient.
+  Movement Speed: Per Actum traversal.
+  Attack Speed: Per Action Melee Attack, additive.
+  Spell Speed: Per Action Magical Offense, additive.
+  Mental Speed: Per Action Magical Mental Offense, additive.
+
+ Accuracy Ab Defense: Or Offensive And Defenzive Probabilities, astride the mind impelled commonly throughout Games, both are within the Damage Probable Formula instituded wardforth
+ a probability cape whichder number overted through the RNG is compared against a vulnerability; 2.5%(attack-defence)+50%. Since the mental enumeration can induce proprietary cohorts:
+ Equal Offense And Defence will Roll with a 50% chance, At least a twentieth punctual difference will hollowly truncate the Negational Probability and imply the other invariantly
+ veridic; 0% and 100% bound thise devoid commensurabilities.
+
+ Ailing Effects whether Status, Proc, former's and latter's tenure better cause be Status is intook as general notion about the listed Character State and naught does onto the transient
+ longhood secure pertinence. Apart for this, most Ailments portray a ninety fifth percent chance to Save Against and then fifth% to undergo the Power.
+
+ All this remained on Rescaled Intensities.
+ 
+ Rescaling is through twentieth exacerbations paraded as from tiers, divisiont by incremental multiples of twentieth contrived with an Geometric Arithmetic Sequence, per each and
+ adjuncted and last a division inter a 20 negligible remainder and attested tier. Diminishing Returns will insidiously shriek motation impart the number's incumbence is affixed through
+ consecutive tier sustraends, naught's had a constant esciation (cut/decrease). Offender Sustraend Scaling is resorted too east a 0.667+0.333x step in consumption per 45 ordinals.
+
+ Vision: Withfore (before with) a conscription from Light Radius this overlays eye's oblivious ultimatum. Naught this berate whenz inquiry upon a Neutering Geld would be then coveted
+ enemy be withold its one a menace that seizes tending, hencefrom a guile of indirection towards him or other actible room could not have been deliberated whereto.
+
+A Boost or referenct more generally accord the Societal Generalization, Buff, is, against too the naming conundrum, a Constance/y or Effect inventioned for the Numbert Utility toward
+supraquantification or anywho, anyhow Excretioner Of Gratification.
+
+Character Intensities that Change Their Reality By Actum, or Reality's State, are emblemized Skills Or Utilizable Intensities whichof Utility bide thereupon; otherwise, Inactible or
+Pasive Intensities.
+
+tome4 Offense Calculation:
+
+ oneth THE code name totsat is applied the Offender Object Scaling Factor upon the Intensitiy itself, then Scaled.
+
+ SECONDTH the code named power factor is assigned to Base Damage, low of Offender Damage Range, operated: power = (sqrt(baseDamage)/10+1)/2.
+ 
+ THREETH the code name talent_mod, Mastery Talent Modifier, = sqrt(effectiveTalentLevel/5)/1.5+1.
+
+ QUADROTH the code name dam embodies the Unscalt Final Damage, and with the addition of both Passive Intensities: dam = 0.3*(physicalPower+totstat)*power*talent_mod.
+
+ PENTAGONTH damage is executed scalement by arousal to the oneth 'der hundreth fourth power, 1.04.
+
+tome4 Offense Cast:
+ 
+ Damage is Randomly Computed between Final Damage and product of it with High Over Low factor.
+
+ Armour and Armour Hardiness are the Defencial Utilities. The Adversed Damage cannot be subtracted more than the Hardiness' percentange of Power, Damage, otherwise the Armor Penetration
+ sustraend desecrates Armour; min(armour-apr, armourHardiness*power). Tis then subtracted off Damage.
+
+ Talent modifications are commenced.
+
+ Critical Chance is rolled for and if successful, Damage modded by Critical Multiplier. Normal videogame procedure.
+
+ Weapon Offhand is halved Damage; 'beit Offhand Mindstars are tranquil from this.
+ 
+ The secondth volume of phasic initiations whichfore ceasement of this longation, Resistance reception to the subseted Damage Type and detense it as sustraend from 1, such tat greater
+ is to self jocular but to Enemical Animosity unfavorous. If the Resistance is omniscient then abated upon multiplication with the abstract un, then vernacularly subtracted from 1;
+ dam*((1-a)*(1-b)). Withforely, further deduction doesn't desist, Demotioning Resistance, of which one can be Penetration: res*(1-penetration), moddingly/multiplicatively, and Reduction
+ which is the better communication cuz is just Arithmetical Oppositude a-b.
+
+ Decidious is this henceforth made upon the Bow's Bound Bloom, for the routinous march in liue hailt more to the extremity of undefineness, Damage is Additively Reduced by some
+ Intensitiy.
+
+Sciency is affixed to the Exclusionary Decision, basking upon economy's vessels as expressors of excellent inferences, tome4's either more Resist All Or Monolithical as: Alpha, if
+Resist All is greater than each other Resistance then diss them others; Beta, unless one an enemy is predominant about the zone and has a negative affinity towards one's a Resistance,
+then Greater Individuality will superintend over Resist All; Gamma, rahter to orate it tersely, if Resist All is greatest then it receives instep's zealotry, otherly, Monolithical
+Resistance should be solely encluded to the Predominant Enemy. Resistance is capped at 70%.
+
+Physical Power is an Intensity that invades the woes within better for more torrid Damage for on factor against another is cumulated, to confer the Final Unsubtracted Damage; thereby it
+is Strategically Opulent to entone on it.
+
+95% is the Debuff Actum Chance Cap. Per punct (point) agreatened to self Accuracy with Enemy Save, Constance is denointed 5%; Per punct agreatent to Enemy Save one ingets a Weapon Bonus,
+capped the hundreth.
+
+Armour Hardiness is lacerated by the incompetent saif, cleavering upon the zenith's condition of High Damage Or High Hardiness ontostead Armour Penetration Resistance Against the
+natural Armour, of course; an elaboration apportioning more and more Hardiness falters the strategic dominus at a certain point which said difference is shadowed thenafter.
+ 
+Numbert Utility offers what in economy would be august much greater against Enemy but much less economical One's Adversary; that is Offense and Defence. For any trace or impression of
+dying triggers a certain disgust about the condescended Progression but satisfaction at the intrepid advancement: one unshutters Punishment and the other decors accomplishment.
+
+Ailments and altogether Offense Types graze the Opposing Number upon the hearth of, oneth, Magic dejectedly grapple the other body through unself esoteric substances; like Mental from
+the telepath's mind arousing such numerical negativity; eke the least amounting to unknowance, Melee or Physical Damage retorts by a direct coincidence of a physique's tractability
+upon enemy. This is the Offensive Triped of tome4 that bleeds from Normality the objectation of Mental Power, and the emerging amount of Ailments canning to concoct themon.
+
+Tome4 is an Input Dependent game wherewithin the External Reality is only changed as posteriority to Player Input, alike Single Threaded Execution; an Input Independent game does not
+perdure an inquisitive halt but Multi Threadingly processes the Game World.
+
+I, am, methodicaal, but I am not prodigal within myne carnous squire the control center, soul, is hoaxed with Gall Of Temptation, eponymous, that is specially from the copious blight,
+unattainable weeds the nigh, of Caressing Woman I am dunnest foult within, whither should I think or pall self 'der one rumination or descalation to extenuate My Cultivated Vice; why
+God, it is yet to be at all extracted therefrom upon the Sin mere Impalpable Willpower to subvert the pleasantry ber (but) veins ain't esteemed upon such but gaunt in that major dare.
+
+Mine Temple appears to self befit revulsions upon My Gorging Organelle whenz and fell upon subsequent pity I eat unknowingly of the devilish pain entanglers, consummating with the Eggful
+entity today and timing such expresented action to the Painful Provation, thusly, booted mnemonic handiwork to overlook the idea.
+
+Latin's structure Subject Predicate for which functional proportionality still held but verb is ascribt after adjective, for exemplum, Latinum inverst et Spanish minded est. Imperium Romanum
+magnum est until his step's cortailt by some hench discontract from prudence or desultory nag. Oppida in provincia sunt, tornt is my auto didactive interaction with Lingua Latina and honed
+I will amend it to through man's imponence.
+
+12/5/2024
+From the kraven's unweary rigment that suppositiont was to engulf such, the monocular Pineapple heeded otherly a friction upon My Deverted Digestor was none instead a sweet phial,
+amassing goodlyness.
+
+13/5/2024
+Fractal is a renovation of Self Interpreting (Self Defining) architectures that respect thereon from Recursive Schedules Of Ordinals by an adifferential matematikal operation suceeded
+detractingly or impetuously, and wherefrom hoisted abstractly into replicating Geometrical Structures as suceedingly deployed upon themselves. Thenceforth, a consecutivity of decreasing
+segments, simplifully cunningnest, is a formal instantiation of Fractal.
+
+helix<
+ n>
+  spiral<fractal
+
+Logik is an Equivalence System that operates Objective Structures onto a mapping fount between themselves and an Operative Constant; all Logik can be fundamentally emulated by sequencing
+Poly Orderered Identities. Thise operations are inskribed the abstract and thereby assorted for Wordly Expression; they are invoked as Logik Gates, Gate wherein such makination procreates
+the logikal conclusion, Input, Gate, To Output:
+ AND Gate bygone fantasy to dome, observatorium shaped, sexagesimal sixth rotationed; NAND bead bade uptopish and secreting furtiveness when both truthed;
+
+ OR is a multitudinal utilizer, rectfully punctucious beak exempting double waryness whenz one is true; NOR, OR with recycling bead; XOR, OR affixed to a hindful
+ segment and nigh NAND barr zeroeth and zeroeth argumentation; XNOR a picturesque malgamation of XOR's alimbical and NOR's bead, but oneth and oneth programed veridic
+ instead.
+ 
+ NOT is the nightly downsetter, the overtaking tip dictates ambulation between two onely truthful comments insoever the Unary Argumentation is; the Triangle Tip has the
+ coveting bead.
+
+Heed thus, all logikal inskriptures are manipulated by these strata of Logikal Functions, whichfro any discrete state that disipates so absently across the volatile
+legion of this collective nature, Chaos through the compatible expression and operator can be generalized and manned henceon for whenz it was not, then it becomes;
+State does not usher in an undivide perpetuity, before it eversolong there was another and Changed to the compatibility, by a determined Ruling.
+
+Truth adduced imitatively be embedded upfront the bed of an Aritmetikal Mapping System, also: once AND from the Oneth Multiplicative Invariance and to itself, and
+Zeroeth Multiplicative Invariance Forever Itself, tis an immiscible adjustment for AND; OR deports the Numerical Truth by the Additive Carry; XOR setting the subtraction from 1 to x
+for NOT subalternately. Tis the Logical Aritmetikal Systemacy.
+
+Assembly Language is the digital makina that is abstractly conveyanced to Binary Tongue but the general backbone whereto Homolingual Programming Languages compile: Fitter abstraction
+then Makinal Language but more spectacular generality to the homoids of programming lexicons, both between functionality poles and transcriptive nexus. Assembly Language is structured
+and forspoken seamed less quotidian betwixt Human Language.
+
+~Digestive Notation
+13/5/2024, poop abuoyancy not eat apple and egg
+6:45 14/5/2024, poop abuoyancy quartered
+
+14/5/2024
+Craned Heart and hopes for the Woman's cordiform emanence of undeprecating contents, whenz her face is forthwith the quickened contract sown into the Man's Field, he that is a Repeater
+of Lust ventures the Dreamage and Fantasy with her with an intensity in utmost wellset than the Real Expenditure. The Caressing Woman, Gianna myne Adulteration And Inadulteration,
+reinstates being with a Soft Prism: the buoyant touch retroceding to heartfelt convexity, and mekanizing the Risen Blood, of Beloved Tinkers, onto thither and it converts a sunrisen
+hue of Lion's pelt and rouge melted white.
+
+mortar<
+ clash royale,war weapon
+ n>
+  positively parabollic physique for wrecking with pestle<pestle<tool with rounded end used in mortar
+  adjoining paste
+
+NAND Functor ketches per each compartment equivalence with all ideals of Boolean Functions, et NOR, and intermediary simplifications announce the administrated identity; NAND generates
+NOT'z by duplicated argumentation, wherefrom Reflexive Identity assigns Equal Or that simplifies to the argument itself, tis negated; OR is ostended by the upon naught's had with
+oppositiont arguments, then is Opp Of Nor which beds Or itself; NOR not growling any uneasiness to an obvious confederation of Nand Or and Nand Not for the freedom a negation;
+
+Intween it adjures to bedeemst Reasoning's Halvings, it suctions the Subtended Orchard Of Logicism off the prototypical redeemings hectically induced, again, distorting the ennial
+weedbane therefrom, oneth Self CONJUNCT Self Negated is patternt 0; Self Disjunct Self Negated is everso 1; Self CONJUNCT Self CONJUNCT Other is Self; Self CONJUNCT Self is self;
+Self Disjunct Self is Self; Self whenz earnest informed under the Disjunctive Rune's conjurement of At Least 1 To 1, is 1 wherefore duelist inclusion, OR Other AND Otherself is 1,
+why then remarket, next if Self then both True, OR both therefore, OR Self 0 then both need the Truity: A+BC=A+B(A+C); affluent De Morgan's Principia, august: Naught Of Conjunction Is
+Disjunction 'Twixt Negated Self With Negated Other, Naught Of Disjunction is Conjunction 'Twixt Negated Self With Negated Other, eke backendforth. 

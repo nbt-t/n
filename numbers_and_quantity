@@ -1,0 +1,33 @@
+[[math]] [[set_theory]]
+*Quantity* is the [[state]] of an [[equal]] assemblage of objects. At least a measure of 1, unique object, is compulsory to
+predicating a object's positive existencial state. Whereas 0 or less of quantity assents at negative existencial
+state.
+
+*Quantity* is a set's length containing equal items.
+
+From reckoning collections *existential quantity*, that is whose symbolic translation is [[whole]], always sprouts.
+Whereas for the differing that to regarding spans or lengths, viz. the object as divided in units in place of
+entirety, rather than collections in which [[unity]] guides reckoning, the name *metric quantity* conferred.
+
+Objective/Existential Quantity and Subjective/Metric Quantity?
+
+A number is a *quantity*, while a digit is a *single numerical symbol* that may be constituent of a number.
+
+*Natural numbers*, aka, *counting numbers*, are all numbers one uses for counting: *{1, 2, 3, 4, 5...}*
+
+*Whole numbers* are all natural numbers *N* in cojunction with *0*: *{0, 1, 2, 3, 4, 5...}*
+
+*Integers* are all numbers that do not possess a fractional part: *{-2, -1, 0, 1, 2...}*. Also, all whole and negative
+numbers.
+
+*Rational numbers* are all numbers that can be expressed as a quotient or as a fraction *a/b* such that *b* is a non-zero
+number. *All integers are rational numbers*.
+
+N⊂W and W⊃N
+W⊂Z and Z⊃W
+Z⊂Q and Q⊃Z
+
+Q⊃(N⋃W⋃Z)
+Z⊃(N⋃W)
+FIXME: set theory similarity. If C ≤ B and B ≤ A, then B ≤ A ≥ C. If C⊆B and B⊆A, then A⊇B⋃C)
+FIXME: Relational operators, math, generalization over pattern of relational operators.

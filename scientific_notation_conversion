@@ -1,0 +1,7 @@
+[[math]]
+[[scientific_notation]]
+= SCIENTIFIC NOTATION -> DECIMAL =
+Given a*10ⁿ, if *n* > 0, the a's decimal point is dislpaced to the right, and to the left for the inverse sign.
+
+= DECIMAL -> SCIENTIFIC NOTATION =
+Given *x*, x's decimal point is displaced in such orientation that the number is spatially compressed .

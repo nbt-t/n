@@ -1,0 +1,2 @@
+[[python][[programming]]
+An object that's receiving multiple [[reference_to_an_object|signaling fingers]] is thought to be *aliased*.

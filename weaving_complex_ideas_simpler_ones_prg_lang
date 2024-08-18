@@ -1,0 +1,9 @@
+[[cs]]
+Any _powerful_ programming language allows the user to consolidate simple ideas weaving complex
+ones. For performing this, powerful programming languages provide users with three fundamental
+bases:
+
+* *Primitive expressions*, which are the simplest beings inside a language.
+* *Means of combination*, by which compound elements are constructed from simpler ones.
+* *Means of abstraction*, by which compound elements can be named and manipulated as single
+entities.

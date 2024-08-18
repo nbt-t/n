@@ -1,0 +1,6 @@
+A *file descriptor* is a unique number that identifies an open file in the OS.
+
+= Principal File Desciptors =
+* *stdin (0)*: By default, the keyboard.
+* *stdout (1)*: By default, the screen.
+* *stderr (2)*: By default, the screen.

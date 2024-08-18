@@ -1,0 +1,57 @@
+[[python]]
+= The selenium module = 
+The *selenium* module brings about functionality for _automatically_ interacting with websites
+through a web browser.
+
+Firstly, to execute a browser through selenium one must formerly import the `webdriver` module
+from selenium. Afterwards, by calling the *Browser()* function a web browser will be opened.
+{{{python
+from selenium import webdriver
+wb = webdriver.Firefox() # In particular, here my browser is Firefox.
+}}}
+The above function call (`webdriver.Firefox()`) will produce an actionable *WebDriver* object.
+
+Its actionability comnig from its mighty `find_element()` and `find_elements()` methods that
+allow for interacting with a myriad of a website's parts. For this one has to have formerly
+_imported_ the _By_ class _from selenium.webdriver.common.by_. Some of the useful arguments are as follows:
+
+* `(By.CLASS_NAME, value='val')`: Find element according to class value _val_.
+
+* `(By.CSS_SELECTOR, value='selector')`: Match element by the CSS _selector_.
+
+* `(By.NAME, value='val')`: Match element of attribute value _val_.
+
+* `(By.TAG_NAME, value='tag')`: Match element by _tag_.
+
+* `(By.LINK_TEXT, value='text')`: Match <a> element of content _text_.
+
+* `(By.PARTIAL_LINK_TEXT, value='text)`: Match <a> element retaining _text_.
+
+* `(By.ID, value='val')`: Match element by _val_ id value.
+
+Both of these methods will return a _WebElement_, or multiple if operating with `find_elements()`.
+
+This object, _WebElement_, as well accounts for a variety of bases for interaction.
+
+* `text`: It'll output the inner HTML of the element.
+
+* `get_attribute('attr')`: It'll return the value of the respective _attr_ attribute.
+
+* `location`: It'll return a dictionary containing the (x,y) coordinates of the element.
+
+* `is_displayed()`: It'll return True if the element is visible.
+
+* `is_selected()`: Used upon checkboxes and the like, it'll return True if selected.
+
+* `clear()`: It'll clear the text from the input area should the element be it.
+
+* `is_enabled()`: On input areas, it'll return True if enabled.
+
+* `click()`: It'll merely perform a mouse click.
+
+* `send_keys(inp)`: It'll perform _inp_ key press upon the element.
+
+* `submit()`: If presented an input area, it'll upload the information.
+
+For sending special keys through a _WebElement_ object's `send_keys()` method, one has to
+_import Keys from selenium.webdriver.common.Keys_.

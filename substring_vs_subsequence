@@ -1,0 +1,7 @@
+A *substring* is a string slice, of step 1, where each element's adjacency to the other coincides in the original string.
+While, a *subsequence*, being not inevitably a group of coincidental adjacency but so necessarily maintaining the same
+order as in the original string; a greater-than-or-equal-to-one step for string slicing in subsequences befits.
+
+All substrings are subsequences, but not viceversa. Therefore, substrings are specific instances of subsequences.
+
+In subsequences, adjecency per element may or not be true.

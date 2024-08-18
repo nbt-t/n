@@ -1,0 +1,39 @@
+[[python]]
+= What is "web scraping"? =
+It's the process of collecting data from a website.
+
+= webbrowser module =
+Among itself, this module offers the *open()* function, which will open the specified URL through
+the system's default browser.
+
+= requests module =
+This module propounds the *get()* function for getting the contents of a website, that is, to
+download it. Such function will conceive a _Response_ object, which in turn comprehends: its *text*
+attribute, it will return the contents of a website; its *raise_for_status()* method, which will
+raise an exception in case of an error during the process of retrieving a website's data; its
+*status_code* attribute;, it will return the _HTTP_ status code; among others.
+
+As another way in addition to the *raise_for_status()* method, one can verify whether a website's
+data was flawlessly fetched with *requests.codes.ok*, by checking it against a _Response_ object's
+*status_code* attribute.
+
+= bs4 module =
+After downloading the data from a website, as previously discussed, one will probably want to
+isolate elements from it, and that's where this module comes in handy. Prior to it, a *BeautifulSoup* object must be created by the utilization of the `BeautifulSoup` function.
+{{{python
+page = bs4.BeautifulSoup(requests.get('https://www.kernel.org'), # Website's contents
+						 'html.parser') # Parser to use
+}}}
+Now, it is possible to get elements from the generated _BeatifulSoup_ object by usings its
+`select()` method, which will conceive a *ResultSet* object containing, in turn, *Tag*
+objects giving way for more methods and attributes.
+{{{python
+links = page.select('a') # It will be stored all <a> elements of the website, creating a ResultSet object.
+type(links[0]) # -> Tag.
+links[0].text # -> The Linux Kernel Archives. Same as the getText() method.
+}}}
+* `getText() or text`: It'll return the inner HTMLL.
+
+* `attrs`: It'll return the element's attributes.
+
+* `get(attr) or [attr]`: It'll return the value of the _attr_ attribute.

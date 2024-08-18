@@ -1,0 +1,9 @@
+[[cs]] [[programming]]
+
+A *method* is nearby a function's character but they both differ in that a method _is called on behalf of an object_.
+Hence, a method could be described as a function flourishing in the bearing of an object. According to that context,
+methods reckon upon objects, as conversely to functions.
+
+A method is invoked upon on object.
+
+Calling a method *met* on behalf of *obj* object, *obj.met*, equates to _invoking_ such method upon *obj* object.

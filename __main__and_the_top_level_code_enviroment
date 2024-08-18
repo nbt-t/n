@@ -1,0 +1,8 @@
+[[python]] [[programming]]
+The *Top-Level Code Enviroment* is the module from which all other modules are imported; the principal module.
+
+{{{python
+The main __main__
+}}}
+Every pythonic file is treated as module.
+

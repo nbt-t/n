@@ -1,0 +1,25 @@
+A *filter* is a command that takes some input, changes it, and outputs it.
+
+= Filters (filter commands) =
+* *uniq*: Remove duplicates.
+	- Options:
+		* *-d*: Output only duplicates.
+
+* *grep*: Match text pattern.
+	- Options:
+		* *-v*: Twisted matching.
+
+* *head*: Display first ten lines.
+	- Options:
+		* *-n*: Control line number.
+
+* *tail*: Display last ten lines.
+	- Options:
+		* *-n*: Control line number.
+		* *-f*: Monitor file.
+
+* *wc*: Reckons words, lines, and bytes.
+	- Options:
+		* *-c*: Bytes.
+		* *-l*: Lines.
+		* *-m*: Characters.

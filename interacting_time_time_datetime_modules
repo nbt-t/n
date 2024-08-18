@@ -1,0 +1,153 @@
+The Unix epoch is a time reference from January 1, 1970, 12 A.M, UTC time.
+
+An unix epoch timestamp is the quantity of elapsed seconds since the unix epoch.
+
+The current unix epoch timestamp can be computed through the *time* module. By its *time()* function
+one can get the amount of seconds gone by since the unix epoch.
+{{{python
+import time
+
+print(time.time())
+
+1649281631.8562713
+}}}
+However, for a more human-readable representation one can use the *ctime()* function which takes
+as argument a unix epoch timestamp.
+{{{python
+import time
+
+
+unix_timestamp = time.time()
+print(time.ctime(unix_timestamp))
+
+Wed Apr  6 17:46:13 2022
+}}}
+As observed, this will result in a much more graphic representation of a unix epoch timestamp as opposed
+to its counterpart, *time()*.
+
+*Code profiling* is the process of gauging of much time code takes to perform the assigned task,
+that is, how much time it takes to run.
+
+One can implement pauses in a program by the *sleep()* function. It takes as argument an amount of
+seconds to be waited.
+{{{python
+import time
+
+
+print('Hello')
+time.sleep(2)
+print('World!')
+
+Hello
+World! # -> Print 'Hello', wait two seconds, and then print 'World!'
+}}}
+For getting a more evident, computable time there exists the *datetime* module; converting seconds
+is surely a slog.
+
+Its *datetime.datetime* class posseses a method for returning the actual time, that is the *now()*
+method.
+{{{python
+import datetime as date_t
+
+time = date_t.datetime.now()
+print(time)
+
+2022-04-06 18:31:12.226358
+}}}
+Such method will dump a _datetime_ object composed of the following attributes: _year_, _month_,
+_day_, _hour_, _minute_, _second_, and _microsecond_; laid in the same order.
+
+Now, for conceving a _datatime_ object from a given time the *datetime* class alone is of use. Such
+that a sequence of three values, year, month, day, must be furnished as arguments, and consequently,
+the left are to be optional (hour, minute, second, microsecond).
+{{{python
+import datetime as date_t
+
+
+time = date_t.datetime(1970, 5, 1)
+print(time)
+
+1970-05-01 00:00:00
+}}}
+There's also the *fromtimestamp()* method for getting a time since a provided unix epoch timestamp.
+{{{python
+import datetime as date_t
+
+time = date_t.datetime.fromtimestamp(0)
+print(time)
+
+1969-12-31 19:30:00
+}}}
+One can also compare datetime objects by using ordinary comparison operators.
+{{{python
+import datetime as date_t
+
+
+time_1 = date_t.datetime.now()
+time_2 = date_t.datetime(1962, 12, 30, 16, 40, 20)
+
+print(time_1 > time_2) # -> True
+}}}
+The *timedelta()* class is useful for performing arithmetic operations on _datetime_ objects.
+This method will accept the _days_, _hours_, _seconds_, _milliseconds_, and _microseconds_ keyword
+arguments for returning an elapse of time.
+{{{python
+import datetime as date_t
+
+
+time = date_t.datetime.now()
+elapse = date_t.timedelta(days=11, hours=24) # timedelta object
+print(time + elapse)
+
+2022-04-18 19:12:28.746082
+}}}
+A timedelta's object *total_seconds()* method will return the total amount of seconds passed.
+import datetime as date_t
+{{{python
+import datetime as date_t
+
+
+elapse = date_t.timedelta(days=365)
+print(elapse.total_seconds())
+
+31536000.0
+}}}
+The *strftime()* method, on behalf of a _datetime_ object, serves the purpose of formatting to a
+string. It takes as argument the desired string containing the following formatting directives:
+
+* *%Y*. Year with century; '1980'.
+* *%y*. Year without century, from '00' to '99'; '22'.
+* *%B*. Whole month name; 'January'.
+* *%b*. Abbreviated month name; 'Jan'.
+* *%H*. Hour in 24-hour clock format, '00' to '23'; '13'.
+* *%I*. Hour in 12-hour clock format, '01' to '12'; '01'.
+* *%m*. Month as number, '01' to '12'; '01'.
+* *%d*. Day of the month, '01' to '31'; '01'.
+* *%j*. Day of the year, '001' to '366'; '001'.
+* *%w*. Weekday number, '0' (Sunday) to '6' (Saturday); 2.
+* *%A*. Full weekday name; 'Tuesday'.
+* *%a*. Abbreviated weekday name; 'Tue'.
+* *%M*. Minute; '30'.
+* *%S*. Second; '10'.
+* *%p*. 'AM' or 'PM'.
+{{{python
+import datetime as date_t
+
+
+time = date_t.datetime.now()
+print(time.strftime('The year %Y in the month %B, day %A.'))
+
+The year 2022 in the month April, day Thursday.
+}}}
+For the converse, that is converting a string to a _datetime_ object the *strptime()* method, on
+behalf of the *datetime* class, serves. It being fed with the string and the format string where
+each value corresponds with the former string argument. This method follows same directives as
+*strftime()*.
+{{{python
+import datetime as date_t
+
+time = 'The year 2022 in the month April, day Thursday.'
+print(date_t.datetime.strptime(time, 'The year %Y in the month %B, day %A.'))
+
+2022-04-01 00:00:00
+}}}

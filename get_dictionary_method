@@ -1,0 +1,7 @@
+[[python][[programming]]
+[[python_dictionary_methods]] [[dictionary_methods]]
+Returns key's value, if exists, otherwise, default value.
+{{{python
+def dt_get(dt, key, default=None):
+	return dt[key] if key in dt else default
+}}}

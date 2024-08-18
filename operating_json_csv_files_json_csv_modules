@@ -1,0 +1,98 @@
+= JSON files =
+_JSON_, standing for *JavaScript Object Notation*, is a data format which stores information in the
+form of JavaScript syntax. This is the most widely adopted data formatting basis among APIs.
+
+Python offers the *json* module for processing JSON data. Its *loads()* function will translate
+between JSON to python-compatible data, and its *dumps()* function will do the reverse.
+
+JSON data can only contain the following python data types: _str_, _int_, _float_ _dict_, _list_,
+_bool_, and _NoneType_.
+{{{python
+import json
+
+
+json_data = '{"product": "laptop", "type": "electronic", "price": 300, "discount": null}'
+py_data = {'product': 'laptop', 'type': 'electronic', 'price': 300, 'discount': None}
+
+print(json.loads(json_data))
+print(json.dumps(py_data))
+
+{'product': 'laptop', 'type': 'electronic', 'price': 300, 'discount' None}
+{"product": "laptop", "type": "electronic", "price": 300, "discount": null}
+}}}
+= CSV files & the csv module =
+The *comma-separated-values* (_CSV_) file format stores data, in plaintext, as if in a
+spreadsheet, each line intents a _row_ and in each line the comma delimited values represent
+the distinct _cells_ of a _row_.
+
+Python's *csv* module is an _easy_ way to deal with these file types. CSV reading is carried out
+by a _reader_ object which is created using the *reader()* function with a _File_ object argument.
+{{{python
+import csv
+
+
+f = csv.reader(open('file.csv'))
+print(list(f)) # -> List of lists representing each row and its respective cells.
+
+[['Robert', '16', 'Computer science'],
+['Kimberly', '13', 'Social media'],
+['Veronica', '18', 'Gaming'],
+['Alexander', '33', 'Drifting'],
+['David', '21', 'Cooking']]
+}}}
+The *writer()* function serves writing purposes by a _writer_ object's *writerow()* method,
+which takes as argument a list where each value represents a cell in the row.
+{{{python
+import csv
+
+
+f = open('file.csv', 'w') # File object must be in writing (w) or appending (a) mode.
+f_csv = csv.writer(f)
+
+f_csv.writerow(['Nate', 32])
+f.close()
+
+[['Robert', '16', 'Computer science'],
+['Kimberly', '13', 'Social media'],
+['Veronica', '18', 'Gaming'],
+['Alexander', '33', 'Drifting'],
+['David', '21', 'Cooking']
+['Nate', '32']]
+}}}
+For associating cell values with keys, one can define a _header row_ where each of its values is a
+key mapping to the subsequent cell values, that is, the first row contains keys and the following
+are the corresponding key values. This alternative structure can be read using the the _DictReader_
+object proceeding from the *DictReader()* function.
+{{{python
+import csv
+
+f = csv.DictReader(open('file_dt.csv'))
+print(list(f)) # -> List of dictionaries where each represents a row and its key-value pairs.
+
+[{'name': 'Robert', 'age': '16', 'hobby': 'Computer science'},
+{'name': 'Kimberly', 'age': '13', 'hobby': 'Social media'},
+{'name': 'Veronica', 'age': '8', 'hobby': 'Gaming'},
+{'name': 'Alexander', 'age': '51', 'hobby': 'Drifting'},
+{'name': 'David', 'age': '43', 'hobby': 'Cooking'},
+{'name': 'Nate', 'age': '32', 'hobby': None}]
+}}}
+The opposite, writing, can be performed by the agency of a _DictWriter_ object's *writerow()*
+method, challenging as argument a dictionary. Such object arising from the *DictWriter()*
+function.
+{{{python
+import csv
+
+f = open('new_file.csv', 'w')
+f_csv = csv.DictWriter(f, ['product', 'price']) # The second argument being the header row,
+												# where the keys are defined.
+											
+f_csv.writeheader() # This can be omitted, it writes the header row.
+
+f_csv.writerow({'product': 'keyboard', 'price': '$10'})
+f.close()
+
+product,price
+keyboard,$10
+}}}
+Into these propounded functions can be inserted the *delimeter* and *lineterminator* keyword
+arguments, where the former expresses the cell delimeter and the latter the newline character.

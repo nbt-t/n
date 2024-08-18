@@ -1,0 +1,14 @@
+[[cs]] [[math]] [[geometry]]
+
+An *offset* is the semantic translation of distance/displacement to computer science, but _can only be integer_.
+
+Specifically, an array's _positive_ *index*, aka *offset*, is the displacement departing from its first element:
+
+{{{python
+arr = ['t', 'e', 's', 't']
+arr_element_pos = 3
+first_element_pos = 1
+arr[arr_element_pos-first_element_pos] # -> 's'
+}}}
+Essentially, when we specify an element's position, by supreme convention always commencing from the leftmost
+element (the first one), we are declaring the amount of elements to traverse so to attain such element.

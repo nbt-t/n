@@ -1,0 +1,2 @@
+[[cs]]
+An object is *hashable* if it's _immutable_.

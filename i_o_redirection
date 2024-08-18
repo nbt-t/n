@@ -1,0 +1,13 @@
+*I/O redirection* is the process of changing the default file descriptor to which a program
+will send its output or receive its input. Alternatively, it's the process of redirecting
+the input or ouput stream source of a program.
+
+= I/O Redirection Operators =
+* *> or <*: Greater than (>) is stdout -> source, and less than (<) is stdin <- source.
+In using the > operator, the source, for a file, is firstly created prior to the
+output redirection.
+
+* *>> or <<*: Same but append
+
+* *Pipe (|)*: Instead of redirecting output to a file, sends it to the input of an
+ensuing command.

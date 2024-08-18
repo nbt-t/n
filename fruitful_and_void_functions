@@ -1,0 +1,5 @@
+[[cs]]
+A *fruitful function* is that which return value is other than `None`.
+
+On the other hand, a *void function* being the opposite, that is, a function that returns
+None.

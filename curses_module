@@ -1,0 +1,82 @@
+[[python]] [[curses]]
+curses is a library for manipulating terminal displays.
+
+To initialize a curses window, one calls the *initscr()* function, which will, in place, give issue
+to a Window object. Such objects being analogues to blank sheets receptive to modification.
+
+By custom, a window object is deposited within a variable named *stdscr*. This variable then inherits
+all predefined manipulation methods.
+
+Curses applications can take great pains to develop due to the unexpected exceptions that may arise
+during their development, leaving the terminal all messed up. Accordingly, the library bears of
+a convenient procedure for mitigating such issue: the *wrapper()* function, which takes a callable
+as argument. Prior to carrying out the provided callable, it calls *curses.noecho()*,
+*curses.cbreak()*, *curses.keypad(True)*, and enables color support if available.
+In posterior step, it proceeds with the callable wrapping it around a try-except clause, re-raising
+any encountered exception. Ultimately, calls *curses.endwin()* to restore the terminal display.
+
+In curses, coordinates are represented in twisted order: *(y, x)*.
+
+When feeding data to a window, it is not forthwith visible. It is made visible by the *refresh()* method.
+
+The current main window can be sectioned with the *newwin()* function, taking as arguments the sizes
+corresponding to lines and columns.
+
+*Pads* are independent sheets that can be ever moved onto any position in the main sheet, the main
+window object. This separation of pads indicates the unrestrained size and, to be sure, content.
+To bring about a pad, the *newpad()* function serves, taking as argument the willed size.
+
+A pad is a subconstruct of a window that one can will whither to display on the screen,
+and the segment of view, at any time. As opposed to windows, which one can only will wherein
+to place in effect (declaration).
+
+A pad is a movable sheet laid on the main sheet (stdscr) from which specific areas can be selected.
+While a window is a sheet glued onto a certain position of the main sheet.
+
+Now, for expressing the position and region to display of such pad, the *refresh()* method avails;
+calling it with an argument configuration proper to the requirement of a pad:
+{{{python
+refresh(
+	pad_upper_left_corner_x,
+	pad_upper_left_corner_y,
+	window_upper_left_corner_x,
+	window_upper_left_corner_y,
+	window_lower_right_corner_x,
+	window_lower_right_corner_y
+	)
+}}}
+
+Text can be drawed with diferent styles, these are called *attributes*.
+
+The addch() method is addstr() but of singular input and output. That is, addch() being a pen loaded
+with a drop of ink, and addstr(), conversely, loaded with much ink.
+
+Cursor location is operated with the *move()* method. As if locating a pen on a sheet.
+
+Before any color procedure, it needs the *start_color()* function calling. Thereupon completed,
+at disposition lie 8 basic colors: *0:black*, *1:red*, *2:green*, *3:yellow*, *4:blue*,
+*5:magenta*, *6:cyan*, and *7:white*. All of which can alternatively be hailed
+with: *curses.COLOR_{COLOR_NAME}.* Similarly, prior to bestowing a pen one must furnish
+it with ink.
+
+*Color remapping* is worked through the *init_pair()* function. Such is done by specifying the
+color's number, next to the desired foreground and background: *init_pair(n, fg, bg)*.
+
+The terminal's color capability is determined with the *has_colors()* function, which will return
+True if so. Furthermore, if the terminal has the power to map a color number to an RGB value,
+the *can_change_color()* function will affirm True.
+
+= Functions =
+* *(no)echo()*: Turns on/off exposition of keys in the screen.
+* *(no)cbreak()*: Turns on/off unbuffered input.
+* *endwin()*: Opposite of *initscr()*: Terminate window and recover terminal's normal state.
+* *newwin(lines, cols)*
+* *newpad(lines, cols)*
+
+= Window object Methods =
+* *keypad(True/False)*: Interpret special keys.
+* *refresh()*
+* *addstr(str)*: Write *str* in the current cursor position.
+* *adstr(str, attr)*: Write *str* in the current cursor position, applying *attr* to *str*.
+* *addstr(y, x, str)*: Move cursor to *(y, x)* and write *str*.
+* *addstr(y, x, str, attr)*: Move cursor to *(y, x)*, write *str* applying *attr* attribute.

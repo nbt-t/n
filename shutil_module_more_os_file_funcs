@@ -1,0 +1,16 @@
+[[python]]
+The *shutil* (_shell utilities_) module is in seize of nifty file manipulation functions, as such:
+
+* `rmtree()`: This function will sink a folder, with its contents.
+
+* `copy()`: Which will copy a file, first argument, to a given path, second argument.
+
+* `copytree()`: Mitigating the confine of only files, this function will carry out the same as `copy()` but for directories.
+
+* `move()`: This function will move a file, first argument, to a specified path, second argument.
+
+Now, the `os.unlink()` function fulfills when desirous of deleting _just_ a file. And the
+`os.rmdir()` function for _empty_ directories.
+
+The `os.walk()` function serves the purpose of scanning an utter directory tree, all its files
+and subdirectories.

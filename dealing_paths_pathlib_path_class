@@ -1,0 +1,88 @@
+[[python]]
+= Dealing with paths = 
+The *Path()* class, proceeding from the _pathlib_ module, allows to get paths tuned
+to the filesystem's naming conventions by passing as arguments comma separated values
+representing files.
+{{{python
+Path("some", "directory")
+}}}
+This code will return a *PosixPath object* containing `some/directory`. Be aware the path delimeter
+(/ in this case) will change based on the operating system.
+
+_Path objects_ can be concatenated through the `/` operator with other values.
+{{{python
+Path.home() / 'directory' # -> /home/user/directory
+}}}
+For the current working directory, the `cwd()` function can be of use.
+{{{python
+Path.cwd() # -> /home/user/current_working_dir
+}}}
+For gettting the home directory, there exists the `home()` function.
+{{{python
+Path.home() # -> /home/user
+}}}
+Speaking of absolute and relative paths, there exist the following functions and methods:
+
+* `absolute()`: When called on behalf of a _Path object_, it'll output the absolute path version.
+{{{python
+x = Path('directory')
+x.absolute() # -> /home/user/directory
+}}}
+* `is_absolute()`: Bound to the previous method, there also exists how to know if a _Path object_ is absolute.
+{{{python
+Path.home().is_absolute() # -> True, since /home/user is an absolute one.
+}}}
+* `os.path.relpath()`: This function, of the *os.path* module, will return the relative path
+version.
+{{{python
+os.path.relpath(Path.home() / 'directory') # -> directory
+}}}
+For creating directories, the `mkdir()` function is of use, for example:
+{{{python
+p.mkdir(p.home() / 'test') # -> Will create a directory at /home/user/test. It is to remark
+                           # that this function will not create, if necessary, any intermediate
+			    # directories.
+}}}
+Strands of _Path object_ can be read with the *anchor*, *root*, *drive*, *parent*, *stem* and *suffix* 
+attributes, in particular. Such each strand speaks the following:
+
+* `root`: Represents the root directory.
+
+* `drive`: In Windows, it is the drive letter corresponding the path.
+
+* `anchor`: This is the blend of the `drive` and `root` attributes.
+
+* `parent`: The direction of the file, excluding the file's name.
+
+* `stem`: The filename without the extension or `suffix`.
+
+* `suffix`: The file's extension.
+
+With the same object, the os.path module has circulation of path element isolation bases,
+and they are such:
+
+* `os.path.dirname()`: Which will return the direction of a file, with no filename, equally to a _Path_ object's _parent_ attribute.
+
+* `os.path.basename()`: Will output the utter filename, it is the same as, to a _Path_ object's, _stem_ + _suffix_.
+
+`os.sep` is of fancy in need of a system's path delimeter.
+
+For mitigating uncertainty about a file's existence, or character, the following methods
+happen to suit, for a _Path_ object:
+
+* `exists()`: Will return True if the given path exists.
+
+* `is_file()`: Which will output True if the bestowed path speaks of a file.
+
+* `is_dir()`: Will return True if the given path indicates a directory.
+
+The `read_text()` and `write_text()` _Path_ object's methods permit for reading and writing
+files, respectively.
+
+Likewise, a `read()` and `write()` _File object's_ methods, conceived from the `open()`
+function, will read and write files, respectively.
+
+On behalf of the `open()` function, a second argument, being _mode_, can be  passed, `a` (_append mode_) and `w` (_write mode_).
+
+For producing a list of the files in alignment with a given pattern, a Path object's `glob`
+method can one use.

@@ -1,0 +1,32 @@
+Logic is the study of the methods and principles used in setting apart correct from incorrect reasoning.
+
+Logic is a directive field, its intent is to prescribe how one ought to reason, versus psychology, which describes
+the way [[mind]] operates.
+
+That is, it directly deals with differentiating correct from incorrect reasoning.
+
+Classifying the validity of arguments, in the reckoning of how a conclusion ensues after prior statements,
+called premises, with some probability or certainty, is what marks logic basically.
+
+Deductive Logic addresses arguments as boolean situations, they're either true or false; it is concerned with
+boolean inferences.
+
+The conclusion for any deductive argument must, for true, inescapably proceed.
+
+Example of false deductive argument:
+
+	The consolidation of quantities equals the total. Therefore, 1+1=3.
+
+Whereas for probabilistic guesswork in which the premises ain't boolean, Inductive Logic. It deals with the
+probability of conclusions preceded by likely premises.
+
+Connectedly, an inductive argument is one whose conclusion is claimed to proceed with probability.
+
+Example of very probable inductive argument:
+	The other one got a rise out of him and sure he got exasperated. That's why I think he killed him, that
+	the slayed kid the wrong guy.
+
+To infer is to ideate proposition whose truth is fancied connected to prior propositions. To be mistaken not
+with implication, which is the logical relation between propositions.
+
+The relationship held between premises and conclusion is hailed entailment.

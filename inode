@@ -1,0 +1,2 @@
+An *inode* is a data structure partaking of information about a certain file, or directory,
+in a Linux filesystem.

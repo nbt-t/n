@@ -1,0 +1,53 @@
+[[python]]
+= The raise keyword =
+As the naming hints at, the *raise* keyword will halt a program and _raise_ the determined exception.
+{{{python
+def draw(char, h, w):
+    if len(char) != 1:
+        raise Exception('The character must be of length 1')
+		
+    elif h < 3 or w < 3:
+        raise Exception('The height and width must be greather than 1')
+    print(char * w)
+	
+    for x in range(h-2):
+        print(char + (' '* (h-2)) + char)
+    print(char * w)
+	
+try:
+    draw('*', 5, 1)
+	
+except Exception as err:
+    print('ERROR: %s.' % (err))
+
+# -> ERROR: The height and width must be greather than 2.
+}}}
+
+= A program's traceback =
+The *traceback* of a program is a collection of circumstances concerning the causes of a
+program's exception. It is woven from the antecedent functions that lead to the exception,
+their corresponding line numbers, the particular exception's line number itself, and the
+error message. This sequence of leading functions is called the _call stack_. An example
+of a traceback, from the elder code:
+{{{python
+Traceback (most recent call last):
+  File "/home/nt/codespc/box_drawer.py", line 18, in <module>
+    draw('*', 5, 1)
+  File "/home/nt/codespc/box_drawer.py", line 8, in draw
+    raise Exception('The height or width must be greather than 1')
+Exception: The height or width must be greather than 1
+}}}
+The elements of a _traceback_ can be readily noticed, therefore.
+
+For operating with the traceback of a program, one can make use of the format_exec()
+function proceeding from the *traceback* module. Such function will return the traceback
+as a string object.
+
+
+= Assertions & the assert keyword = 
+
+An *assertion* is a sanity check upon the behavior of code.
+
+The *assert* statement being the agency through which sanity checks are implemented.
+If the condition on account of the *assert* statement equals to False, then an
+`AssertionError` is raised.

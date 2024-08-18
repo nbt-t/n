@@ -1,0 +1,3 @@
+[[python][[programming]]
+Any object ever evaluates to its value; *[1, 2, 3]* is list object with a sequence of integers as value, and *'test'* is a
+string object with the word _test_ as value.

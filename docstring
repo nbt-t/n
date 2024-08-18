@@ -1,0 +1,4 @@
+[[python]]
+
+*Docstrings* are *documentation strings* participant in a function interface. By convetion, they're
+expressed with surrounding triple double-quotes.

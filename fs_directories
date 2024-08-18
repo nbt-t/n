@@ -1,0 +1,25 @@
+= Filesystem Directories =
+* */usr*: All the stuff used by normal users.
+* */boot*: Bears the linux kernel, initial RAM disk image (initrd), and the bootloader.
+* */usr/share*: Shared data used by the programs in /usr/bin.
+* */usr/bin*: Programs installed by the Linux distro.
+* */bin*: Binaries the system requires to start up properly.
+* */usr/local*: Programs that aren't pre-installed by the distro, of system-wide usage.
+Usually contains programs compiled from source code.
+* */proc*: This directory is a virtual filesystem maintained by the kernel. Its files
+are distinct accounts of the kernel.
+* */tmp*: Files in here are temporary, that is, they are removed each power-off.
+* */var*: Inestable files.
+* */usr/share/doc*: Programs' documentation.
+* */usr/lib*: Shared libraries for the programs in /usr/bin.
+* */opt*: Chiefly commercial software.
+* */sbin*: System programs mostly used by sysadmins.
+* */usr/sbin*: More system administration programs.
+* */var/log*: Log files.
+* */mnt*: Older directory for mustering manually-mounted removable drives.
+* */mount*: Modern directory for automatically mounted removable drives.
+* */dev*: List of devices the system understands.
+* */etc*: System-wide configuration directory for programs. It also retains shell scripts
+for commencing the system's services.
+* */lib*: Shared library files.
+* */lost+found*: It'll contain recovered data in circumstance of a filesystem corruption.

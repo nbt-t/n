@@ -1,0 +1,14 @@
+[[cs]]
+A *computational instruction* is any action described in the [[computer's language]] for it to carry out
+through execution.
+
+An *instructional unit* is any sequence of computational instructions [[abstraction_and_generalization|abstracted]] to a name, viz: *program*,
+*subroutine*, *function*, *procedure*.
+
+The execution pattern of programs perfectly resembles [[black boxes]]: you feed a machine with somethnig, and
+it outputs someobject, the feeder doing so unknowingly of the program's internal mechanics.
+
+Every computational unit of instruction is a [[abstraction_and_generalization|generalization]] from of foundationally consistent set of
+input-output relations.
+
+FIXME: Pure and Impure Programming Languages. Output affected by external world.

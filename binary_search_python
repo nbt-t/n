@@ -1,0 +1,55 @@
+[[programming]] [[python]]
+{{{python
+def binary_search(iterable, target):
+	"""
+	If len(iterable) is odd, (len(iterable)-1)//2 = len(iterable)//2. But if
+	even, (len(iterable)-1)//2 != len(iterable)//2, instead equal to
+ 	(len(iterable)//2)-1.
+	"""
+    l, r = 0, len(iterable)-1
+    while l <= r:
+        mid = (l+r)//2
+        if iterable[mid] == target:
+            return mid
+        elif iterable[mid] < target:
+            l = mid+1
+        else:
+            r = mid-1
+	# If outside while loop, means target isn't in iterable.
+}}}
+{{{python
+def binary_search_recursive(iterable, target, l_end, r_end):
+    """
+	Since r_end must be 0-based index, r_end = len(iterable)-1;
+    len(iterable)//2 gives 1-based index.
+    """
+    mid = (l_end+r_end)//2
+    if l_end > r_end:
+        return
+    elif iterable[mid] == target:
+        return mid
+
+    if iterable[mid] < target:
+        l_end = mid+1
+    elif iterable[mid] > target:
+        r_end = mid-1
+    return binary_search_recursive(iterable, target, l_end, r_end)
+}}}
+{{{python
+def iterative(iterable, target):
+	l_end = 0
+	r_end = len(iterable)
+	mid = (l_end+r_end)//2
+	# mid >= len(iterable) when target not in iterable and greater than
+	# all iterable items.
+	while l_end <= r_end and mid < len(iterable):
+		if iterable[mid] < target: #
+			l_end = mid+1
+		elif iterable[mid] > target:
+			r_end = mid-1
+
+		if iterable[mid] == target:
+			return mid
+		mid = (l_end+r_end)//2
+}}}
+FIXME: Third function.

@@ -1,0 +1,8 @@
+[[cs]]
+= Types of Errors =
+* Syntax error: It is that concerned with structure.
+
+* Runtime error, or exception: It occurs during a program's execution.
+
+* Semantic error: The program doesn't issue any error, but does not perform the task
+intended.

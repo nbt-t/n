@@ -1,0 +1,8 @@
+[[math]] [[programming]]
+Before all, the horizontal or vertical center is computed by half trucation of plane's width (x, 0) or height
+(0, y); inferentially, computation of both if the will is to center bi-axially (x, y).
+
+Posteriorly, if it be satisfied the condition about the object's length, either horizontally or vertically,
+greater than 1, it follows to subtract the object's half from the center coordinate and voila!
+FIXME: Add programming/pragmatic example/illustration.
+FIXME: From programming's standpoint.

@@ -1,0 +1,46 @@
+=  What is it, CSS? =
+*Cascading Style Sheets* (aka _CSS_) is a language used to modify the HTML visual representation
+of a website, that is, to _customize_ a website's depiction of its structure.
+
+= Relation between HTML & CSS =
+Thereby, it is crystallized the difference between the two (_HTML_ and _CSS_), HTML deals with
+_structure_, while CSS is concerned with the _appearance_ of structure.
+
+= Styling with CSS =
+One can _style_ an HTML website with CSS by specifying the *<style>* element's CSS rules inside *<head>* element.
+{{{html
+<html>
+    <head>
+        <title>KCeyboard, simply a keyboard shop.</title>
+        <!--style for the body element-->
+        <style type="text/css">
+            body {
+                background-color: #000000;
+                margin-left: 10%;
+                margin-right: 10%;
+                border: 1px solid red;
+                padding: 10px 0px 10px 20px;
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>KCeyboard</h1>
+
+        <h2>$149.99 | Crook mechanical keyboard</h2>
+        <p>The 86 Keyed Ergonomic Natural X-Bows Ergo USB RGB keyboard.
+
+        <h2>$259.99 | Antropomorphous keyboard</h2>
+        <p>A hand-shaped keyboard, <em>not strange</em>.</p>
+
+        <h2>$999.99 | SFTD keyboard</h2>
+        <p>The Super Futuristic Typing Device will <em>blow</em> your mind!</p>
+
+        <h2>$185.99 | Memchanical keyboard</h2>
+        <p>A membrane, mechanical, hybrid keyboard, great.</p>
+
+        <a href="intention.html">Our intention
+    </body>
+<html>
+}}}

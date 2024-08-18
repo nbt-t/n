@@ -1,0 +1,6 @@
+[[math]]
+It's a framework for denoting quantity, making also use of [[exponential notation]], that consume much time to symbolize.
+The idiom for a quantity in scientific notation is:
+
+x = a*10ⁿ, 1 ≤ a < 10 and n is integer WHY?
+FIXME: Complete. Link quantity idiom. Fix exponential notation link.a

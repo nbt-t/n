@@ -1,0 +1,18 @@
+[[math]]
+A *numeral system* is a symbolic framework for denoting quantity.
+
+The *base* of a numeral system is that group of digits used to represent quantities. For example: *0-9* is the base
+pertaining the [[decimal system]], and *0-2* the one for the [[binary system]].
+
+The base of a any provided numeral system may be attached to a derivative number to indicate its source, e.g: *9₁₀*, *10₂*, etc.
+
+Numeral systems with smaller bases challenge more space, and, therefore, [[time]], for representing quantity, while ones in
+possession of bigger bases make claim for drilling into mind more digits and, as derivation, further the multiplication
+table.
+
+Due to their popularity, base-10 numerals do not need their base to be pointed out. 
+
+A *positional numeral system* is a numeral_system in which the value of each succesive digit within a numeral is determined
+by its position. Given the description, the [[decimal]], and [[binary]] systems are *positional numeral systems*. 
+
+The *place value* of a digit is its value with respect to its position inside a number.

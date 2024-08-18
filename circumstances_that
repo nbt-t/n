@@ -1,0 +1,8 @@
+Computational instructions are blurred to our monkey mind when such circumstances frame:
+
+* *Recursive/Circular/Self-Referencing Variable Assingment*: When a variable assigment references itself, or another
+  variable, the mind has to compute the meaning of the variables inside such statement and, furthermore, the
+  the computation involving such variables for afterwards remapping the variable's value.
+  
+* *Volatility of Variable*: The mind can readily handle variables pestering for change, but still, it is a minor
+  additioned load. It effectively grows when combined with *recursive/circular/self-referencing variable assignments*.

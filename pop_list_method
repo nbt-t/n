@@ -1,0 +1,9 @@
+[[python][[programming]]
+[[list_methods]] [[python_lists]]
+Twin to:
+{{{python
+def lt_pop(lt, index):
+	item = lt[index]
+	del lt[index]
+	return item
+}}}

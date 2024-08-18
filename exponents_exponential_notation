@@ -1,0 +1,20 @@
+[[math]]
+It's a [[quantity idiom]] that employs two numbers: the number that's going to multiply upon itself, *base*, and the amount of
+times that such number will do as such with itself, *exponent*.
+
+To work with *exponential expressions*, it is prime to follow such correspondences:
+
+* aᵐ*aⁿ = aⁿ⁺ᵐ, if two multypling powers of the same base, to add their exponents.
+* (aᵐ)ⁿ = aᵐ ⃰ⁿ, if a power of a power, to multiply both powers.
+* (a/b)ᵐ = aᵐ/bᵐ, if a power of a fraction, to distribute each exponent onto numerator and denominator.
+* (a/b)⁻ᵐ = b/an, if a negative power of a fraction, to swap numerator and denominator, and change exponent sign.
+* (aᵐ/aⁿ) = aᵐ⁻ⁿ, if fraction where numerator and denominator are alike, both raised to a power, to subtract the exponents.
+* (ab)ᵐ = aᵐ*bᵐ, if power of a product, to multiply the powers of each factor.
+* a⁻ᵐ/b⁻ⁿ = bᵐ/aⁿ, if two negative powers in both fractional sides, to swap sides and change exponent signs.
+
+For any power of a^0, the result is 1 that follows, for if a number is multiplied by itself less than 1, and greater
+than -1 times, it is only the base that remains.
+
+
+From any power of a^-n, such that n is a positive integer, an equality can be set: 1/an.
+FIXME: Complete. Link(s).

@@ -1,0 +1,74 @@
+A pixel is the smallest particle of color that exists within an image.
+
+The color of an image is determined by the configuration of each pixel. The configuration of a
+pixel, that is their color, is represented by an *RGBA* (red, green, blue, and alpha, respectively)
+value which is a set of 4 numbers ranging from 0 to 255 indicating the intensity of a color.
+Therefore a value of 0 intends a scarce color, and the same in place of _alpha_ represents complete
+transparency.
+
+The direction of a pixel in an image is represented with cartesian coordinates (x, y). Such that
+the origin is (0, 0), that is the top left corner.
+
+In Pillow, a *box tuple* is a rectangular area of an image represented by four coordinates, left,
+top, right, and bottom, respectively. The _left_ value is an x coordinate of the leftmost position
+in the area, the _top_ value is a y coordinate of the highest position in the area, the _right_
+value is an x coordinate of one more to the right of the rightmost edge in the area, and the 
+_bottom_ value is a y coordinate of one lower to the bottom in the area.
+
+An image can be opened, consequently generating an _Image_ object, by calling the *open()* function.
+
+The effecting of images is performed with the *new()* function. It requires the _mode_ and _size_
+arguments (size is a tuple of width and height), and an optional RGB value speaking of the image's
+background.
+
+= Image object methods =
+* *crop(box_tuple)*: It'll crop the image, that is to only extract a particular region from it,
+based on a given box tuple argument.
+
+* *rotate(degree_val)*: It'll rotate the image in degrees.
+
+* *tranpose()*: It'll flip the image.
+
+* *copy()*: It'll copy the image of behalf.
+
+* *save(filename)*: It'll save the image to a file of name _filename_.
+
+* *resize((width, height))*: It'll resize the image provided a tuple of _width_ and _height_.
+
+* *paste(lay)*: It'll paste a lay onto the image of behalf.
+
+* *getpixel(pos)*: It'll return the RGB value (color) of the pixel in the specified position.
+
+* *putpixel(pos, RGB)*: It'll draw a pixel, of a given color, onto the specified position.
+
+= ImageDraw module, drawing on an image =
+Through this module, one cannot directly address an image but a preliminary _ImageDraw_ object
+must be generated through the *Draw()* function.
+{{{python
+from PIL import Image, ImageDraw
+
+
+img = Image.open('pic.png')
+img_d = ImageDraw.Draw(img) # -> ImageDraw object which will allow drawing upon the image.
+}}}
+== ImageDraw object methods ==
+Such object propounds a series of methods for changing the pixels of an image:
+
+* *point(pos, fill)*: It'll bestow a point on the image pondering the position. For all the
+subsequent methods in use of the *fill* and *outline* arguments, these are optional and can also be
+expressed as keyword arguments.
+
+* *line(pos_lt, fill, width)*: It'll draw a line according to a list of coordinates, or tuples containg
+coordinates, wherein each point connects with the elder one.
+
+* *polygon(pos_lt, fill, outline)*: It'll draw any polygon given a list of points, or tuples containing
+points, where each point connects with the prior one, except when in the final point, in such,
+it'll be connected to the inception point.
+
+* *rectangle(box_tuple, fill, outline)*: It'll lay a rectangle onto the image.
+
+* *ellipse(box_tuple, fill, outline)*: It'll draw an ellipse upon the image.
+
+* *text(pos, text, fill, font)*: It'll feed text onto the image. The font argument, optional, is an
+_ImageFont_ object. _ImageFont_ objects are encompassed by the *ImageFont* module's font functions;
+such as *truetype()*. These functions will take as arguments a *font file* and a *size*.

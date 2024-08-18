@@ -1,0 +1,20 @@
+*Expansion* is the preprocessing upon a command prior to its execution.
+
+= Types of Expansion =
+* *Pathname expansion*: The expansion performed on wildcards.
+
+* *Brace Expansion*: Expansion indicated by braces (*{list_range}*). Its preceding part is
+  denominated *preamble*, and its tail, *postscript*. Each unit represents a
+  list or range of elements.
+  
+* *Arithmetic Expansion*: Acted on arithmetic expressions encompassed inside *$((expr))*.
+
+* *Tilde expansion*: By itself, expands *~* into the current user's home directory. If
+  presented with subsequent username, will expand into such user's home directory.
+  
+* *Parameter expansion*: Concerning variables (*$VAR*).
+
+* *Command substitution*: Expands *$(program)* into the program's output. Can also be
+  denoted with backquotes (`).
+
+

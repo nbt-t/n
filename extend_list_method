@@ -1,0 +1,19 @@
+[[python][[programming]]
+[[list_methods]] [[python_lists]]
+= extend() method =
+Concatenates lists.
+
+Same as:
+{{{python
+lt_0 = [1, 2, 3]
+lt_1 = [3, 2, 1]
+
+for i in lt_1:
+	lt_0.append(i)
+}}}
+Which is also equal to, more concisely:
+{{{python
+lt_0 = [1, 2, 3]
+lt_1 = [3, 2, 1]
+lt_0 += lt_1
+}}}

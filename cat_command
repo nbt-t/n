@@ -1,0 +1,12 @@
+Concatenates data.
+
+* Options:
+	- *-T*: Show tab chars as ^I
+	- *-v*: Show control chars as ^ and M
+	- *-e*: -vE
+	- *-E*: Show end of line with $
+	- *-t*: *-vT*
+	- *-A*: Show all: *-vET*
+	- *-n*: Line number; wc -l
+	- *-b*: Non-empty line lumber.
+	- *-s*: Remove adjacent empty lines

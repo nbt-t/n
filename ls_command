@@ -1,0 +1,22 @@
+= ls options =
+* *-l*: long format.
+* *-F*: Appends file indicator
+* *-A*: -a without . and ..
+* *-t*: Sort by modification time
+* *-r*: Sort alphabetically descending order
+* *-S*: Sort by size
+* *-h*: With -l, display human-readable file sizes
+* *-i*: inode number
+
+= ls long-format output dissection =
+`-rw-r--r-- 1 nt nt  118 Jun  6 18:39 words.wiki`
+
+* *-*: first character, file type. If d, then directory
+* *rw-*: Subsequent 3 characters, file's owner permissions
+* *r--*: File's group permissions
+* *r--*: Everybody else's permissions
+* *1*: Hard link quantity
+* *nt*: Owner's username
+* *nt*: Group's name
+* *118*: Size
+* *Jun  6 18:39*: Last modification date

@@ -1,0 +1,7 @@
+[[python][[programming]]
+[[is_operator_probe_into_the_identicality_of_objects]]
+Between two objects is said to lie *equality* if they retain the same [[an_objects_value|value]], but solely *identical* when they are
+_equal in value and object itself_.
+
+If two objects are _equal_, not they're inescapbably _identical_, they may merely have to the same value. But when _identical_,
+both roam under the clutches of whole equality.

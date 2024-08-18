@@ -1,0 +1,13 @@
+[[math]]
+In the least, all [[algebra|algebraic expression]] is framed of, except itself, by the exp: *abᵏ* such that *a ∈ R and k ∈ W*. This unit
+of exp getting the name of *monomial*. Therefore, as all units, they can be compounded: *binomials*, *trinomials*, all of
+which *polynomials* that are sums of monomials.
+
+The *degree* of a polynomial is its variable's highest power *axᵏ* such that *a ≠ 0*
+
+= Laws of Polynomial Combination =
+* axᵏ+bxᵏ, *sum of polynomials*: (a+b)xᵏ
+* (axᵏ)(bxᵏ), *product of polynomials*: just [[distributive property]].
+
+FIXME: Def "distributive property"
+FIXME: Ankify Last Bullet "Laws of Polynomial Combination"

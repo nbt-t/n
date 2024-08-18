@@ -1,0 +1,81 @@
+[[cognition]] [[math]] [[logic]] [[philosophy]] [[programming]] [[set_theory]]
+[[https://www.reddit.com/r/haskell/comments/cnkvn2/comment/ewdgolc/|Abstractions and Generalizations of Objects - Reddit]]
+[[https://stackoverflow.com/questions/19291776/whats-the-difference-between-abstraction-and-generalization|What's the difference between abstraction and generalization?]]
+*Abstraction* is the process whereby one filters out circumstantially unnecessary [[data]] to tend towards
+the underlying [[properties]] of an [[object]]. Reducing [[complexity]] and [[time]] allocated at [[understanding]], resultingly.
+
+An *abstraction* is derived from the relational inquiry over the instances of an object. That is, *abstraction*
+is the search of a suitable pattern/relation/common ground/bond/connection among instances of an object for
+the sake of regarding the instantial set equally amongst under common overlay.
+
+Abstraction demands the ad-hoc stripping of unnecessary data. Alternatively, *abstraction* summarizes sets of
+bonded instances.
+
+*Y is an abstraction over X if and only if Y ⊂ X: Y is instance (element) of X*.
+
+*Y is a generalization of X if and only if Y ⊂ X and there are instances of X that aren't of Y*.
+
+Let's instantiate a boy John. From [[empirical]] probation one detects John's presence in school Monday, Tuesday,
+Wednesday, Thursday, and Friday, in the present week. By which one automatically abstracts those detections
+to the [[proposition]] that John went to school all weekdays; filtering out the specific days that he went to
+school. Farther we *generalize* such proposition to, John goes to school, bearing our proposition upon the
+principle of [[empirical_induction|induction]]; [[so extending the proposition's temporal comprehesion to ever-future]]. 
+
+Z = {John went to school on Monday, John went to school on Tuesday, John went to school on Wednesday...}*
+Y = John went to school on weekdays
+X = John goes to school
+
+*Z ⊂ Y ⊂ X*
+
+*Generalization* suceeds from abstraction. To effect generalization, there's priorly to abstract ensued by
+
+*Generalization* is equivalent to addition between *abstraction*
+
+The ignored fragment in abstraction I denominate as *filtered*, and the held, *abstracted*.
+
+All generalizations are abstractions but not all abstractions are: *Abstractions ⊃ Generalizations*.
+
+Abstract/Concrete & General/Specific
+
+Factoring and Expanding
+
+Abstraction helps generalization.
+
+Abstractness points to [[offset]] of an object from
+
+Generalizations only take into necessary instantial quality the abstraction, and the ones filtered out in
+abstracting susceptible to instability.
+
+Abstraction's and Generalization's variabilty is that the latter applies the abstraction to set objects that
+differ in the filtered affair. Whereas an abstraction aims at regarding two objects equally under a common
+property, generalization's purpose is that of as broader descriptor about the nature of an object.
+
+Generalization strips out natural conditions, thus widing the spectrum of objects that embody the abstraction's
+narrowed qualities.
+
+A generalization has been discovered when the abstraction applies to a wider set of objects.
+
+Everything is abstract.
+
+Generalization abstraction + filtered out details
+
+Abstraction singular Generalization PLural.
+
+For the abstraction's correcteness, it must at least ideate one common quality among the instances of the
+object.
+
+= Instances of Abstraction =
+Object ⊂ Abstraction ⊂ Generalization
+{{{python
+def compute_average(lt):
+	lt_sum = 0
+	for n in lt:
+		lt_sum += n
+	return lt_sum//len(lt)
+}}}
+* Birch Tree ⊂ Tree ⊂ Plant ⊂ Organism (Object < Generalization < Generalization < Generalization)
+* Nokia ⊂ Phone ⊂ Computer ⊂ Machine (Object < Generalization < Geberalization < Generalization)
+* Right Triangle ⊂ Triangle ⊂ Polygon (Object < Generalization < Generalization)
+* Terrier ⊂ Dog ⊂ Animal ⊂ Organism (Object < Generalization < Generalization < Generalization)
+* Day-Night evolution 30 times ⊂ 30 days ⊂ Month ⊂ {Jan., Feb., March...} ⊂ Months ⊂ Year
+* 1 ⊂ {1, 1+1, 1+1+1...} ⊂ {1, 2, 3...} ⊂ N ⊂ {0, 1, 2, 3...} ⊂ W ⊂ {...-3, -2, -1, 0, 1, 2, 3...} ⊂ Q ⊂ R

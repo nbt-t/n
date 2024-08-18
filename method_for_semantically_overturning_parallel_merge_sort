@@ -1,0 +1,17 @@
+[[cs][[programming]]
+[[merge_sort_algorithm]]
+{{{python
+import random
+
+
+for _ in range(100):
+    lt_0 = sorted([random.randint(1, 10) for x in range(6)])
+    lt_1 = sorted([random.randint(1, 10) for x in range(6)])
+    for i in range(len(lt_0)):
+        if i+1 > len(lt_0)-1 or i+1 > len(lt_1)-1:
+            break
+        next_least = min(lt_0[i+1], lt_1[i+1])
+        prev_greatest = max(lt_0[i], lt_1[i])
+        if next_least < prev_greatest:
+            break
+}}}

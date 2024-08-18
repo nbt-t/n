@@ -1,0 +1,35 @@
+[[cs]]
+= Natural languages =
+A *natural language* is that which humans bestow on day-to-day communication
+(english, spanish, etc), emerging from the natural meandering of evolution, not directly from
+humans.
+
+= Formal languages =  
+While a *formal language* is that which humans use for specific applications, developed by them;
+programming language, scientific notation, etc.
+
+A *programming language* is a formal language for implementing computations.
+
+Formal languages are prescribed by *syntax rules*, which are such: *tokens* and *strucutre*.
+*Tokens* are the primitive components of each expression in a formal language; as of the words and
+numbers in English. The *strucutre* concerns to the _arrangement of tokens_, the _relations between_
+_tokens_; in mathematics, 3 = + 1 is an incorrect structure due to the faulty arrangment of tokens.
+
+When one is understanding an expression's strucutre, one is *parsing*.
+
+= Differences =
+* *Ambiguity*: Sometimes one may stumble upon unclear expressions in a natural language from which
+  not merely one meaning can be extracted. This is of absent incidence inside formal languages:
+  all expressions are crystal clear.
+
+* *Literalness*: Natural languages, as a result of figurative and metaphorical intents, often feature expressions where
+  the words and the meaning do not match. The converse is in formal languages, everyobject charactered in such is precise,
+  that is, the tokens and the overall ideas *always* match.
+
+* *Redundancy*: For unnerving ambiguity, natural languages employ redundancy for the sake of grasping.
+  While in formal languages, there's meagre redundancy and ideas are more concise.
+
+With that said, formal languages are much less bloated in comparsion with natural languages.
+Formal languages are completely detached from the figurativism and the ambiguity that
+natural languages partake of, which means that understanding expressions inside formal languages
+should be a marginally faster process than doing so in its counterpart.

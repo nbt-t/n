@@ -1,0 +1,15 @@
+A *wildcard* is a symbolic representation of a text pattern.
+
+= Wildcard List =
+* *: Everyobject of any size.
+* ?: Any singular character.
+* [chars]: Any belonging to such set.
+* [!chars]: Opposite of [chars].
+* [[:class:]]: Any belonging to the provided character class.
+
+= Character classes =
+* *[:digit:]*
+* *[:alpha:]*: Only letters
+* *[:alnum:]* Alphanumeric
+* *[:lower:]*
+* *[:upper:]*

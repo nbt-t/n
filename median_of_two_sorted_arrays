@@ -1,0 +1,176 @@
+[[programming]] [[merge_sort_algorithm]]
+{{{python
+def sol1(arr1, arr2):
+    """
+    If mid1 equal len(arr1)*2, len(arr1) always equal len(arr2). l always equal
+    0 and r either 0 or 1. mid2 always equal 0. All arr2 left half elements
+    have been so far greater than arr1 right half elements. decrease in r,
+    l same. Reached out-of-bounds edge case for right. l2 always less than
+    r1 because float('inf').
+
+    If mid2 equal len(arr2)*2, l always equal r. only l increased not r. All
+    arr1 left half elements have been so far greater than arr2 right half
+    elements, reached right out-of-bounds edge case. l1 will always be less
+    than r2 because float('inf')
+
+    If mid1 equal 0, mid2 equal len(arr1)+len(arr2), which means that all
+    arr1 left half elements have been so far greater than arr2 right half
+    elements. mid2 is out-of-bounds in right. when mid1 equal 0, always l1
+    is float('-inf') and r2 is float('inf'), l1 always less than r2.
+
+    If mid2 equal 0, r is <= 1, all arr2 left half elements have been so far
+    greater than arr1 right half elements. reached out-of-bounds edge case in
+    left. decrease in only r. r1 always greater than l2 because float('-inf').
+    """
+    if len(arr1) < len(arr2):
+        # Swap arr1 and arr2.
+        arr1, arr2 = arr2, arr1
+    l, r = 0, len(arr2)*2
+    #l, r = 0, len(arr2)
+    while l <= r:
+        mid2 = (l + r)//2
+        mid1 = len(arr1) + len(arr2) - mid2
+        #mid1 = (len(arr1)+len(arr2))//2-mid2
+        l1 = float('-inf') if mid1 == 0 else arr1[(mid1-1)//2]
+        #l1 = float('-inf') if mid1 == 0 else arr1[mid1-1]
+        r1 = float('inf') if mid1 == 2*len(arr1) else arr1[mid1//2]
+        #r1 = float('inf') if mid1 == len(arr1) else arr1[mid1]
+        l2 = float('-inf') if mid2 == 0 else arr2[(mid2-1)//2]
+        #l2 = float('-inf') if mid2 == 0 else arr2[mid2-1]
+        r2 = float('inf') if mid2 == 2*len(arr2) else arr2[mid2//2]
+        #r2 = float('inf') if mid2 == len(arr2) else arr2[mid2]
+        
+        # arr1 left half is too big, expand arr2 left half and compress arr1's
+        if l1 > r2: 
+            l = mid2 + 1
+        # arr2 left half is too big, expand arr1 left haft and compress arr2's
+        elif l2 > r1: 
+            r = mid2 - 1
+        else:
+            return (max(l1, l2)+min(r1, r2))/2
+            #if (len(arr1)+len(arr2)) % 2:
+                #return min(r1, r2)
+}}}
+{{{python
+def sol3(arr1, arr2):
+    """Merge Arrays and Find Median. Easy, Sub-Optimal Approach."""
+    i1 = i2 = 0
+    merged_lt = []
+    while i1 < len(arr1) and i2 < len(arr2):
+        if arr1[i1] < arr2[i2]:
+            merged_lt.append(arr1[i1])
+            i1 += 1
+        else:
+            merged_lt.append(arr2[i2])
+            i2 += 1
+    while i1 < len(arr1):
+        merged_lt.append(arr1[i1])
+        i1 += 1
+    while i2 < len(arr2):
+        merged_lt.append(arr2[i2])
+        i2 += 1
+    return (merged_lt[(len(merged_lt)-1)//2]+merged_lt[len(merged_lt)//2])/2
+}}}
+{{{python
+def sol4(arr1, arr2):
+	"""
+	Advance sequentially in arr1 and arr2, based on merge sort algorithm, until
+	number of accordingly selected elements equal half (mid) elements. Afterwards,
+	determine left and right elements as function of arr1+arr2 evenness.
+
+	An element is "selected" if its array's pointer is increased. Therefore,
+	a selected element's index, after the pointer has been increased, will
+	anytime be the pointer minus one.
+	"""
+	def median_right_element(arrays, i1, i2, left_element):
+		"""
+		Returns median's right element.
+
+		Parameters
+		----------
+		* arrays: list
+
+		* i1: index of arr1 last selected element.
+
+		* i2: index of arr2 last selected element.
+		"""
+		arr1, arr2 = arrays
+		# If arr2[i2] > arr1[i1+1], then right element, knowing it's defined as
+		# least element of right half, ought to be arr1 next element (the one
+		# directly next to left element).
+		
+		# If arr2[i2] < left_element, it wouldn't make sense for it to be right
+		# element since it must be greater than or equal to left element.
+		# Therefore, right element ought to be arr1 next element.
+
+		# If arr2[i2] equal arr1[i1+1], then arr2[i2] being less than arr1[i1] is
+		# impossible because the array is sorted. Viceversa, if arr2[i2] equal left
+		# element, it is impossible that arr2[i2] > arr1[i1+1].
+
+		# not return min(arr2[i2], arr1[i1+1]) because arr2[i2] could be less than
+		# left element.
+		if i1 < len(arr1)-1 and (arr2[i2] > arr1[i1+1] or arr2[i2] < left_element):
+			return arr1[i1+1]
+		# Otherwise, when there's no item after arr1[i1] (arr1[i1] is last item),
+		# or the two aforementioned conditions hold false, only choice is arr2[i2].
+
+		# If arr2[i2] equal to arr1[i1+1] and left element can only then be less
+		# than or equal to arr2[i2], consequently first condition holds false,
+		# either arr1[i+1] or arr2[i2] are correct choices taking into account the
+		# computation of the median itself.
+		else:
+			return arr2[i2]
+
+	i1 = i2 = 0
+	mid = (len(arr1)+len(arr2)+1)//2 # +1 if odd is mid+1, if even same.
+	length_even = False if (len(arr1)+len(arr2)) % 2 else True
+	empty_arr = arr2 if not arr1 else (arr1 if not arr2 else None) 
+	if empty_arr:
+		return (empty_arr[(len(empty_arr)-1)//2]+empty_arr[len(empty_arr)//2])/2
+
+	while (i1 < len(arr1) and i2 < len(arr2)) and i1+i2 < mid:
+		if arr1[i1] < arr2[i2]:
+			i1 += 1
+			last = 'i1'
+		elif arr1[i1] > arr2[i2]:
+			i2 += 1
+			last = 'i2'
+		else:
+			if len(arr1) > len(arr2):
+				i1 += 1
+				last = 'i1'
+			else:
+				i2 += 1
+				last = 'i2'
+
+	while i1 < len(arr1) and i1+i2 < mid:
+		i1 += 1
+		last = 'i1'
+	while i2 < len(arr2) and i1+i2 < mid:
+		i2 += 1
+		last = 'i2'
+
+	# If out-of-bounds index, re-adjust it. Otherwise, decrease index if it's
+	# last visited in order to represent last selected element (last greatest
+	# of left half in even case).
+	i1 = len(arr1)-1 if i1 > len(arr1)-1 else (i1-1 if last == 'i1' else i1)
+	i2 = len(arr2)-1 if i2 > len(arr2)-1 else (i2-1 if last == 'i2' else i2)
+	if last == 'i1':
+		left_element = arr1[i1]
+	else:
+		left_element = arr2[i2]
+
+	if length_even:
+		if last == 'i1':
+			right_element = median_right_element([arr1, arr2],
+												 i1,
+												 i2,
+												 left_element)
+		else:
+			right_element = median_right_element([arr2, arr1],
+												 i2, i1,
+												 left_element)
+	else: # odd.
+		right_element = left_element
+	return (left_element+right_element)/2
+}}}

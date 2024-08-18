@@ -1,0 +1,17 @@
+[[python]]
+{{{python
+def slice(iterable : str, x1, x2, step=1):
+    if not x2:
+        x2 = len(iterable)
+    traversal = ''
+    for x in range(abs(x2-x1)):
+        i = x1+(x*step)
+        if step > 0: # Left-Right
+            if i > x2-1:
+                return traversal
+        else: # Right-Left (backward reading mode)
+            if i < x2:
+                return traversal
+       	traversal += iterable[i]
+    return traversal
+}}}

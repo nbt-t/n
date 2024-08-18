@@ -1,0 +1,22 @@
+[[cs][[programming]]
+[[why_merge_algorithm_instead_of]]
+*Tunnel*, of tunnel vision, in that this algorithm presumes that the next least item will *always* be greater than the
+previous greater item.
+{{{python
+def tunnel_merge_sort(lt0, lt1):
+    i = 0
+    lt = []
+    while i < len(lt0) and i < len(lt1):
+        if lt0[i] < lt1[i]:
+            lt.append(lt0[i]); lt.append(lt1[i])
+        else:
+            lt.append(lt1[i]); lt.append(lt0[i])
+        i += 1
+    if i < len(lt0):
+        for n in range(i, len(lt0)):
+            lt.append(lt0[n])
+    elif i < len(lt1):
+        for n in range(i, len(lt1)):
+            lt.append(lt1[n])
+    return lt
+}}}

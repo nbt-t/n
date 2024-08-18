@@ -1,0 +1,7 @@
+[[programming]]
+
+The readiblity of a variable glooms when:
+
+* Its value has references to other variables; *x = y+z+1*
+* The name does not crystallize the nature of the value, that is, if the variable is
+  self-documenting; *m_n = 2 < med_num = 2 < medium_num = 2*

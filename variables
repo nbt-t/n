@@ -1,0 +1,8 @@
+[[cs]]
+A powerful programming language confers a medium for referring to data through _variables_.
+A variable is a _name_ whose value is a _computational object_, that is, it's an association between
+a _name_ and a _computational object_.
+
+Variables are the foundational means of a programming language for abstraction; deeming data
+collectively as units.
+

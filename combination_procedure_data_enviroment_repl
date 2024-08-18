@@ -1,0 +1,10 @@
+A *combination* is an application of a procedure upon a defined expression delimited by
+parentheses.
+
+A *procedure* is a definition of action about how to manipulate data. Or, a description of a
+process.
+
+*Data* is the actionable entity to be manipulated by procedures.
+
+Defining variables means Lisp has to hold an account of such by storing them in the memory. The
+place where this storage dwells is called an *enviroment*.

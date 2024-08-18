@@ -1,0 +1,12 @@
+[[programming]] [[math]]
+If the disposition is to factor in operation's result as operand, in place of straight-up value, to recover
+parenthesizing such operation for earlier calculation. That stems leftmost value lodging in operation as operand
+from unexistent parenthesizing according to the [[operator_precedence]]
+{{{python
+val1, val2 = 3, 2
+print('even' if val1+val2 % 2 == 0 else 'odd') # -> even. Modulus' precedence is intenser and, therefore, the
+# semantical error lies in the undone parenthesizing given the sum of those values as the whole to compute
+# for evenness.
+}}}
+FIXME: Link(s).
+FIXME: Classify as semantical error and define first parahraph through higher operator precedence.
